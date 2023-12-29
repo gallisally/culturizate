@@ -1,0 +1,56 @@
+<!-- index.html -->
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido a CULTURIZATE!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        #login-button, #signin-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+
+        #login-button:hover,#signin-button:hover {
+            background-color: #45a049;
+        }
+        #signin-button {
+            background-color: #008CBA;
+            margin-left: 10px; /* Ajusta el espacio entre los botones */
+        }
+    </style>
+</head>
+<body>
+    <h1>¡Bienvenido a CULTURIZATE!</h1>
+    <p>¡Prepárate para poner a prueba tus conocimientos y aprender algo sobre el mundo!</p>
+    <button id="login-button" type="submit "onclick="window.location.href='{% url 'login' %}'">Iniciar Sesión</button>
+    <button id="signin-button" type="submit "onclick="window.location.href='{% url 'signin' %}'">Crear Cuenta</button>
+
+</body>
+</html>

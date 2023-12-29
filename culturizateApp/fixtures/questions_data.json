@@ -1,0 +1,73 @@
+[
+    {
+      "model": "culturizateApp.basequestion",
+      "pk": 1,
+      "fields": {
+        "question_text": "¿Cuál es la capital de España?",
+        "correct_option": "A",
+        "nivel_dificultad": 1,
+        "category": 1,
+        "points": 10,
+        "option_a": "Madrid",
+        "option_b": "París",
+        "option_c": "Londres"
+      }
+    },
+    {
+      "model": "tu_app.basequestion",
+      "pk": 2,
+      "fields": {
+        "question_text": "¿En qué año se celebró la independencia de Estados Unidos?",
+        "correct_option": "A",
+        "nivel_dificultad": 1,
+        "category": 1,
+        "points": 10,
+        "option_a": "1776",
+        "option_b": "1492",
+        "option_c": "1812"
+      }
+    },
+    {
+      "model": "tu_app.basequestion",
+      "pk": 3,
+      "fields": {
+        "question_text": "¿Quién fue el primer presidente de Estados Unidos?",
+        "correct_option": "A",
+        "nivel_dificultad": 1,
+        "category": 1,
+        "points": 10,
+        "option_a": "George Washington",
+        "option_b": "Abraham Lincoln",
+        "option_c": "Thomas Jefferson"
+      }
+    },
+    {
+      "model": "tu_app.basequestion",
+      "pk": 4,
+      "fields": {
+        "question_text": "¿Cuál es el río más largo del mundo?",
+        "correct_option": "A",
+        "nivel_dificultad": 1,
+        "category": 1,
+        "points": 10,
+        "option_a": "Amazonas",
+        "option_b": "Nilo",
+        "option_c": "Yangtsé"
+      }
+    },
+    {
+      "model": "tu_app.basequestion",
+      "pk": 5,
+      "fields": {
+        "question_text": "¿En qué continente se encuentra el desierto del Sahara?",
+        "correct_option": "A",
+        "nivel_dificultad": 1,
+        "category": 1,
+        "points": 10,
+        "option_a": "África",
+        "option_b": "Asia",
+        "option_c": "América"
+      }
+    }
+  ]
+  

@@ -1,0 +1,26 @@
+
+{% load crispy_forms_tags %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- registration/login.html -->
+       
+
+        {% block content %}
+            <h2>Login</h2>
+            <form method="post" action="{% url 'login' %}">
+                {% csrf_token %}
+                {{ form|crispy }}
+                <button type="submit">Login</button>
+            </form>
+        
+        {% endblock %}
+
+    
+</body>
+</html>

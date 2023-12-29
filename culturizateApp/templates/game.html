@@ -1,0 +1,25 @@
+<!-- game.html -->
+{% extends 'base.html' %}
+{% block title %} Juego {% endblock %}
+
+{% block content %}
+  <div id="game-container">
+    <h2>Pregunta de Nivel {{ question.nivel_dificultad }}:</h2>
+    <h3>{{question.question_text}}</h3>
+    <p>{{ question.question_option}}</p>
+
+    <form method="POST" action="{% url 'obtener_pregunta_n1' %}">
+      {% csrf_token %}
+      
+      {% for option in question.options %}
+        <input type="radio" name="user_answer" value="{{ option.0 }}" id="{{ option.0 }}">
+        <label for="{{ option.0 }}">{{ option.1 }}</label><br>
+      {% endfor %}
+
+      <p>Nivel de Dificultad: {{ question.nivel_dificultad }}</p>
+      <p>Categoría: {{ question.categoria }}</p>
+
+      <button type="submit">Responder</button>
+    </form>
+  </div>
+{% endblock %}

@@ -1,0 +1,554 @@
+question_text,correct_option,nivel_dificultad,category,points,option_a,option_b,option_c
+¿Cuál es la capital de Francia?,B,1,Sociedad,10,Madrid,París,Londres
+¿En qué año se fundó la Organización de las Naciones Unidas (ONU)?,A,1,Sociedad,10,1945,1950,1930
+¿Quién escribió 'Cien años de soledad'?,C,1,Sociedad,10,Gabriel García Márquez,Mario Vargas Llosa,Isabel Allende
+¿Cuántos continentes hay en el mundo?,B,1,Sociedad,10,5,7,10
+¿En qué año se produjo la Revolución Rusa?,A,1,Sociedad,10,1917,1920,1905
+¿Cuál es el océano más grande del mundo?,B,1,Sociedad,10,Océano Atlántico,Océano Índico,Océano Pacífico
+¿Quién pintó la Mona Lisa?,C,1,Sociedad,10,Leonardo da Vinci,Pablo Picasso,Vincent van Gogh
+¿Cuál es el río más largo del mundo?,A,1,Sociedad,10,Río Amazonas,Río Nilo,Río Misisipi
+¿En qué país se encuentra la Gran Muralla China?,B,1,Sociedad,10,China,India,Japón
+¿Quién fue el primer presidente de Estados Unidos?,A,1,Sociedad,10,George Washington,Thomas Jefferson,John Adams
+¿Cuál es la capital de Italia?,B,1,Sociedad,10,Madrid,Roma,Londres
+¿En qué año se fundó la Organización de las Naciones Unidas (ONU)?,A,1,Sociedad,10,1945,1950,1930
+¿Quién escribió 'Cien años de soledad'?,C,1,Sociedad,10,Gabriel García Márquez,Mario Vargas Llosa,Isabel Allende
+¿Cuántos continentes hay en el mundo?,B,1,Sociedad,10,5,7,10
+¿En qué año se produjo la Revolución Rusa?,A,1,Sociedad,10,1917,1920,1905
+¿Cuál es el océano más grande del mundo?,B,1,Sociedad,10,Océano Atlántico,Océano Índico,Océano Pacífico
+¿Quién pintó la Mona Lisa?,C,1,Sociedad,10,Leonardo da Vinci,Pablo Picasso,Vincent van Gogh
+¿Cuál es el río más largo del mundo?,A,1,Sociedad,10,Río Amazonas,Río Nilo,Río Misisipi
+¿En qué país se encuentra la Gran Muralla China?,B,1,Sociedad,10,China,India,Japón
+¿Quién fue el primer presidente de Estados Unidos?,A,1,Sociedad,10,George Washington,Thomas Jefferson,John Adams
+¿Cuál es la montaña más alta del mundo?,C,1,Sociedad,10,Monte Everest,K2,Monte Kilimanjaro
+¿En qué año se celebró la independencia de México?,A,1,Sociedad,10,1810,1820,1830
+¿Quién escribió 'Don Quijote de la Mancha'?,B,1,Sociedad,10,Miguel de Cervantes,Sor Juana Inés de la Cruz,Federico García Lorca
+¿Cuál es la moneda oficial de Japón?,C,1,Sociedad,10,Yen,Won,Rupia
+¿En qué año se llevó a cabo la Revolución Francesa?,B,1,Sociedad,10,1789,1800,1750
+¿Quién fue el primer ser humano en llegar al espacio?,A,1,Sociedad,10,Yuri Gagarin,Neil Armstrong,Buzz Aldrin
+¿Cuál es el país más grande del mundo por superficie terrestre?,C,1,Sociedad,10,Rusia,Canadá,Estados Unidos
+¿En qué continente se encuentra el desierto del Sahara?,A,1,Sociedad,10,África,Asia,América
+¿Quién fue el líder de la Revolución Cubana?,B,1,Sociedad,10,Fidel Castro,Che Guevara,Raúl Castro
+¿Cuál es la ciudad más poblada del mundo?,C,1,Sociedad,10,Tokio,Shanghái,Mumbai
+¿En qué año se declaró la independencia de Estados Unidos?,A,1,Sociedad,10,1776,1789,1800
+¿Quién fue la primera mujer en recibir un Premio Nobel?,C,1,Sociedad,10,Marie Curie,Rosa Luxemburgo,Emmeline Pankhurst
+¿Cuál es el canal de televisión más antiguo del mundo?,B,1,Sociedad,10,BBC,NBC,CBS
+¿En qué año comenzó la Segunda Guerra Mundial?,A,1,Sociedad,10,1939,1940,1941
+¿Quién fue el primer emperador romano?,C,1,Sociedad,10,César Augusto,Nerón,Calígula
+¿Cuál es la isla más grande del mundo?,B,1,Sociedad,10,Greenland,Isla de Baffin,Islas Ellesmere
+¿En qué año se promulgó la Declaración de Derechos Humanos?,A,1,Sociedad,10,1948,1950,1952
+¿Quién es conocido como el "Padre de la Computación"?,C,1,Sociedad,10,Alan Turing,Charles Babbage,Ada Lovelace
+¿Cuál es el país más pequeño del mundo por superficie terrestre?,B,1,Sociedad,10,Ciudad del Vaticano,Mónaco,San Marino
+¿En qué año se inventó la imprenta?,A,1,Sociedad,10,1440,1450,1460
+¿Quién escribió 'Romeo y Julieta'?,C,1,Sociedad,10,William Shakespeare,Jane Austen,Fiodor Dostoievski
+¿Cuál es la lengua más hablada del mundo?,A,1,Sociedad,10
+¿Cuál es el país con la mayor población del mundo?,A,1,Sociedad,10,China,India,Estados Unidos
+¿En qué año se produjo la Revolución Industrial?,B,1,Sociedad,10,1760,1820,1880
+¿Quién fue el primer presidente de México?,C,1,Sociedad,10,Guadalupe Victoria,Benito Juárez,Emiliano Zapata
+¿Cuál es la montaña más alta de América?,B,1,Sociedad,10,Aconcagua,Denali,K2
+¿En qué año se fundó la ciudad de Roma?,A,1,Sociedad,10,753 a.C.,500 a.C.,200 a.C.
+¿Quién fue el autor de "El Principito"?,C,1,Sociedad,10,Antoine de Saint-Exupéry,Franz Kafka,Gabriel García Márquez
+¿Cuántos planetas hay en nuestro sistema solar?,A,1,Sociedad,10,8,9,10
+¿En qué año se firmó la Declaración de Independencia de Estados Unidos?,B,1,Sociedad,10,1776,1789,1800
+¿Cuál es el río más largo de África?,C,1,Sociedad,10,Río Nilo,Río Congo,Río Zambeze
+¿Quién pintó "La última cena"?,A,1,Sociedad,10,Leonardo da Vinci,Miguel Ángel,Rafael
+¿Cuántas estaciones tiene el año?,B,1,Sociedad,10,4,3,5
+¿En qué año se celebró la primera Copa Mundial de la FIFA?,C,1,Sociedad,10,1930,1928,1940
+¿Quién fue el primer ser humano en llegar al Polo Sur?,A,1,Sociedad,10,Roald Amundsen,Robert Falcon Scott,Ernest Shackleton
+¿Cuál es el país más grande de África?,B,1,Sociedad,10,Argelia,República Democrática del Congo,Sudáfrica
+¿En qué año se firmó el Tratado de Versalles?,C,1,Sociedad,10,1919,1920,1921
+¿Quién fue el autor de "1984"?,A,1,Sociedad,10,George Orwell,Aldous Huxley,Ray Bradbury
+¿Cuál es el desierto más grande del mundo?,B,1,Sociedad,10,Desierto del Sahara,Desierto de Arabia,Desierto de Gobi
+¿En qué año se inauguró el Canal de Panamá?,C,1,Sociedad,10,1914,1918,1920
+¿Quién fue el primer presidente de la República Popular China?,A,1,Sociedad,10,Mao Zedong,Deng Xiaoping,Sun Yat-sen
+¿Cuál es la moneda oficial de Australia?,B,1,Sociedad,10,Dólar australiano,Euro,Lira turca
+¿En qué año se llevó a cabo la Revolución Mexicana?,C,1,Sociedad,10,1910,1920,1930
+¿Quién escribió "Crimen y castigo"?,A,1,Sociedad,10,Fiodor Dostoievski,León Tolstói,Alejandro Dumas
+¿Cuántas patas tiene un arácnido?,B,1,Sociedad,10,8,6,10
+¿En qué año se inauguró la Torre Eiffel?,C,1,Sociedad,10,1889,1890,1891
+¿Quién fue el primer emperador de China?,A,1,Sociedad,10,Qin Shi Huang,Han Wudi,Song Taizu
+¿Cuál es el océano más pequeño del mundo?,B,1,Sociedad,10,Océano Ártico,Océano Antártico,Océano Índico
+¿En qué año se fundó la ciudad de Nueva York?,C,1,Sociedad,10,1624,1700,1750
+¿Quién fue el fundador de Apple Inc.?,A,1,Sociedad,10,Steve Jobs,Bill Gates,Mark Zuckerberg
+¿Cuántos huesos tiene el cuerpo humano adulto?,B,1,Sociedad,10,206,208,210
+¿En qué año se inventó la fotografía?,C,1,Sociedad,10,1839,1845,1850
+¿Quién escribió "Orgullo y prejuicio"?,A,1,Sociedad,10,Jane Austen,Charlotte Brontë,Emily Brontë
+¿Cuál es el país más pequeño de América Latina?,B,1,Sociedad,10,El Salvador,Honduras,Guatemala
+¿En qué año se firmó el Tratado de Tordesillas?,C,1,Sociedad,10,1494,1500,1510
+¿Quién fue el líder de la Revolución Rusa?,A,1,Sociedad,10,Vladimir Lenin,León Trotsky,José Stalin
+¿Cuál es el lago más profundo del mundo?,B,1,Sociedad,10,Lago Baikal,Lago Tanganica,Lago Superior
+¿Cuál es el río más largo del mundo?,A,1,Sociedad,10,Río Amazonas,Río Nilo,Río Misisipi
+¿En qué año se celebró la independencia de Brasil?,C,1,Sociedad,10,1822,1830,1845
+¿Quién escribió "Cien años de soledad"?,B,1,Sociedad,10,Gabriel García Márquez,Mario Vargas Llosa,Isabel Allende
+¿Cuál es la moneda oficial de Japón?,A,1,Sociedad,10,Yen,Won,Rupia
+¿En qué continente se encuentra la Gran Barrera de Coral?,B,1,Sociedad,10,Oceanía,Asia,África
+¿Quién fue el líder del movimiento de derechos civiles en Estados Unidos en la década de 1960?,C,1,Sociedad,10,Martin Luther King Jr.,Malcolm X,Nelson Mandela
+¿Cuántos elementos químicos hay en la tabla periódica?,A,1,Sociedad,10,118,100,150
+¿En qué año se inauguró el Canal de Suez?,B,1,Sociedad,10,1869,1875,1880
+¿Quién fue el primer hombre en caminar sobre la Luna?,C,1,Sociedad,10,Neil Armstrong,Buzz Aldrin,Yuri Gagarin
+¿Cuál es el país más poblado de África?,A,1,Sociedad,10,Nigeria,Etiopía,Egipto
+¿En qué año se firmó el Tratado de Paz de Westfalia?,B,1,Sociedad,10,1648,1655,1660
+¿Quién pintó "La noche estrellada"?,C,1,Sociedad,10,Vincent van Gogh,Pablo Picasso,Claude Monet
+¿Cuál es el desierto más árido del mundo?,A,1,Sociedad,10,Atacama,Karakum,Sahara
+¿En qué año se fundó la ciudad de Buenos Aires?,B,1,Sociedad,10,1536,1600,1650
+¿Quién fue el primer emperador romano?,C,1,Sociedad,10,Octavio Augusto,Nerón,Calígula
+¿Cuál es el país más pequeño del mundo por superficie terrestre?,A,1,Sociedad,10,Ciudad del Vaticano,Mónaco,San Marino
+¿En qué año se produjo el descubrimiento de América por Cristóbal Colón?,B,1,Sociedad,10,1492,1500,1510
+¿Quién fue el presidente de Sudáfrica que lideró la lucha contra el apartheid?,C,1,Sociedad,10,Nelson Mandela,FW de Klerk,Desmond Tutu
+¿Cuál es el océano más grande del mundo?,A,1,Sociedad,10,Océano Pacífico,Océano Atlántico,Océano Índico
+¿En qué año se celebró la Revolución Rusa?,B,1,Sociedad,10,1917,1920,1925
+¿Quién fue la primera mujer en ganar un Premio Nobel?,C,1,Sociedad,10,Marie Curie,Rosa Luxemburgo,Emmeline Pankhurst
+¿Cuál es la ciudad más poblada de India?,A,1,Sociedad,10,Mumbai,Delhi,Kolkata
+¿En qué año se proclamó la independencia de México?,B,1,Sociedad,10,1810,1820,1830
+¿Quién escribió "Romeo y Julieta"?,C,1,Sociedad,10,William Shakespeare,Jane Austen,Fiodor Dostoievski
+¿Cuál es la lengua más hablada del mundo?,A,1,Sociedad,10,Chino mandarín,Español,Inglés
+¿En qué año se celebró la Revolución Cubana?,B,1,Sociedad,10,1959,1960,1965
+¿Quién fue el primer presidente de Estados Unidos?,C,1,Sociedad,10,George Washington,Thomas Jefferson,John Adams
+¿Cuál es el país más pequeño de América Latina?,A,1,Sociedad,10,El Salvador,Honduras,Guatemala
+¿En qué año se fundó la ciudad de Sydney?,B,1,Sociedad,10,1788,1800,1825
+¿Quién fue el primer faraón de Egipto?,C,1,Sociedad,10,Narmer,Akenatón,Tutankamón
+¿Cuál es la capital de Australia?,B,2,Sociedad,15,Sídney,Melbourne,Canberra
+¿En qué año se fundó la Cruz Roja Internacional?,A,2,Sociedad,15,1863,1870,1885
+¿Quién escribió "El Gran Gatsby"?,C,2,Sociedad,15,F. Scott Fitzgerald,Ernest Hemingway,John Steinbeck
+¿Cuál es el país más grande de Europa?,B,2,Sociedad,15,Rusia,Alemania,Francia
+¿En qué año se fundó la Organización de las Naciones Unidas (ONU)?,A,2,Sociedad,15,1945,1950,1960
+¿Quién fue el presidente de Estados Unidos durante la Guerra Civil?,C,2,Sociedad,15,Abraham Lincoln,Andrew Johnson,Ulysses S. Grant
+¿Cuál es el canal de televisión más antiguo del mundo?,B,2,Sociedad,15,BBC,ABC,CBS
+¿En qué año se adoptó la Declaración Universal de Derechos Humanos?,A,2,Sociedad,15,1948,1950,1955
+¿Quién fue la primera mujer en viajar al espacio exterior?,C,2,Sociedad,15,Yuri Gagarin,Valentina Tereshkova,Neil Armstrong
+¿Cuál es el río que pasa por París?,A,2,Sociedad,15,Sena,Támesis,Danubio
+¿En qué año se fundó la Liga de las Naciones?,B,2,Sociedad,15,1920,1930,1935
+¿Quién fue el líder de la Revolución Cubana junto a Fidel Castro?,C,2,Sociedad,15,Che Guevara,Raúl Castro,Camilo Cienfuegos
+¿Cuál es el país más pequeño de África?,A,2,Sociedad,15,Seychelles,Mauricio,Malawi
+¿En qué año se inventó la imprenta?,B,2,Sociedad,15,1440,1450,1460
+¿Quién fue la primera mujer en ganar un Premio Nobel de la Paz?,C,2,Sociedad,15,Mother Teresa,Jane Addams,Wangari Maathai
+¿Cuál es la ciudad más antigua del mundo aún habitada?,A,2,Sociedad,15,Damasco,Jerusalén,Atenas
+¿En qué año se fundó la ciudad de Estambul?,B,2,Sociedad,15,660 a.C.,600 a.C.,550 a.C.
+¿Quién fue el primer presidente de Sudáfrica elegido democráticamente?,C,2,Sociedad,15,Nelson Mandela,F.W. de Klerk,Thabo Mbeki
+¿Cuál es el país más pequeño de Asia?,A,2,Sociedad,15,Maldivas,Singapur,Brunéi
+¿En qué año se abolieron oficialmente la esclavitud en los Estados Unidos?,B,2,Sociedad,15,1865,1870,1880
+¿Quién escribió "Crimen y castigo"?,C,2,Sociedad,15,Fiodor Dostoievski,León Tolstói,Alejandro Dumas
+¿Cuál es el país más poblado de Europa?,A,2,Sociedad,15,Rusia,Alemania,Francia
+¿En qué año se fundó la ciudad de Toronto?,B,2,Sociedad,15,1793,1800,1810
+¿Quién fue el fundador de la Cruz Roja?,C,2,Sociedad,15,Henry Dunant,Clara Barton,Redfield Proctor
+¿Cuál es el océano más pequeño del mundo?,A,2,Sociedad,15,Océano Ártico,Océano Antártico,Océano Índico
+¿En qué año se fundó la ciudad de México?,B,2,Sociedad,15,1325,1400,1450
+¿Quién fue el líder de la Revolución Rusa?,C,2,Sociedad,15,Vladimir Lenin,León Trotsky,José Stalin
+¿Cuál es la lengua más hablada en África?,A,2,Sociedad,15,Árabe,Swahili,Francés
+¿En qué año se firmó el Tratado de Tordesillas?,B,2,Sociedad,15,1494,1500,1510
+¿Quién fue el primer emperador de China?,C,2,Sociedad,15,Qin Shi Huang,Han Wudi,Song Taizu
+¿Cuál es la ciudad más poblada de América Latina?,A,2,Sociedad,15,Ciudad de México,São Paulo,Buenos Aires
+¿En qué año se proclamó la independencia de India?,B,2,Sociedad,15,1947,1950,1955
+¿Quién fue el líder de la Revolución Mexicana?,C,2,Sociedad,15,Emiliano Zapata,Porfirio Díaz,Pancho Villa
+¿Cuál es el río más largo de Asia?,A,2,Sociedad,15,Río Yangtsé,Río Amarillo,Mekong
+¿En qué año se fundó la ciudad de Lima?,B,2,Sociedad,15,1535,1600,1650
+¿Quién fue el primer presidente de Estados Unidos?,C,2,Sociedad,15,George Washington,Thomas Jefferson,John Adams
+¿Cuál es el país más pequeño de América Latina?,A,2,Sociedad,15,El Salvador,Honduras,Guatemala
+¿En qué año se fundó la ciudad de Nueva York?,B,2,Sociedad,15,1624,1700,1750
+¿Quién fue el primer faraón de Egipto?,C,2,Sociedad,15,Narmer,Akenatón,Tutankamón
+¿Cuál es el río más largo del mundo?,A,2,Sociedad,15,Río Amazonas,Río Nilo,Río Misisipi
+¿Cuál es el país más pequeño de Oceanía?,A,2,Sociedad,15,Tuvalu,Nauru,Kiribati
+¿En qué año se fundó la ciudad de Brasilia?,B,2,Sociedad,15,1960,1970,1980
+¿Quién fue el autor de "Don Quijote de la Mancha"?,C,2,Sociedad,15,Miguel de Cervantes,Sor Juana Inés de la Cruz,Gabriel García Márquez
+¿Cuál es la moneda de Sudáfrica?,A,2,Sociedad,15,Rand,Libra,Euro
+¿En qué año se celebró la Revolución de Mayo en Argentina?,B,2,Sociedad,15,1810,1820,1830
+¿Quién fue la primera mujer en ganar un Premio Nobel de Literatura?,C,2,Sociedad,15,Selma Lagerlöf,Pearl S. Buck,Grazia Deledda
+¿Cuál es el animal más grande del mundo?,A,2,Sociedad,15,Ballena azul,Elefante,Girafa
+¿En qué año se firmó el Tratado de Versalles?,B,2,Sociedad,15,1919,1920,1925
+¿Quién escribió "Matar a un ruiseñor"?,C,2,Sociedad,15,Harper Lee,John Steinbeck,J.D. Salinger
+¿Cuál es el desierto más grande del mundo?,A,2,Sociedad,15,Sáhara,Kalahari,Atacama
+¿En qué año se fundó la ciudad de Montreal?,B,2,Sociedad,15,1642,1700,1750
+¿Quién fue el primer presidente de la República Popular China?,C,2,Sociedad,15,Mao Zedong,Sun Yat-sen,Chiang Kai-shek
+¿Cuál es la lengua oficial de Irán?,A,2,Sociedad,15,Persa,Kurdo,Árabe
+¿En qué año se lanzó el primer satélite artificial el Sputnik 1?,B,2,Sociedad,15,1957,1960,1965
+¿Quién fue la primera mujer en el espacio exterior?,C,2,Sociedad,15,Valentina Tereshkova,Sally Ride,Yuri Gagarin
+¿Cuál es el país más pequeño de América del Sur?,A,2,Sociedad,15,Surinam,Guayana,French Guiana
+¿En qué año se fundó la ciudad de Bogotá?,B,2,Sociedad,15,1538,1600,1650
+¿Quién fue el líder del movimiento por los derechos civiles en Estados Unidos que pronunció el discurso "Tengo un sueño"?,C,2,Sociedad,15,Martin Luther King Jr.,Malcolm X,Rosa Parks
+¿Cuál es la montaña más alta del mundo?,A,2,Sociedad,15,Everest,K2,Kangchenjunga
+¿En qué año se creó la Unión Europea (UE)?,B,2,Sociedad,15,1993,2000,2005
+¿Quién escribió "Orgullo y prejuicio"?,C,2,Sociedad,15,Jane Austen,Charlotte Brontë,Emily Brontë
+¿Cuál es la ciudad más poblada de África?,A,2,Sociedad,15,Lagos,Ciudad del Cabo,El Cairo
+¿En qué año se proclamó la independencia de Bangladesh?,B,2,Sociedad,15,1971,1980,1990
+¿Quién fue el fundador del Imperio Mongol?,C,2,Sociedad,15,Genghis Khan,Kublai Khan,Attila
+¿Cuál es la moneda de Japón?,A,2,Sociedad,15,Yen,Won,Rupia
+¿En qué año se fundó la ciudad de Chicago?,B,2,Sociedad,15,1833,1850,1870
+¿Quién fue la primera mujer en ganar un Premio Nobel de Química?,C,2,Sociedad,15,Marie Curie,Irène Joliot-Curie,Dorothy Crowfoot Hodgkin
+¿Cuál es el río más largo de África?,A,2,Sociedad,15,Río Nilo,Río Congo,Río Zambeze
+¿En qué año se firmó la Declaración de Independencia de Estados Unidos?,B,2,Sociedad,15,1776,1780,1790
+¿Quién fue el primer presidente de México?,C,2,Sociedad,15,Guadalupe Victoria,Vicente Guerrero,Agustín de Iturbide
+¿Cuál es el país más pequeño de América del Norte?,A,2,Sociedad,15,San Cristóbal y Nieves,Granada,Barbados
+¿En qué año se fundó la ciudad de Johannesburgo?,B,2,Sociedad,15,1886,1900,1910
+¿Quién fue el autor de "La Odisea"?,C,2,Sociedad,15,Homero,Virgilio,Ovidio
+¿Cuál es el océano más profundo del mundo?,A,2,Sociedad,15,Océano Pacífico,Océano Atlántico,Océano Índico
+¿En qué año se fundó la ciudad de Seattle?,B,2,Sociedad,15,1851,1860,1870
+¿Quién fue la primera mujer en recibir un Premio Nobel?,C,2,Sociedad,15,Marie Curie,Rosa Luxemburgo,Emmeline Pankhurst
+¿Cuál es el país más pequeño de América Central?,A,2,Sociedad,15,El Salvador,Honduras,Costa Rica
+¿En qué año se celebró la Revolución Mexicana?,B,2,Sociedad,15,1910,1920,1925
+¿Quién fue el líder de la Revolución Rusa junto a Lenin?,C,2,Sociedad,15,León Trotsky,Josef Stalin,Nicolás II
+¿Cuál es la lengua más hablada en el mundo por número de hablantes nativos?,A,2,Sociedad,15,Mandarín,Español,Inglés
+¿En qué año se fundó la ciudad de Los Ángeles?,B,2,Sociedad,15,1781,1800,1820
+¿Quién fue el primer presidente de Brasil?,C,2,Sociedad,15,Pedro I,Getúlio Vargas,Juscelino Kubitschek
+¿Cuál es el país más grande de América del Sur?,A,2,Sociedad,15,Brasil,Argentina,Colombia
+¿En qué año se fundó la ciudad de Sydney?,B,2,Sociedad,15,1788,1800,1820
+¿Quién fue el autor de "Crimen y Castigo"?,C,2,Sociedad,15,Fiodor Dostoievski,León Tolstói,Alejandro Dumas
+¿Cuál es el río más largo de América del Sur?,A,2,Sociedad,15,Río Amazonas,Río Paraná,Río Orinoco
+¿En qué año se fundó la Liga de las Naciones Unidas?,B,2,Sociedad,15,1920,1930,1940
+¿Quién fue el primer emperador romano?,C,2,Sociedad,15,César Augusto,Julio César,Calígula
+¿Cuál es la capital de Canadá?,A,2,Sociedad,15,Ottawa,Toronto,Montreal
+¿En qué año se fundó la ciudad de Río de Janeiro?,B,2,Sociedad,15,1565,1600,1650
+¿Quién fue el autor de "Cien años de soledad"?,C,2,Sociedad,15,Gabriel García Márquez,Mario Vargas Llosa,Julio Cortázar
+¿Cuál es el río más largo de Sudamérica?,A,2,Sociedad,15,Río Amazonas,Río Paraná,Río Orinoco
+¿En qué año se fundó la Liga de las Naciones Unidas?,B,2,Sociedad,15,1920,1930,1940
+¿Quién fue el primer emperador romano?,C,2,Sociedad,15,César Augusto,Julio César,Calígula
+¿Cuál es la capital de Canadá?,A,2,Sociedad,15,Ottawa,Toronto,Montreal
+¿En qué año se fundó la ciudad de Sydney?,B,2,Sociedad,15,1788,1800,1820
+¿Quién fue el autor de "Crimen y Castigo"?,C,2,Sociedad,15,Fiodor Dostoievski,León Tolstói,Alejandro Dumas
+¿Cuál es el río más largo de América del Sur?,A,2,Sociedad,15,Río Amazonas,Río Paraná,Río Orinoco
+¿En qué año se fundó la Liga de las Naciones Unidas?,B,2,Sociedad,15,1920,1930,1940
+¿Quién fue el primer emperador romano?,C,2,Sociedad,15,César Augusto,Julio César,Calígula
+¿Cuál es la capital de Canadá?,A,2,Sociedad,15,Ottawa,Toronto,Montreal
+¿En qué año se fundó la ciudad de Río de Janeiro?,B,2,Sociedad,15,1565,1600,1650
+¿Quién fue el autor de "Cien años de soledad"?,C,2,Sociedad,15,Gabriel García Márquez,Mario Vargas Llosa,Julio Cortázar
+¿Cuál es el río más largo de Sudamérica?,A,2,Sociedad,15,Río Amazonas,Río Paraná,Río Orinoco
+¿En qué año se fundó la Liga de las Naciones Unidas?,B,2,Sociedad,15,1920,1930,1940
+¿Quién fue el primer emperador romano?,C,2,Sociedad,15,César Augusto,Julio César,Calígula
+¿Cuál es la capital de Canadá?,A,2,Sociedad,15,Ottawa,Toronto,Montreal
+¿En qué año se fundó la ciudad de Sydney?,B,2,Sociedad,15,1788,1800,1820
+¿Quién fue el autor de "Crimen y Castigo"?,C,2,Sociedad,15,Fiodor Dostoievski,León Tolstói,Alejandro Dumas
+¿Cuál es el río más largo de América del Sur?,A,2,Sociedad,15,Río Amazonas,Río Paraná,Río Orinoco
+¿En qué año se fundó la Liga de las Naciones Unidas?,B,2,Sociedad,15,1920,1930,1940
+¿Quién fue el primer emperador romano?,C,2,Sociedad,15,César Augusto,Julio César,Calígula
+¿Cuál es la capital de Canadá?,A,2,Sociedad,15,Ottawa,Toronto,Montreal
+¿En qué año se fundó la ciudad de Río de Janeiro?,B,2,Sociedad,15,1565,1600,1650
+¿Cuál es el país más grande de Asia?,A,2,Sociedad,15,Rusia,China,India
+¿En qué año se fundó la ciudad de Tokio?,B,2,Sociedad,15,1457,1603,1700
+¿Quién fue el autor de "La Ilíada"?,C,2,Sociedad,15,Homero,Virgilio,Ovidio
+¿Cuál es el río más largo de América del Norte?,A,2,Sociedad,15,Río Mississippi,Río Missouri,Río Colorado
+¿En qué año se creó la ONU?,B,2,Sociedad,15,1945,1950,1955
+¿Quién fue la primera mujer en ganar un Premio Nobel de la Paz?,C,2,Sociedad,15,Madre Teresa,Jane Addams,Wangari Maathai
+¿Cuál es la montaña más alta de Europa?,A,2,Sociedad,15,Elbrús,Mont Blanc,Cervino
+¿En qué año se fundó la ciudad de São Paulo?,B,2,Sociedad,15,1554,1600,1650
+¿Quién fue el autor de "Anna Karenina"?,C,2,Sociedad,15,León Tolstói,Fiodor Dostoievski,Alejandro Dumas
+¿Cuál es el río más largo de Oceanía?,A,2,Sociedad,15,Río Murray,Río Darling,Río Brisbane
+¿En qué año se fundó la UNESCO?,B,2,Sociedad,15,1945,1950,1955
+¿Quién fue el primer emperador de Japón?,C,2,Sociedad,15,Emperador Jimmu,Emperador Meiji,Emperador Hirohito
+¿Cuál es el país más pequeño de África?,A,2,Sociedad,15,Seychelles,Yibuti,Yibuti
+¿En qué año se fundó la ciudad de Oslo?,B,2,Sociedad,15,1048,1100,1150
+¿Quién fue el autor de "El retrato de Dorian Gray"?,C,2,Sociedad,15,Oscar Wilde,James Joyce,Samuel Beckett
+¿Cuál es el río más largo de América del Sur?,A,2,Sociedad,15,Río Amazonas,Río Paraná,Río Orinoco
+¿En qué año se fundó la Liga Árabe?,B,2,Sociedad,15,1945,1950,1955
+¿Quién fue el primer presidente de Estados Unidos?,C,2,Sociedad,15,George Washington,Thomas Jefferson,John Adams
+¿Cuál es la capital de Argentina?,A,2,Sociedad,15,Buenos Aires,Rosario,Córdoba
+¿En qué año se fundó la ciudad de Ámsterdam?,B,2,Sociedad,15,1275,1300,1350
+¿Quién fue el autor de "La Odisea"?,C,2,Sociedad,15,Homero,Virgilio,Ovidio
+¿Cuál es el río más largo de Asia?,A,2,Sociedad,15,Río Yangtsé,Río Amarillo,Río Mekong
+¿En qué año se fundó la ciudad de Nueva Delhi?,B,2,Sociedad,15,1911,1920,1925
+¿Quién fue el primer emperador romano?,C,2,Sociedad,15,César Augusto,Julio César,Calígula
+¿Cuál es la capital de Australia?,A,2,Sociedad,15,Sídney,Melbourne,Brisbane
+¿En qué año se fundó la ciudad de Brasilia?,B,2,Sociedad,15,1960,1970,1980
+¿Quién fue el autor de "Don Quijote de la Mancha"?,C,2,Sociedad,15,Miguel de Cervantes,Sor Juana Inés de la Cruz,Gabriel García Márquez
+¿Cuál es la moneda de Sudáfrica?,A,2,Sociedad,15,Rand,Libra,Euro
+¿En qué año se celebró la Revolución de Mayo en Argentina?,B,2,Sociedad,15,1810,1820,1830
+¿Quién fue la primera mujer en ganar un Premio Nobel de Literatura?,C,2,Sociedad,15,Selma Lagerlöf,Pearl S. Buck,Grazia Deledda
+¿Cuál es el animal más grande del mundo?,A,2,Sociedad,15,Ballena azul,Elefante,Girafa
+¿En qué año se firmó el Tratado de Versalles?,B,2,Sociedad,15,1919,1920,1925
+¿Quién escribió "Matar a un ruiseñor"?,C,2,Sociedad,15,Harper Lee,John Steinbeck,J.D. Salinger
+¿Cuál es el desierto más grande del mundo?,A,2,Sociedad,15,Sáhara,Kalahari,Atacama
+¿En qué año se fundó la ciudad de Montreal?,B,2,Sociedad,15,1642,1700,1750
+¿Quién fue el primer presidente de la República Popular China?,C,2,Sociedad,15,Mao Zedong,Sun Yat-sen,Chiang Kai-shek
+¿Cuál es la lengua oficial de Irán?,A,2,Sociedad,15,Persa,Kurdo,Árabe
+¿En qué año se lanzó el primer satélite artificial el Sputnik 1?,B,2,Sociedad,15,1957,1960,1965
+¿Quién fue la primera mujer en el espacio exterior?,C,2,Sociedad,15,Valentina Tereshkova,Sally Ride,Yuri Gagarin
+¿Cuál es el país más pequeño de América del Sur?,A,2,Sociedad,15,Surinam,Guayana,French Guiana
+¿En qué año se fundó la ciudad de Bogotá?,B,2,Sociedad,15,1538,1600,1650
+¿Cuál es el país más grande del mundo?,A,3,Sociedad,20,Rusia,Canadá,China
+¿En qué año se fundó la ciudad de Estambul?,B,3,Sociedad,20,660,800,1000
+¿Quién escribió "Guerra y Paz"?,C,3,Sociedad,20,León Tolstói,Fiodor Dostoievski,Alejandro Dumas
+¿Cuál es el río más largo del mundo?,A,3,Sociedad,20,Río Amazonas,Río Nilo,Río Yangtsé
+¿En qué año se creó la Unión Europea?,B,3,Sociedad,20,1951,1960,1970
+¿Quién fue el líder de la Revolución Rusa?,C,3,Sociedad,20,Vladímir Lenin,José Stalin,León Trotski
+¿Cuál es la capital de Sudáfrica?,A,3,Sociedad,20,Pretoria,Ciudad del Cabo,Johannesburgo
+¿En qué año se fundó la ciudad de San Petersburgo?,B,3,Sociedad,20,1703,1750,1800
+¿Quién escribió "El Gran Gatsby"?,C,3,Sociedad,20,F. Scott Fitzgerald,Ernest Hemingway,John Steinbeck
+¿Cuál es el río más largo de Europa?,A,3,Sociedad,20,Río Volga,Río Danubio,Río Rin
+¿En qué año se fundó la Organización de las Naciones Unidas (ONU)?,B,3,Sociedad,20,1945,1950,1955
+¿Quién fue el primer emperador de China?,C,3,Sociedad,20,Qin Shi Huang,Emperador Wu,Emperador Zhao
+¿Cuál es el país más pequeño del mundo?,A,3,Sociedad,20,Ciudad del Vaticano,Mónaco,San Marino
+¿En qué año se fundó la ciudad de Viena?,B,3,Sociedad,20,15 a.C.,100,500
+¿Quién escribió "En busca del tiempo perdido"?,C,3,Sociedad,20,Marcel Proust,James Joyce,William Faulkner
+¿Cuál es el río más largo de África?,A,3,Sociedad,20,Río Nilo,Río Congo,Río Níger
+¿En qué año se estableció la Declaración de Derechos Humanos de las Naciones Unidas?,B,3,Sociedad,20,1948,1950,1955
+¿Quién fue el primer presidente de Estados Unidos?,C,3,Sociedad,20,George Washington,John Adams,Thomas Jefferson
+¿Cuál es la capital de Italia?,A,3,Sociedad,20,Roma,Milán,Florencia
+¿En qué año se fundó la ciudad de Atenas?,B,3,Sociedad,20,1400 a.C.,1200 a.C.,1000 a.C.
+¿Quién escribió "El principito"?,C,3,Sociedad,20,Antoine de Saint-Exupéry,Albert Camus,Franz Kafka
+¿Cuál es el río más largo de Asia?,A,3,Sociedad,20,Río Yangtsé,Río Amarillo,Río Mekong
+¿En qué año se fundó la ciudad de Berlín?,B,3,Sociedad,20,1237,1300,1350
+¿Quién fue el primer emperador romano?,C,3,Sociedad,20,César Augusto,Julio César,Calígula
+¿Cuál es la capital de Estados Unidos?,A,3,Sociedad,20,Washington D.C.,Nueva York,Los Ángeles
+¿En qué año se fundó la ciudad de Río de Janeiro?,B,3,Sociedad,20,1565,1600,1650
+¿Quién escribió "El señor de los anillos"?,C,3,Sociedad,20,J.R.R. Tolkien,C.S. Lewis,George R.R. Martin
+¿Cuál es el río más largo de Oceanía?,A,3,Sociedad,20,Río Murray,Río Darling,Río Brisbane
+¿En qué año se fundó la ciudad de Praga?,B,3,Sociedad,20,870,900,950
+¿Quién fue el líder de la Revolución Cubana?,C,3,Sociedad,20,Fidel Castro,Che Guevara,Raúl Castro
+¿Cuál es la montaña más alta del mundo?,A,3,Sociedad,20,Everest,K2,Kangchenjunga
+¿En qué año se firmó el Tratado de Tordesillas?,B,3,Sociedad,20,1494,1500,1510
+¿Quién fue el primer presidente de México?,C,3,Sociedad,20,Guadalupe Victoria,Vicente Guerrero,Agustín de Iturbide
+¿Cuál es el país más pequeño de América Central?,A,3,Sociedad,20,El Salvador,Honduras,Costa Rica
+¿En qué año se fundó la ciudad de Budapest?,B,3,Sociedad,20,896,1000,1100
+¿Quién escribió "1984"?,C,3,Sociedad,20,George Orwell,Aldous Huxley,Ray Bradbury
+¿Cuál es el río más largo de América del Norte?,A,3,Sociedad,20,Río Missouri,Río Mississippi,Río Colorado
+¿En qué año se fundó la ONU?,B,3,Sociedad,20,1945,1950,1955
+¿Quién fue el líder de la Revolución Rusa?,C,3,Sociedad,20,Vladímir Lenin,José Stalin,León Trotski
+¿Cuál es la capital de Sudáfrica?,A,3,Sociedad,20,Pretoria,Ciudad del Cabo,Johannesburgo
+¿Cuál es el país más poblado del mundo?,A,3,Sociedad,20,China,India,Estados Unidos
+¿En qué año se fundó la ciudad de Moscú?,B,3,Sociedad,20,1147,1200,1250
+¿Quién escribió "El proceso"?,C,3,Sociedad,20,Franz Kafka,Albert Camus,George Orwell
+¿Cuál es el río más largo de América del Sur?,A,3,Sociedad,20,Río Amazonas,Río Paraná,Río Orinoco
+¿En qué año se estableció la Declaración Universal de Derechos Humanos?,B,3,Sociedad,20,1948,1950,1955
+¿Quién fue el líder de la Revolución Mexicana?,C,3,Sociedad,20,Emiliano Zapata,Pancho Villa,Porfirio Díaz
+¿Cuál es la capital de Canadá?,A,3,Sociedad,20,Ottawa,Toronto,Vancouver
+¿En qué año se fundó la ciudad de Lima?,B,3,Sociedad,20,1535,1600,1650
+¿Quién escribió "Rayuela"?,C,3,Sociedad,20,Julio Cortázar,Gabriel García Márquez,Mario Vargas Llosa
+¿Cuál es el río más largo de Asia?,A,3,Sociedad,20,Río Yangtsé,Río Amarillo,Río Mekong
+¿En qué año se fundó la Liga de las Naciones Unidas?,B,3,Sociedad,20,1920,1930,1940
+¿Quién fue el emperador romano conocido como "El Filósofo"?,C,3,Sociedad,20,Marcus Aurelius,Julio César,Nerón
+¿Cuál es el país más pequeño de América Latina?,A,3,Sociedad,20,El Salvador,Honduras,El Salvador
+¿En qué año se fundó la ciudad de Varsovia?,B,3,Sociedad,20,1313,1400,1450
+¿Quién escribió "La guerra y la paz"?,C,3,Sociedad,20,León Tolstói,Fiodor Dostoievski,Alejandro Dumas
+¿Cuál es el río más largo de Europa?,A,3,Sociedad,20,Río Volga,Río Danubio,Río Rin
+¿En qué año se fundó la ONU?,B,3,Sociedad,20,1945,1950,1955
+¿Quién fue el líder de la Revolución Cubana?,C,3,Sociedad,20,Fidel Castro,Che Guevara,Raúl Castro
+¿Cuál es la capital de Argentina?,A,3,Sociedad,20,Buenos Aires,Rosario,Córdoba
+¿En qué año se fundó la ciudad de Ámsterdam?,B,3,Sociedad,20,1275,1300,1350
+¿Quién escribió "El lobo estepario"?,C,3,Sociedad,20,Hermann Hesse,Franz Kafka,Thomas Mann
+¿Cuál es el río más largo de África?,A,3,Sociedad,20,Río Nilo,Río Congo,Río Níger
+¿En qué año se firmó el Tratado de Maastricht?,B,3,Sociedad,20,1992,1995,2000
+¿Quién fue el primer presidente de Estados Unidos?,C,3,Sociedad,20,George Washington,John Adams,Thomas Jefferson
+¿Cuál es la capital de Italia?,A,3,Sociedad,20,Roma,Milán,Florencia
+¿En qué año se fundó la ciudad de Atenas?,B,3,Sociedad,20,1400 a.C.,1200 a.C.,1000 a.C.
+¿Quién escribió "Crónica de una muerte anunciada"?,C,3,Sociedad,20,Gabriel García Márquez,Mario Vargas Llosa,Julio Cortázar
+¿Cuál es el país más poblado de Europa?,A,3,Sociedad,20,Rusia,Alemania,Francia
+¿En qué año se fundó la ciudad de Johannesburgo?,B,3,Sociedad,20,1886,1900,1920
+¿Quién escribió "La Metamorfosis"?,C,3,Sociedad,20,Franz Kafka,Albert Camus,George Orwell
+¿Cuál es el río más largo de América del Norte?,A,3,Sociedad,20,Río Missouri,Río Mississippi,Río Colorado
+¿En qué año se estableció la Carta de Derechos de los Estados Unidos?,B,3,Sociedad,20,1791,1800,1810
+¿Quién fue el líder de la Revolución Bolchevique?,C,3,Sociedad,20,Vladímir Lenin,Trotsky,Stalin
+¿Cuál es la capital de México?,A,3,Sociedad,20,Ciudad de México,Guadalajara,Monterrey
+¿En qué año se fundó la ciudad de São Paulo?,B,3,Sociedad,20,1554,1600,1650
+¿Quién escribió "Cien años de soledad"?,C,3,Sociedad,20,Gabriel García Márquez,Mario Vargas Llosa,Julio Cortázar
+¿Cuál es el río más largo de Europa?,A,3,Sociedad,20,Río Volga,Río Danubio,Río Rin
+¿En qué año se fundó la Cruz Roja Internacional?,B,3,Sociedad,20,1863,1870,1880
+¿Quién fue el emperador romano conocido como "El Grande"?,C,3,Sociedad,20,Augusto,Julio César,Marco Aurelio
+¿Cuál es el país más pequeño de América Latina?,A,3,Sociedad,20,El Salvador,Honduras,El Salvador
+¿En qué año se fundó la ciudad de Madrid?,B,3,Sociedad,20,852,900,950
+¿Quién escribió "Crimen y castigo"?,C,3,Sociedad,20,Fiodor Dostoievski,León Tolstói,Alejandro Dumas
+¿Cuál es el río más largo de Asia?,A,3,Sociedad,20,Río Yangtsé,Río Amarillo,Río Mekong
+¿En qué año se fundó la Liga de Naciones?,B,3,Sociedad,20,1920,1930,1940
+¿Quién fue el emperador romano conocido como "El Sabio"?,C,3,Sociedad,20,Marco Aurelio,Julio César,Calígula
+¿Cuál es la capital de Canadá?,A,3,Sociedad,20,Ottawa,Toronto,Vancouver
+¿En qué año se fundó la ciudad de Viena?,B,3,Sociedad,20,15 a.C.,100,500
+¿Quién escribió "El extranjero"?,C,3,Sociedad,20,Albert Camus,Franz Kafka,George Orwell
+¿Cuál es el río más largo de África?,A,3,Sociedad,20,Río Nilo,Río Congo,Río Níger
+¿En qué año se fundó la Unión Africana?,B,3,Sociedad,20,2001,2005,2010
+¿Quién fue el primer presidente de Estados Unidos?,C,3,Sociedad,20,George Washington,John Adams,Thomas Jefferson
+¿Cuál es la capital de Italia?,A,3,Sociedad,20,Roma,Milán,Florencia
+¿En qué año se fundó la ciudad de Atenas?,B,3,Sociedad,20,1400 a.C.,1200 a.C.,1000 a.C.
+¿Quién escribió "Crimen y castigo"?,C,3,Sociedad,20,Fiodor Dostoievski,León Tolstói,Alejandro Dumas
+¿Cuál es el río más largo de América del Sur?,A,3,Sociedad,20,Río Amazonas,Río Paraná,Río Orinoco
+¿En qué año se fundó la Unión Europea?,B,3,Sociedad,20,1951,1960,1970
+¿Quién fue el líder de la Revolución Rusa?,C,3,Sociedad,20,Vladímir Lenin,José Stalin,León Trotski
+¿Cuál es la capital de Sudáfrica?,A,3,Sociedad,20,Pretoria,Ciudad del Cabo,Johannesburgo
+¿En qué año se fundó la ciudad de San Petersburgo?,B,3,Sociedad,20,1703,1750,1800
+¿Quién escribió "1984"?,C,3,Sociedad,20,George Orwell,Aldous Huxley,Ray Bradbury
+¿Cuál es el río más largo de Asia?,A,3,Sociedad,20,Río Yangtsé,Río Amarillo,Río Mekong
+¿En qué año se fundó la ciudad de Berlín?,B,3,Sociedad,20,1237,1300,1350
+¿Quién fue el primer emperador romano?,C,3,Sociedad,20,César Augusto,Julio César,Calígula
+¿Cuál es la capital de Estados Unidos?,A,3,Sociedad,20,Washington D.C.,Nueva York,Los Ángeles
+¿Cuál es el país más poblado de Asia?,A,3,Sociedad,20,China,India,Rusia
+¿En qué año se fundó la ciudad de Sídney?,B,3,Sociedad,20,1788,1800,1820
+¿Quién escribió "El Gran Gatsby"?,C,3,Sociedad,20,F. Scott Fitzgerald,Ernest Hemingway,John Steinbeck
+¿Cuál es el río más largo de América del Norte?,A,3,Sociedad,20,Río Missouri,Río Mississippi,Río Colorado
+¿En qué año se fundó la ONU?,B,3,Sociedad,20,1945,1950,1955
+¿Quién fue el líder de la Revolución Rusa?,C,3,Sociedad,20,Vladímir Lenin,José Stalin,León Trotski
+¿Cuál es la capital de Sudáfrica?,A,3,Sociedad,20,Pretoria,Ciudad del Cabo,Johannesburgo
+¿En qué año se fundó la ciudad de San Petersburgo?,B,3,Sociedad,20,1703,1750,1800
+¿Quién escribió "El Gran Gatsby"?,C,3,Sociedad,20,F. Scott Fitzgerald,Ernest Hemingway,John Steinbeck
+¿Cuál es el río más largo de Europa?,A,3,Sociedad,20,Río Volga,Río Danubio,Río Rin
+¿En qué año se fundó la Liga de Naciones?,B,3,Sociedad,20,1920,1930,1940
+¿Quién fue el primer emperador de China?,C,3,Sociedad,20,Qin Shi Huang,Emperador Wu,Emperador Zhao
+¿Cuál es el país más pequeño del mundo?,A,3,Sociedad,20,Ciudad del Vaticano,Mónaco,San Marino
+¿En qué año se fundó la ciudad de Viena?,B,3,Sociedad,20,15 a.C.,100,500
+¿Quién escribió "En busca del tiempo perdido"?,C,3,Sociedad,20,Marcel Proust,James Joyce,William Faulkner
+¿Cuál es el río más largo de África?,A,3,Sociedad,20,Río Nilo,Río Congo,Río Níger
+¿En qué año se fundó la Unión Africana?,B,3,Sociedad,20,2001,2005,2010
+¿Quién fue el primer presidente de Estados Unidos?,C,3,Sociedad,20,George Washington,John Adams,Thomas Jefferson
+¿Cuál es la capital de Italia?,A,3,Sociedad,20,Roma,Milán,Florencia
+¿En qué año se fundó la ciudad de Atenas?,B,3,Sociedad,20,1400 a.C.,1200 a.C.,1000 a.C.
+¿Quién escribió "El principito"?,C,3,Sociedad,20,Antoine de Saint-Exupéry,Albert Camus,Franz Kafka
+¿Cuál es el río más largo de Asia?,A,3,Sociedad,20,Río Yangtsé,Río Amarillo,Río Mekong
+¿En qué año se fundó la ciudad de Berlín?,B,3,Sociedad,20,1237,1300,1350
+¿Quién fue el primer emperador romano?,C,3,Sociedad,20,César Augusto,Julio César,Calígula
+¿Cuál es la capital de Estados Unidos?,A,3,Sociedad,20,Washington D.C.,Nueva York,Los Ángeles
+¿En qué año se fundó la ciudad de Río de Janeiro?,B,3,Sociedad,20,1565,1600,1650
+¿Quién escribió "El señor de los anillos"?,C,3,Sociedad,20,J.R.R. Tolkien,C.S. Lewis,George R.R. Martin
+¿Cuál es el río más largo de Oceanía?,A,3,Sociedad,20,Río Murray,Río Darling,Río Brisbane
+¿En qué año se fundó la ciudad de Praga?,B,3,Sociedad,20,870,900,950
+¿Quién fue el líder de la Revolución Cubana?,C,3,Sociedad,20,Fidel Castro,Che Guevara,Raúl Castro
+¿Cuál es la montaña más alta del mundo?,A,3,Sociedad,20,Everest,K2,Kangchenjunga
+¿En qué año se firmó el Tratado de Tordesillas?,B,3,Sociedad,20,1494,1500,1510
+¿Quién fue el primer presidente de México?,C,3,Sociedad,20,Guadalupe Victoria,Vicente Guerrero,Agustín de Iturbide
+¿Cuál es el país más pequeño de América Central?,A,3,Sociedad,20,El Salvador,Honduras,Costa Rica
+¿En qué año se fundó la ciudad de Budapest?,B,3,Sociedad,20,896,1000,1100
+¿Quién escribió "1984"?,C,3,Sociedad,20,George Orwell,Aldous Huxley,Ray Bradbury
+¿Cuál es el río más largo de América del Norte?,A,3,Sociedad,20,Río Missouri,Río Mississippi,Río Colorado
+¿En qué año se fundó la ONU?,B,3,Sociedad,20,1945,1950,1955
+¿Quién fue el líder de la Revolución Rusa?,C,3,Sociedad,20,Vladímin Lenin
+¿Cuál es el país más poblado de África?,A,1,Sociedad,10,Nigeria,Etiopía,Egipto
+¿En qué año se fundó la ciudad de Ottawa?,B,1,Sociedad,10,1826,1850,1875
+¿Quién escribió "Don Quijote de la Mancha"?,C,1,Sociedad,10,Miguel de Cervantes,Gabriel García Márquez,Lope de Vega
+¿Cuál es el río más largo de Sudamérica?,A,1,Sociedad,10,Río Amazonas,Río Paraná,Río Orinoco
+¿En qué año se creó la OTAN?,B,1,Sociedad,10,1949,1955,1960
+¿Quién fue el fundador del budismo?,C,1,Sociedad,10,Siddhartha Gautama,Mahavira,Confucio
+¿Cuál es la capital de Canadá?,A,1,Sociedad,10,Ottawa,Toronto,Montreal
+¿En qué año se fundó la ciudad de Nueva York?,B,1,Sociedad,10,1624,1640,1660
+¿Quién escribió "Orgullo y prejuicio"?,C,1,Sociedad,10,Jane Austen,Charlotte Brontë,Emily Brontë
+¿Cuál es el río más largo de Oceanía?,A,1,Sociedad,10,Río Murray,Río Darling,Río Brisbane
+¿En qué año se fundó la Unión Africana?,B,1,Sociedad,10,2001,2005,2010
+¿Quién fue el primer presidente de Estados Unidos?,C,1,Sociedad,10,George Washington,John Adams,Thomas Jefferson
+¿Cuál es la capital de Italia?,A,1,Sociedad,10,Roma,Milán,Florencia
+¿En qué año se fundó la ciudad de Atenas?,B,1,Sociedad,10,1400 a.C.,1200 a.C.,1000 a.C.
+¿Quién escribió "El principito"?,C,1,Sociedad,10,Antoine de Saint-Exupéry,Albert Camus,Franz Kafka
+¿Cuál es el río más largo de Asia?,A,1,Sociedad,10,Río Yangtsé,Río Amarillo,Río Mekong
+¿En qué año se fundó la ciudad de Berlín?,B,1,Sociedad,10,1237,1300,1350
+¿Quién fue el primer emperador romano?,C,1,Sociedad,10,César Augusto,Julio César,Calígula
+¿Cuál es la capital de Estados Unidos?,A,1,Sociedad,10,Washington D.C.,Nueva York,Los Ángeles
+¿En qué año se fundó la ciudad de Río de Janeiro?,B,1,Sociedad,10,1565,1600,1650
+¿Quién escribió "El señor de los anillos"?,C,1,Sociedad,10,J.R.R. Tolkien,C.S. Lewis,George R.R. Martin
+¿Cuál es el río más largo de Oceanía?,A,1,Sociedad,10,Río Murray,Río Darling,Río Brisbane
+¿En qué año se fundó la ciudad de Praga?,B,1,Sociedad,10,870,900,950
+¿Quién fue el líder de la Revolución Cubana?,C,1,Sociedad,10,Fidel Castro,Che Guevara,Raúl Castro
+¿Cuál es la montaña más alta del mundo?,A,1,Sociedad,10,Everest,K2,Kangchenjunga
+¿En qué año se firmó el Tratado de Tordesillas?,B,1,Sociedad,10,1494,1500,1510
+¿Quién fue el primer presidente de México?,C,1,Sociedad,10,Guadalupe Victoria,Vicente Guerrero,Agustín de Iturbide
+¿Cuál es el país más pequeño de América Central?,A,1,Sociedad,10,El Salvador,Honduras,Costa Rica
+¿En qué año se fundó la ciudad de Budapest?,B,1,Sociedad,10,896,1000,1100
+¿Quién escribió "1984"?,C,1,Sociedad,10,George Orwell,Aldous Huxley,Ray Bradbury
+¿Cuál es el río más largo de América del Norte?,A,1,Sociedad,10,Río Missouri,Río Mississippi,Río Colorado
+¿En qué año se fundó la ONU?,B,1,Sociedad,10,1945,1950,1955
+¿Quién fue el líder de la Revolución Rusa?,C,1,Sociedad,10,Vladímir Lenin,José Stalin,León Trotski
+¿Cuál es la capital de Sudáfrica?,A,1,Sociedad,10,Pretoria,Ciudad del Cabo,Johannesburgo
+¿En qué año se fundó la ciudad de San Petersburgo?,B,1,Sociedad,10,1703,1750,1800
+¿Quién escribió "El Gran Gatsby"?,C,1,Sociedad,10,F. Scott Fitzgerald,Ernest Hemingway,John Steinbeck
+¿Cuál es el río más largo de Europa?,A,1,Sociedad,10,Río Volga,Río Danubio,Río Rin
+¿En qué año se fundó la Liga de Naciones?,B,1,Sociedad,10,1920,1930,1940
+¿Quién fue el primer emperador de China?,C,1,Sociedad,10,Qin Shi Huang,Emperador Wu,Emperador Zhao
+¿Cuál es el país más pequeño del mundo?,A,1,Sociedad,10,Ciudad del Vaticano,Mónaco,San Marino
+¿En qué año se fundó la ciudad de Viena?,B,1,Sociedad,10,15 a.C.,100,500
+¿Quién escribió "En busca del tiempo perdido"?,C,1,Sociedad,10,Marcel Proust,James Joyce,William Faulkner
+¿Cuál es el río más largo de África?,A,1,Sociedad,10,Río Nilo,Río Congo,Río Níger
+¿En qué año se fundó la Unión Africana?,B,1,Sociedad,10,2001,2005,2010
+¿Quién fue el primer presidente de Estados Unidos?,C,1,Sociedad,10,George Washington,John Adams,Thomas Jefferson
+¿Cuál es el país más poblado de América Latina?,A,2,Sociedad,15,Brasil,México,Argentina
+¿En qué año se fundó la ciudad de Melbourne?,B,2,Sociedad,15,1835,1850,1865
+¿Quién escribió "Cien años de soledad"?,C,2,Sociedad,15,Gabriel García Márquez,Jorge Luis Borges,Isabel Allende
+¿Cuál es el río más largo de África?,A,2,Sociedad,15,Río Nilo,Río Congo,Río Níger
+¿En qué año se fundó la ASEAN?,B,2,Sociedad,15,1967,1970,1975
+¿Quién fue el fundador del taoísmo?,C,2,Sociedad,15,Lao Tsé,Zhuangzi,Confucio
+¿Cuál es la capital de Australia?,A,2,Sociedad,15,Sídney,Melbourne,Brisbane
+¿En qué año se fundó la ciudad de Los Ángeles?,B,2,Sociedad,15,1781,1800,1820
+¿Quién escribió "Crimen y castigo"?,C,2,Sociedad,15,Fiodor Dostoievski,León Tolstói,Alejandro Dumas
+¿Cuál es el río más largo de Oceanía?,A,2,Sociedad,15,Río Murray,Río Darling,Río Brisbane
+¿En qué año se fundó la SAARC?,B,2,Sociedad,15,1985,1990,1995
+¿Quién fue el segundo presidente de Estados Unidos?,C,2,Sociedad,15,John Adams,George Washington,Thomas Jefferson
+¿Cuál es la capital de Francia?,A,2,Sociedad,15,París,Lyon,Marsella
+¿En qué año se fundó la ciudad de Roma?,B,2,Sociedad,15,753 a.C.,700 a.C.,650 a.C.
+¿Quién escribió "Crimen y castigo"?,C,2,Sociedad,15,Fiodor Dostoievski,León Tolstói,Alejandro Dumas
+¿Cuál es el río más largo de Asia?,A,2,Sociedad,15,Río Yangtsé,Río Amarillo,Río Mekong
+¿En qué año se fundó la ciudad de Madrid?,B,2,Sociedad,15,852,900,950
+¿Quién fue el primer presidente de México?,C,2,Sociedad,15,Guadalupe Victoria,Vicente Guerrero,Agustín de Iturbide
+¿Cuál es el país más pequeño de Europa?,A,2,Sociedad,15,Vaticano,Mónaco,Andorra
+¿En qué año se fundó la ciudad de Lisboa?,B,2,Sociedad,15,1179,1200,1250
+¿Quién escribió "Matar a un ruiseñor"?,C,2,Sociedad,15,Harper Lee,Ernest Hemingway,F. Scott Fitzgerald
+¿Cuál es el río más largo de África?,A,2,Sociedad,15,Río Nilo,Río Congo,Río Níger
+¿En qué año se fundó la UAECNA?,B,2,Sociedad,15,1960,1970,1980
+¿Quién fue el primer emperador romano?,C,2,Sociedad,15,César Augusto,Julio César,Calígula
+¿Cuál es la capital de Canadá?,A,2,Sociedad,15,Ottawa,Toronto,Montreal
+¿En qué año se fundó la ciudad de Atenas?,B,2,Sociedad,15,1400 a.C.,1200 a.C.,1000 a.C.
+¿Quién escribió "Don Quijote de la Mancha"?,C,2,Sociedad,15,Miguel de Cervantes,Gabriel García Márquez,Lope de Vega
+¿Cuál es el río más largo de América del Norte?,A,2,Sociedad,15,Río Missouri,Río Mississippi,Río Colorado
+¿En qué año se fundó la ONU?,B,2,Sociedad,15,1945,1950,1955
+¿Quién fue el líder de la Revolución Rusa?,C,2,Sociedad,15,Vladímir Lenin,José Stalin,León Trotski
+¿Cuál es la capital de Sudáfrica?,A,2,Sociedad,15,Pretoria,Ciudad del Cabo,Johannesburgo
+¿En qué año se fundó la ciudad de San Petersburgo?,B,2,Sociedad,15,1703,1750,1800
+¿Quién escribió "El Gran Gatsby"?,C,2,Sociedad,15,F. Scott Fitzgerald,Ernest Hemingway,John Steinbeck
+¿Cuál es el río más largo de Europa?,A,2,Sociedad,15,Río Volga,Río Danubio,Río Rin
+¿En qué año se fundó la Liga de Naciones?,B,2,Sociedad,15,1920,1930,1940
+¿Quién fue el primer emperador de China?,C,2,Sociedad,15,Qin Shi Huang,Emperador Wu,Emperador Zhao
+¿Cuál es el país más pequeño del mundo?,A,2,Sociedad,15,Ciudad del Vaticano,Mónaco,San Marino
+¿En qué año se fundó la ciudad de Viena?,B,2,Sociedad,15,15 a.C.,100,500
+¿Quién escribió "En busca del tiempo perdido"?,C,2,Sociedad,15,Marcel Proust,James Joyce,William Faulkner
+¿Cuál es el río más largo de África?,A,2,Sociedad,15,Río Nilo,Río Congo,Río Níger
+¿En qué año se fundó la Unión Africana?,B,2,Sociedad,15,2001,2005,2010
+¿Quién fue el primer presidente de Estados Unidos?,C,2,Sociedad,15,George Washington,John Adams,Thomas Jefferson
+¿Cuál es la capital de Italia?,A,2,Sociedad,15,Roma,Milán,Florencia
+¿En qué año se fundó la ciudad de Atenas?,B,2,Sociedad,15,1400 a.C.,1200 a.C.,1000 a.C.
+¿Cuál es el monte más alto del mundo?,A,3,Sociedad,20,Mount Everest,K2,Kangchenjunga
+¿En qué año se fundó la ciudad de Estocolmo?,B,3,Sociedad,20,1252,1300,1350
+¿Quién escribió "La Ilíada" y "La Odisea"?,C,3,Sociedad,20,Homero,Virgilio,Esquilo
+¿Cuál es el río más largo de América del Sur?,A,3,Sociedad,20,Río Amazonas,Río Paraná,Río Orinoco
+¿En qué año se creó la OTAN?,B,3,Sociedad,20,1949,1954,1959
+¿Quién fue el fundador del taoísmo?,C,3,Sociedad,20,Lao Tsé,Zhuangzi,Confucio
+¿Cuál es la capital de Canadá?,A,3,Sociedad,20,Ottawa,Toronto,Montreal
+¿En qué año se fundó la ciudad de Nueva York?,B,3,Sociedad,20,1624,1640,1664
+¿Quién escribió "Crimen y castigo"?,C,3,Sociedad,20,Fiodor Dostoievski,León Tolstói,Alejandro Dumas
+¿Cuál es el río más largo del mundo?,A,3,Sociedad,20,Río Amazonas,Río Nilo,Río Yangtsé
+¿En qué año se fundó la ONU?,B,3,Sociedad,20,1945,1950,1955
+¿Quién fue el tercer presidente de Estados Unidos?,C,3,Sociedad,20,Thomas Jefferson,John Adams,George Washington
+¿Cuál es la capital de Francia?,A,3,Sociedad,20,París,Lyon,Marsella
+¿En qué año se fundó la ciudad de Roma?,B,3,Sociedad,20,753 a.C.,700 a.C.,650 a.C.
+¿Quién escribió "Cien años de soledad"?,C,3,Sociedad,20,Gabriel García Márquez,Jorge Luis Borges,Isabel Allende
+¿Cuál es el río más largo de Asia?,A,3,Sociedad,20,Río Yangtsé,Río Amarillo,Río Mekong
+¿En qué año se fundó la ciudad de Madrid?,B,3,Sociedad,20,852,900,950
+¿Quién fue el primer presidente de México?,C,3,Sociedad,20,Guadalupe Victoria,Vicente Guerrero,Agustín de Iturbide
+¿Cuál es el país más pequeño de Europa?,A,3,Sociedad,20,Vaticano,Mónaco,Andorra
+¿En qué año se fundó la ciudad de Lisboa?,B,3,Sociedad,20,1179,1200,1250
+¿Quién escribió "Matar a un ruiseñor"?,C,3,Sociedad,20,Harper Lee,Ernest Hemingway,F. Scott Fitzgerald
+¿Cuál es el río más largo de África?,A,3,Sociedad,20,Río Nilo,Río Congo,Río Níger
+¿En qué año se fundó la UAECNA?,B,3,Sociedad,20,1960,1970,1980
+¿Quién fue el primer emperador romano?,C,3,Sociedad,20,César Augusto,Julio César,Calígula
+¿Cuál es la capital de Canadá?,A,3,Sociedad,20,Ottawa,Toronto,Montreal
+¿En qué año se fundó la ciudad de Atenas?,B,3,Sociedad,20,1400 a.C.,1200 a.C.,1000 a.C.
+¿Quién escribió "Don Quijote de la Mancha"?,C,3,Sociedad,20,Miguel de Cervantes,Gabriel García Márquez,Lope de Vega
+¿Cuál es el río más largo de América del Norte?,A,3,Sociedad,20,Río Missouri,Río Mississippi,Río Colorado
+¿En qué año se fundó la ONU?,B,3,Sociedad,20,1945,1950,1955
+¿Quién fue el líder de la Revolución Rusa?,C,3,Sociedad,20,Vladímir Lenin,José Stalin,León Trotski
+¿Cuál es la capital de Sudáfrica?,A,3,Sociedad,20,Pretoria,Ciudad del Cabo,Johannesburgo
+¿En qué año se fundó la ciudad de San Petersburgo?,B,3,Sociedad,20,1703,1750,1800
+¿Quién escribió "El Gran Gatsby"?,C,3,Sociedad,20,F. Scott Fitzgerald,Ernest Hemingway,John Steinbeck
+¿Cuál es el río más largo de Europa?,A,3,Sociedad,20,Río Volga,Río Danubio,Río Rin
+¿En qué año se fundó la Liga de Naciones?,B,3,Sociedad,20,1920,1930,1940
+¿Quién fue el primer emperador de China?,C,3,Sociedad,20,Qin Shi Huang,Emperador Wu,Emperador Zhao
+¿Cuál es el país más pequeño del mundo?,A,3,Sociedad,20,Ciudad del Vaticano,Mónaco,San Marino
+¿En qué año se fundó la ciudad de Viena?,B,3,Sociedad,20,15 a.C.,100,500
+¿Quién escribió "En busca del tiempo perdido"?,C,3,Sociedad,20,Marcel Proust,James Joyce,William Faulkner
+¿Cuál es el río más largo de África?,A,3,Sociedad,20,Río Nilo,Río Congo,Río Níger
+¿En qué año se fundó la Unión Africana?,B,3,Sociedad,20,2001,2005,2010
+¿Quién fue el primer presidente de Estados Unidos?,C,3,Sociedad,20,George Washington,John Adams,Thomas Jefferson
+¿Cuál es la capital de Italia?,A,3,Sociedad,20,Roma,Milán,Florencia
+¿En qué año se fundó la ciudad de Atenas?,B,3,Sociedad,20,1400 a.C.,1200 a.C.,1000 a.C.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
