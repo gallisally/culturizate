@@ -1,0 +1,120 @@
+{% extends 'base.html' %}
+
+{% block title %}Perfil de Usuario{% endblock %}
+
+{% block content %}
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="text-center">Perfil de Usuario</h2>
+          </div>
+          <div class="card-body text-center">
+            <p>Nombre de Usuario: {{ user.username }}</p>
+            <p>Puntuación Acumulada: {{ user.score }}</p>
+            <div class="section-buttons-container">
+                <form method="GET" action="{% url 'obtener_pregunta_n1' category_selected='sociedad' %}">
+                  {% csrf_token %}
+                  <button id="general-button" type="submit" class="btn-circle">Test de cultura general</button>
+                </form>
+
+                <div class="section-buttons-circular-container">
+                    <div class="section-button-circular" style="top: 50px; left: 50px;">
+                        <form method="GET" action="{% url 'obtener_pregunta_n1' category_selected='geopolitica' %}">
+                            {%csrf_token%}
+                            <button  type="submit" class="btn-circle">Geopolitica</button>
+                          </form>
+                    </div>
+                    <div class="section-button-circular" style="top: 0px; left: 70px;">
+                        <form method="GET" action="{% url 'obtener_pregunta_n1' category_selected='historia' %}">
+                            {%csrf_token%}
+                            <button  type="submit" class="btn-circle">Historia</button>
+                          </form>
+                    </div>
+                    <div class="section-button-circular" style="top: -50px; left: 70px;">
+                        <form method="GET" action="{% url 'obtener_pregunta_n1' category_selected='informatica' %}">
+                            {%csrf_token%}
+                            <button  type="submit" class="btn-circle">Informatica</button>
+                          </form>
+                    </div>
+                    <div class="section-button-circular" style="top: 70px; left: 0px;">
+                        <form method="GET" action="{% url 'obtener_pregunta_n1' category_selected='curiosidades' %}">
+                            {%csrf_token%}
+                            <button type="submit" class="btn-circle" >Curiosidades</button>
+                          </form>
+                    </div>
+                    <div class="section-button-circular" style="top: 70px; left: -70px;">
+                        <form method="GET" action="{% url 'obtener_pregunta_n1' category_selected='conexion_energetica_cerebro' %}">
+                            {%csrf_token%}
+                            <button type="submit" class="btn-circle">Espiritualidad</button>
+                          </form>
+                    </div>
+                    <div class="section-button-circular" style="top: 0px; left: -70px;">
+                        <form method="GET" action="{% url 'obtener_pregunta_n1' category_selected='evidencias_ley_atraccion' %}">
+                            {%csrf_token%}
+                            <button id="section-button" type="submit" class="btn-circle">Ciencia</button>
+                          </form>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .section-buttons-container {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+    .btn-circle{
+        
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        font-size: 12px;
+        margin-right: 20px;
+        position: absolute;
+    }
+
+    .section-buttons-circular-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        height: 200px;
+        /*transform: translateY(-50%) translateX(-50%);*/
+        border-radius: 50%;
+    }
+
+   .section-button-circular {
+        border-radius:50%;
+        /*transform: rotate(45deg);*/
+        transform-origin: 50% 50%;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        font-size: 12px;
+        margin-right: 20px;
+        position: absolute;
+    }
+    .section-buttons-circular {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        height: 200px;
+        transform: translate(-50%, -50%) rotate(-45deg);
+        border-radius: 50%;
+        }
+
+    
+  </style>
+
+  
+{% endblock %}

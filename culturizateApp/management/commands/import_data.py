@@ -14,7 +14,7 @@ class Command(BaseCommand):
             csv_reader = csv.DictReader(file)
             for row_number,row in enumerate(csv_reader,start=1):
                 try:
-                    BaseQuestion.objects.create(
+                    BaseQuestion.objects.update_or_create(
                         question_text=row['question_text'],
                         correct_option=row['correct_option'],
                         nivel_dificultad=row['nivel_dificultad'],
@@ -28,5 +28,9 @@ class Command(BaseCommand):
                     # Captura la excepción y muestra la línea problemática
                     self.stdout.write(self.style.WARNING(f"Error en la línea {row_number}: {e}"))
                     self.stdout.write(self.style.WARNING(f"Contenido de la línea: {row}"))
+                except Exception as ex:
+                    # Captura otras excepciones que puedan ocurrir
+                    self.stdout.write(self.style.ERROR(f"Otra excepción en la línea {row_number}: {ex}"))
+
 
         self.stdout.write(self.style.SUCCESS('Data imported successfully'))

@@ -1,0 +1,98 @@
+{% extends 'base.html' %}
+
+{% block title %}Perfil de Usuario{% endblock %}
+
+{% block content %}
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="text-center">Perfil de Usuario</h2>
+          </div>
+          <div class="card-body text-center">
+            <p>Nombre de Usuario: {{ user.username }}</p>
+            <p>Puntuación Acumulada: {{ user.score }}</p>
+            <div class="section-buttons-container">
+                <form method="GET" action="{% url 'obtener_pregunta_n1' category_selected='sociedad' %}">
+                  {% csrf_token %}
+                  <button id="general-button" type="submit" class="btn-circle">Test de cultura general</button>
+                </form>
+
+                <div class="circular-container">
+                    <form method="GET" action="{% url 'obtener_pregunta_n1' category_selected='sociedad' %}">
+                        {% csrf_token %}
+                        <button id="test-general-button" type="submit" class="center-button">Test de cultura general</button>
+                      </form>
+                      {% for category in all_categories %}
+                      <form method="GET" action="{% url 'obtener_pregunta_n1' category_selected=category %}">
+                        {% csrf_token %}
+                        <button class="perimeter-button" style="--angle: {{ angle }}deg; --index: {{ forloop.counter }}">Botón {{ forloop.counter }}</button>
+                    </form>
+                    {% endfor %}
+                </div>
+
+                <div class="section-buttons-circular-container">
+                    {% for category in all_categories %}
+                    <div class="section-button-circular" style="transform: rotate(angledeg)">
+                        <form method="GET" action="{% url 'obtener_pregunta_n1' category_selected=category %}">
+                                {% csrf_token %}
+                                <button type="submit" class="btn-circle">{{ category }}</button>
+                            </form>
+                        </div>
+                    {% endfor %}
+
+                    {% for category in all_categories %}
+     
+        <p>{{ category }}</p>
+        <p>{{ all_categories }}</p>
+    {% endfor %}
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <style>
+    .section-buttons-container {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+    .btn-circle{
+        
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        font-size: 12px;
+        margin-right: 20px;
+        position: absolute;
+    }
+
+    .section-buttons-circular-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
+
+   .section-button-circular {
+        border-radius:50%;
+        transform-origin: 50% 50%;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        font-size: 12px;
+        margin-right: 20px;
+        position: absolute;
+    }
+    
+  </style>
+{% endblock %}

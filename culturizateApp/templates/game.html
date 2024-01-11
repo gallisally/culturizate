@@ -1,25 +1,44 @@
 <!-- game.html -->
 {% extends 'base.html' %}
+{%load static %}
+<script src="{% static 'scripts/game_logic.js' %}"></script>
 {% block title %} Juego {% endblock %}
 
 {% block content %}
   <div id="game-container">
-    <h2>Pregunta de Nivel {{ question.nivel_dificultad }}:</h2>
-    <h3>{{question.question_text}}</h3>
-    <p>{{ question.question_option}}</p>
+    {% if no_questions %}
+    <p>No hay preguntas disponibles</p>
+    {% else %}
+   
+    <h2>Pregunta de Nivel {{ nivel_dificultad }}:</h2>
+    <h3>{{question_text}}</h3>
+    <p>{{ question_option}}</p>
 
-    <form method="POST" action="{% url 'obtener_pregunta_n1' %}">
+    <form id="question-form" method="POST" action="{% url 'checkAnswer' %}">
+
       {% csrf_token %}
       
-      {% for option in question.options %}
+      {% for option in options %}
         <input type="radio" name="user_answer" value="{{ option.0 }}" id="{{ option.0 }}">
         <label for="{{ option.0 }}">{{ option.1 }}</label><br>
       {% endfor %}
 
-      <p>Nivel de Dificultad: {{ question.nivel_dificultad }}</p>
-      <p>Categoría: {{ question.categoria }}</p>
+      <p>Nivel de Dificultad: {{ nivel_dificultad }}</p>
+      <p>Categoría: {{ category }}</p>
+      <p>Puntos: {{ points }}</p>
+      <p>Puntuacion acumulada: {{ score }}</p>
 
-      <button type="submit">Responder</button>
+      <button id="response-button" type="submit"class="btn btn-primary" >Responder</button>
+      <!--<button id="next-question-button" >Siguiente</button>-->
+      <a href="{% url 'obtener_pregunta_n1' category_selected=category %}" class="btn btn-primary">Siguiente Pregunta</a>
+
     </form>
+    <div id ="respuesta-container"></div>
+    {% if response_message %}
+      <p>{{response_message}}</p>
+    {% endif %}
+    {% endif %}
   </div>
+
 {% endblock %}
+

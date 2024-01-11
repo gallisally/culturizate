@@ -1,0 +1,123 @@
+{% extends 'base.html' %}
+
+
+{% block title %}Perfil de Usuario{% endblock %}
+
+{% block content %}
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="text-center">Perfil de Usuario</h2>
+          </div>
+          <div class="card-body text-center">
+            <p>Nombre de Usuario: {{ user.username }}</p>
+            <p>Puntuación Acumulada: {{ user.score }}</p>
+
+            <!--boton para preguntas de cultlura general-->
+            <div class="circle-buttons mt-4"></div>
+            <form method="GET" action="{% url 'obtener_pregunta_n1' category_selected='sociedad' %}">
+              {% csrf_token %}
+              <!--<button id="playgame_button" type="submit" class = "btn btn-primary btn-block mt-3"> Empezar a jugar</button>-->
+              <button id="general-button" type="submit" class="btn-circle">Test de cultura general</button>
+              </form>
+              <div class="circle-buttons mt-4" id="section-buttons-container"></div>
+              <form method="GET" action="{% url 'obtener_pregunta_n1' category_selected='geopolitica' %}">
+                  {%csrf_token%}
+                  <button  type="submit" class="btn-circle">Geopolitica</button>
+                </form>
+                <form method="GET" action="{% url 'obtener_pregunta_n1' category_selected='historia' %}">
+                  {%csrf_token%}
+                  <button  type="submit" class="btn-circle">Historia</button>
+                </form>
+                <form method="GET" action="{% url 'obtener_pregunta_n1' category_selected='informatica' %}">
+                  {%csrf_token%}
+                  <button  type="submit" class="btn-circle">Informatica</button>
+                </form>
+                <form method="GET" action="{% url 'obtener_pregunta_n1' category_selected='curiosidades' %}">
+                  {%csrf_token%}
+                  <button type="submit" class="btn-circle" >Curiosidades</button>
+                </form>
+                <form method="GET" action="{% url 'obtener_pregunta_n1' category_selected='conexion_energetica_cerebro' %}">
+                  {%csrf_token%}
+                  <button type="submit" class="btn-circle">Espiritualidad</button>
+                </form>
+                <form method="GET" action="{% url 'obtener_pregunta_n1' category_selected='evidencias_ley_atraccion' %}">
+                  {%csrf_token%}
+                  <button id="section-button" type="submit" class="btn-circle">Ley de atraccion</button>
+                </form>
+
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .circle-buttons {
+      position: relative;
+      width: 200px;
+      height: 200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .btn-circle {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      font-size: 12px;
+      margin-right: 20px;
+      position: absolute;
+    }
+
+    #general-button {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      font-size: 16px;
+      margin-right: 20px;
+    }
+  </style>
+
+  <script>
+   /* // Script para calcular posiciones de los botones alrededor del círculo
+    const numSections = 6;
+    const circleContainer = document.getElementById('section-buttons-container');
+    const generalButton = document.getElementById('general-button');
+
+    for (let i = 0; i < numSections; i++) {
+      const angle = (i / numSections) * 2 * Math.PI;
+      const x = 100 * Math.cos(angle);
+      const y = 100 * Math.sin(angle);
+
+      const sectionButton = document.createElement('button');
+      sectionButton.className = 'btn-circle';
+      sectionButton.style.top = `${y + 70}px`;  // Adjusting for the center of the circle
+      sectionButton.style.left = `${x + 70}px`; // Adjusting for the center of the circle
+      sectionButton.textContent = `Section ${i + 1}`;
+      circleContainer.appendChild(sectionButton);
+    }*/
+    
+    // Script para calcular posiciones de los botones alrededor del círculo
+    /*const numSections = 6;
+    const circleContainer = document.querySelector('.section-buttons-container');
+    const generalButton = document.getElementById('general-button');
+
+    const sectionButtons = document.querySelectorAll('.section-button');
+
+    sectionButtons.forEach((button, i) => {
+      const angle = (i / numSections) * 2 * Math.PI;
+      const x = 100 * Math.cos(angle);
+      const y = 100 * Math.sin(angle);
+
+      button.style.top = `${y + 70}px`;  // Ajustar para el centro del círculo
+      button.style.left = `${x + 70}px`; // Ajustar para el centro del círculo
+    });
+*/
+  </script>
+{% endblock %}

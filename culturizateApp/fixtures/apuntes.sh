@@ -1,0 +1,2 @@
+sociedad, primera guerra mundial, segunda guerra mundial, geopolitica, colonialismo,rusia_ucrania,israel_palestina,curiosidades,energia_fisica_espiritualidad
+conexion_energetica_cerebro,evidencias_ley_atraccion,informatica

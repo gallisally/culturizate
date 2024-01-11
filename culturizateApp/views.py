@@ -15,6 +15,9 @@ from .models import BaseQuestion,UserProfile
 from .forms import UserAnswerForm
 from random import choice
 from .utils import obtener_pregunta_n1
+import logging
+from django.views.generic import View
+
 
 
 
@@ -50,7 +53,9 @@ def signin_view(request):
 @login_required
 def user_profile(request):
     user=request.user
-    return render(request,'user_profile.html',{'user':user})
+    all_categories = ["informatica", "historia", "geopolitica", "espiritualidad", "curiosidades", "ciencia"]
+
+    return render(request,'user_profile.html',{'user':user,'all_categories': all_categories})
 
 class CustomLoginView(LoginView):
     form_class = CustomAuthenticationForm
@@ -91,129 +96,98 @@ def play_game(request):
             'form': form
         }
     return render(request, 'game.html', context)
-"""
-def questions_l1(request):
-    question = obtener_pregunta_n1()
-    if isinstance(question,dict):
-        context={'question':question}
-        return render(request,'game.html',context)
-    else:
-        #si no hay diccionario devuelve directamente respuesta http
-        return question
 
-"""
+def game(request):
+    return render(request,'game.html')
 
-def obtener_pregunta_n1(request):
-    question=BaseQuestion.objects.filter(nivel_dificultad=1).order_by('?').first()
-    if question is not None:
-        options=[
-            ('A',question.option_a),
-            ('B',question.option_b),
-            ('C',question.option_c),
-        ]
-        options=sorted(options,key=lambda x:choice([0,1,2]))
-        context = {
-            'question_text' : question.question_text,
-            'options':options,
-            'points':question.points,
-            'nivel_dificultad':question.nivel_dificultad,
-            'category':question.category,
-            'correct_answer':question.correct_option
+
+
+def obtain_categories(request):
+    all_categories = ["informatica", "historia", "geopolitica", "espiritualidad", "curiosidades", "ciencia"]
+    context = {
+        'all_categories': {
+            'informatica': 'Informática',
+            'historia': 'Historia',
+            'geopolitica': 'Geopolítica',
+            'espiritualidad': 'Espiritualidad',
+            'curiosidades': 'Curiosidades',
+            'ciencia': 'Ciencia',
+        },
+    }
+    return render(request,'user_profile.html',context)
+
+def obtener_pregunta_n1(request,category_selected=None):
+    # Obtener todas las categorías disponibles
+    #all_categories = BaseQuestion.objects.values_list('category', flat=True).distinct()
+    all_categories=['informatica','historia','geopolitica','espiritualidad','curiosidades','ciencia']
+    angle = 360 / len(all_categories)
+    if category_selected is not None: 
+        print(f'se ha seleccionado la categoria {category_selected}')
+        question=BaseQuestion.objects.filter(category=category_selected).order_by('?').first()
+    else: 
+        question=BaseQuestion.objects.order_by('?').first()
+    try:
+        if request.method=='GET':
+            if question is not None:
+                options=[
+                    ('A',question.option_a),
+                    ('B',question.option_b),
+                    ('C',question.option_c),
+                ]
+                options=sorted(options,key=lambda x:choice([0,1,2]))
+                request.session['current_question'] = {       
+                    'question_text' : question.question_text,
+                    'options':options,
+                    'points':question.points,
+                    'nivel_dificultad':question.nivel_dificultad,
+                    'category':question.category,
+                    'correct_answer':question.correct_option 
+                    }
+                context = {
+                'question_text': question.question_text,
+                'options': options,
+                'points': question.points,
+                'nivel_dificultad': question.nivel_dificultad,
+                'category': question.category,
+                'correct_answer': question.correct_option,
+                'all_categories': all_categories,
+                'angle': angle,
+
             }
 
-        return render(request,'game.html',context)
-    else:
-       return HttpResponse('No ha preguntas que correspondan a ese nivel de dificultad')
+                return render(request,'game.html',context)
+            else:
+                return render(request,'/')
+        return HttpResponse('Esta vista solo adminte solicitudes post')
+    except Exception as e:
+        logging.exception(e)
+        # Imprimir información detallada sobre la excepción
+        print(f"Error: {type(e).__name__} - {str(e)}")
+        # Manejar el error de manera adecuada, por ejemplo, redirigir a una página de error
+        return HttpResponse('Error, vuelve a intentarlo más tarde')
+        
+@login_required
+def checkAnswer(request):
+    if request.method=='POST':
+        user_answer=request.POST.get('user_answer')
+        current_question=request.session.get('current_question',{})
+        #user_profile=UserProfile.get.object(user=request.user)
 
-    
+        user_profile=request.user
+        if user_answer ==  current_question['correct_answer']:
+            response_message='Has acertado!'
+            user_profile.score +=current_question['points']
+            print(f'tu puntuaxion es de {user_profile.score}')
+            user_profile.save()
+        else:
+            response_message='Has fallado!'
 
-"""
-class CustomLoginViewWithTemplate(FormView):
-    template_name = 'login.html'  # Ruta relativa a la carpeta 'templates'
-    form_class = CustomAuthenticationForm
-    success_url = '/'  # Ajusta la URL de redirección después del inicio de sesión
+        current_question['response_message']=response_message
+        current_question['score']=user_profile.score
+        #actualizando diccionario con el mensaje de respuesta
+        request.session['current_question']=current_question
+        
 
-    def form_valid(self, form):
-        # Lógica adicional después de un inicio de sesión exitoso
-        return super().form_valid(form)
+        return render(request,'game.html',current_question)
+    return HttpResponse('La funcion checkAnswer solo admite solicitudes POST')
 
-    def form_invalid(self, form):
-        # Lógica adicional en caso de formulario no válido
-        return super().form_invalid(form)
-    
-
- 
-class CustomAuthenticationForm(forms.Form):
-    username = forms.CharField(
-        label='Nombre de usuario',
-        widget=forms.TextInput(attrs={'placeholder': 'Nombre de usuario'}),
-        required=True
-    )
-    password = forms.CharField(
-        label='Contraseña',
-        widget=forms.PasswordInput(attrs={'placeholder': 'Contraseña'}),
-        required=True
-    )
-
-    def __init__(self, *args, **kwargs):
-        super(CustomAuthenticationForm, self).__init__(*args, **kwargs)
-        self.helper = FormHelper()
-        self.helper.form_method = 'post'
-        self.helper.add_input(Submit('submit', 'Iniciar Sesión'))
-
-
-
-def handle_answer(request, question_id, selected_option):
-    try:
-        question = MultipleChoiceQuestion.objects.get(pk=question_id)
-    except MultipleChoiceQuestion.DoesNotExist:
-        try:
-            question = TrueFalseQuestion.objects.get(pk=question_id)
-        except TrueFalseQuestion.DoesNotExist:
-            # Manejar el caso en el que la pregunta no existe
-            return HttpResponse("La pregunta no existe")
-
-    # Resto del código para manejar la respuesta y renderizar la próxima pregunta, por ejemplo.
-
-    return render(request, 'next_question_template.html', context)
-"""
-
-"""
-def play_game(request):
-    def play_game(request):
-    # Se asume que ya has configurado tus preguntas en alguna parte
-        questions_data = [
-            {"text": "¿Cuál es la capital de Francia?", "options": ["A) Madrid", "B) París", "C) Londres"], "correct_option": "B"},
-            {"text": "¿Cuál es el resultado de 2 + 2?", "options": ["A) 3", "B) 4", "C) 5"], "correct_option": "B"},
-            # ... otras preguntas ...
-        ]
-
-        questions = [Question(**data) for data in questions_data]
-        game_manager = GameManager(questions)
-
-        # Obtenemos el nombre de usuario del request (puedes ajustar esto según tu autenticación)
-        username = request.user.username if request.user.is_authenticated else 'Anónimo'
-
-        # Añadimos al usuario al juego
-        game_manager.add_user(username)
-
-        # Seleccionamos una pregunta al azar para empezar
-        game_manager.select_random_question()
-
-        # Lógica para manejar la respuesta del usuario (esto puede ser más complejo dependiendo de tu aplicación)
-        if request.method == 'POST':
-            user_answer = request.POST.get('user_answer')  # Suponiendo que has enviado la respuesta del usuario mediante un formulario
-            game_manager.handle_answer(username, user_answer)
-
-        # Obtenemos la puntuación actual del usuario
-        user_score = game_manager.get_user_score(username)
-
-        # Preparamos el contexto para la plantilla
-        context = {
-            'current_question': game_manager.current_question,
-            'user_score': user_score,
-        }
-
-        return render(request, 'game/play_game.html', context)
-
-"""

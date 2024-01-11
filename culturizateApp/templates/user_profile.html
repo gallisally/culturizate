@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 
-{% block title %}Perfil de Usuario{% endblock %}
+   
 
 {% block content %}
   <div class="container mt-5">
@@ -11,14 +11,80 @@
           <div class="card-header">
             <h2 class="text-center">Perfil de Usuario</h2>
           </div>
-          <div class="card-body">
+          <div class="card-body text-center">
             <p>Nombre de Usuario: {{ user.username }}</p>
-            <p>Puntuación Acumulada: {{ user.userprofile.score }}</p>
-            <button id="playgame-button" type="submit"onclick="window.location.href ='{% url 'obtener_pregunta_n1' %}'" class="btn btn-primary btn-block mt-3">Empieza a Jugar</button>
-            
-          </div>
+            <p>Puntuación Acumulada: {{ user.score }}</p>
         </div>
-      </div>
     </div>
-  </div>
+</div>
+</div>
+</div>
+     
+            <div class="circle-container" style="--angle: 60deg; margin-top: 20px;">  
+                {% for category in all_categories %}
+                <form method="GET" action="{% url 'obtener_pregunta_n1' category_selected=category %}">
+                    {% csrf_token %}
+                    <button class="perimeter-button" style="--index: {{ forloop.counter }}; --total: {{ all_categories|length }}">{{ category }}</button>
+                </form>  
+                {% endfor %}
+                <button class ="center-button">Test cultura general</button>
+
+                
+            </div>
+  
+
+<style>
+    .circle-container {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  border-radius: 50%;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 470px; /* Ajusta según sea necesario */
+}
+   
+   .perimeter-button{
+     position: absolute;
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     background-color: blue;
+     color: white;
+     font-weight: bold;
+     margin-left:40px;
+     margin-top: -80px;
+     
+
+   }
+   
+   .perimeter-button {
+     transform: rotate(calc(var(--angle) * var(--index))) translateY(-180px) rotate(calc(-1 * var(--angle) * var(--index)));
+   }
+   .center-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3498db;
+    color: #ffffff;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+
+  .center-button:hover {
+    background-color: #2980b9;
+  }
+  
+
+   </style>
+
 {% endblock %}
+
+    
