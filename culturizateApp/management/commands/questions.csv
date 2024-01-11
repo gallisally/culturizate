@@ -119,7 +119,6 @@ question_text,correct_option,nivel_dificultad,category,points,option_a,option_b,
 ¿En qué año se fundó la ciudad de Montreal?,A,2,sociedad,15,1642,1700,1750
 ¿Quién fue el primer presidente de la República Popular China?,C,1,sociedad,10,Mao Zedong,Sun Yat-sen,Chiang Kai-shek
 ¿Cuál es la lengua oficial de Irán?,A,1,sociedad,10,Persa,Kurdo,Árabe
-¿En qué año se lanzó el primer satélite artificial el Sputnik 1?,B,1,sociedad,10,1957,1960,1965
 ¿Quién fue la primera mujer en el espacio exterior?,C,2,sociedad,15,Valentina Tereshkova,Sally Ride,Yuri Gagarin
 ¿En qué año se fundó la ciudad de Bogotá?,A,2,sociedad,15,1538,1600,1650
 ¿Quién fue el líder del movimiento por los derechos civiles en Estados Unidos que pronunció el discurso "Tengo un sueño"?,C,1,sociedad,10,Martin Luther King Jr.,Malcolm X,Rosa Parks
@@ -1968,99 +1967,99 @@ question_text,correct_option,nivel_dificultad,category,points,option_a,option_b,
 ¿En qué año se descubrió el neutrón una partícula subatómica neutra en el núcleo del átomo?,A,2,energia_fisica_espiritualidad,10,1932,1930,1940
 ¿Cuál es el nombre de la teoría que sugiere que la conciencia es un campo cuántico que interactúa con el cerebro?,A,2,energia_fisica_espiritualidad,10,Física cuántica y conciencia,Psicofísica cuántica,Teoría de cuerdas
 ¿Cuántos tipos de neutrinos existen en la naturaleza?,A,2,energia_fisica_espiritualidad,10,3,2,4
-¿Cómo se llama la teoría que sugiere que la mente y la intención pueden influir en el mundo físico?,A,1,conexion_energetica_cerebro,10,Efecto placebo,Ley de la atracción,Efecto dominó
-¿Cuál es el término que describe la capacidad del cerebro para influir en la salud física a través de procesos mentales?,A,1,conexion_energetica_cerebro,10,Poder de la mente,Psiconeuroinmunología,Neuroplasticidad
-¿Qué fenómeno se asocia con la capacidad del cerebro para influir en eventos aleatorios y generar patrones significativos?,A,1,conexion_energetica_cerebro,10,Sincronicidad,Telepatía,Resonancia magnética
-¿Cómo se llama la creencia en la capacidad del cerebro para comunicarse con otros a través de pensamientos sin palabras?,A,1,conexion_energetica_cerebro,10,Telepatía,Clarividencia,Premonición
-¿Cuál es el nombre del fenómeno que implica la capacidad del cerebro para percibir información más allá de los sentidos tradicionales?,A,1,conexion_energetica_cerebro,10,Percepción extrasensorial (PES),Intuición,Sensación subconsciente
-¿En qué campo de estudio se explora la conexión entre la mente la conciencia y la energía del cerebro?,A,1,conexion_energetica_cerebro,10,Neurociencia espiritual,Física cuántica y conciencia,Parapsicología
-¿Cómo se llama la teoría que sugiere que el cerebro puede influir en la realidad a través de la observación y la intención consciente?,A,1,conexion_energetica_cerebro,10,Teoría del observador,Teoría de la intención,Teoría de la mente cuántica
-¿Cuál es el término que describe la capacidad del cerebro para autorregularse y mantener un equilibrio interno?,A,1,conexion_energetica_cerebro,10,Homeostasis,Equilibrio mental,Autoregulación neuronal
-¿En qué área del cerebro se ha observado actividad durante prácticas meditativas y estados de conexión con el entorno?,A,1,conexion_energetica_cerebro,10,Corteza prefrontal,Sistema límbico,Corteza cingulada
-¿Cuál es el nombre del fenómeno que implica la influencia del pensamiento positivo en la mejora de la salud y el bienestar?,A,1,conexion_energetica_cerebro,10,Efecto placebo,Efecto de autosanación,Poder de la mente
-¿En qué medida la creencia en la conexión mente-cuerpo puede afectar la respuesta del sistema inmunológico?,A,1,conexion_energetica_cerebro,10,Psiconeuroinmunología,Teoría de la mente cuántica,Homeostasis neural
-¿Cómo se llama la teoría que sugiere que la conciencia humana puede afectar el comportamiento de partículas subatómicas?,A,1,conexion_energetica_cerebro,10,Efecto observador cuántico,Teoría del entrelazamiento,Principio de incertidumbre
-¿Cuál es el término que se refiere a la capacidad del cerebro para cambiar su estructura y función en respuesta a la experiencia y el entorno?,A,1,conexion_energetica_cerebro,10,Neuroplasticidad,Adaptabilidad cerebral,Plasticidad neuronal
-¿En qué área del cerebro se ha observado actividad asociada con la empatía y la conexión emocional con los demás?,A,1,conexion_energetica_cerebro,10,Espejo neuronas,Corteza prefrontal,Sistema límbico
-¿Cómo se llama la creencia en la influencia del pensamiento y la intención en la materialización de eventos futuros?,A,1,conexion_energetica_cerebro,10,Ley de la atracción,Principio de resonancia,Teoría del destino
-¿Cuál es el término que describe la capacidad del cerebro para generar patrones coherentes de actividad a través de la concentración y la meditación?,A,1,conexion_energetica_cerebro,10,Coherencia cerebral,Resonancia neuronal,Sincronicidad
-¿En qué área del cerebro se procesan las experiencias subjetivas y la autoconciencia?,A,1,conexion_energetica_cerebro,10,Corteza cingulada,Sistema límbico,Corteza prefrontal
-¿Cómo se llama la práctica que implica la canalización de energía universal para promover la curación y el bienestar?,A,1,conexion_energetica_cerebro,10,Reiki,Qi Gong,Pranic Healing
-¿Cuál es el término que se refiere a la capacidad del cerebro para generar pensamientos y emociones positivas incluso en situaciones difíciles?,A,1,conexion_energetica_cerebro,10,Resiliencia,Optimismo,Pensamiento positivo
-¿En qué medida la práctica de la atención plena puede influir en la regulación emocional y la toma de decisiones?,A,1,conexion_energetica_cerebro,10,Mindfulness,Corteza prefrontal,Sistema límbico
-¿Cómo se llama la teoría que sugiere que la conciencia y la intención pueden afectar la realidad a nivel cuántico?,A,1,conexion_energetica_cerebro,10,Física cuántica y conciencia,Teoría del observador cuántico,Principio de incertidumbre
-¿Cuál es el término que describe la influencia del cerebro en la respuesta del sistema inmunológico a través de procesos mentales?,A,1,conexion_energetica_cerebro,10,Psiconeuroinmunología,Neuroplasticidad,Homeostasis neural
-¿En qué área del cerebro se ha observado actividad asociada con la toma de decisiones éticas y el juicio moral?,A,1,conexion_energetica_cerebro,10,Corteza prefrontal,Sistema límbico,Corteza cingulada
-¿Cómo se llama la práctica que implica la concentración en la respiración y la conciencia del momento presente?,A,1,conexion_energetica_cerebro,10,Mindfulness,Meditación trascendental,Yoga
-¿Cuál es el término que se refiere a la capacidad del cerebro para cambiar su actividad en respuesta a la exposición repetida a un estímulo?,A,1,conexion_energetica_cerebro,10,Adaptación neuronal,Condicionamiento cerebral,Habituación cortical
-¿En qué medida la creencia en la eficacia de un tratamiento puede influir en su resultado incluso si el tratamiento es inerte?,A,1,conexion_energetica_cerebro,10,Efecto placebo,Autohipnosis,Mente sobre materia
-¿Cómo se llama la creencia en la influencia de la mente y la intención en la realidad a nivel cuántico?,A,1,conexion_energetica_cerebro,10,Teoría del observador cuántico,Principio de resonancia,Física cuántica y conciencia
-¿Cuál es el término que describe la capacidad del cerebro para procesar información de manera eficiente y rápida?,A,1,conexion_energetica_cerebro,10,Coherencia cerebral,Optimización neuronal,Rapidez mental
-¿En qué área del cerebro se procesa la información sensorial y se genera la percepción consciente?,A,1,conexion_energetica_cerebro,10,Corteza cerebral,Sistema límbico,Corteza somatosensorial
-¿Cómo se llama la creencia en la influencia de la mente y la conciencia en la creación de la realidad?,A,1,conexion_energetica_cerebro,10,Idealismo,Realismo,Materalismo
-¿Cuál es el término que se refiere a la conexión emocional y psicológica entre individuos a nivel energético?,A,1,conexion_energetica_cerebro,10,Resonancia emocional,Empatía cuántica,Conexión mental
-¿En qué medida la práctica de la meditación puede afectar la estructura y función del cerebro a lo largo del tiempo?,A,1,conexion_energetica_cerebro,10,Neuroplasticidad,Mindfulness,Sincronicidad
-¿Cómo se llama la creencia en la influencia de la mente y la intención en la creación de la realidad?,A,1,conexion_energetica_cerebro,10,Idealismo,Principio de resonancia,Física cuántica y conciencia
-¿Cuál es el término que se refiere a la percepción de información más allá de los sentidos tradicionales?,A,1,conexion_energetica_cerebro,10,Percepción extrasensorial (PES),Intuición,Sensación subconsciente
-¿En qué medida la práctica de la atención plena puede influir en la regulación del estrés y la ansiedad?,A,1,conexion_energetica_cerebro,10,Mindfulness,Sistema límbico,Corteza prefrontal
-¿Cómo se llama la creencia en la comunicación entre mentes a través de pensamientos sin palabras?,A,1,conexion_energetica_cerebro,10,Telepatía,Clarividencia,Premonición
-¿Cuál es el término que se refiere a la capacidad del cerebro para procesar información de manera eficiente y rápida?,A,1,conexion_energetica_cerebro,10,Rapidez mental,Optimización neuronal,Coherencia cerebral
-¿En qué área del cerebro se ha observado actividad asociada con la formación de nuevos recuerdos y la memoria?,A,1,conexion_energetica_cerebro,10,Hipocampo,Sistema límbico,Corteza prefrontal
-¿Cómo se llama la teoría que sugiere que la mente y la conciencia son fundamentales en la creación de la realidad?,A,1,conexion_energetica_cerebro,10,Panpsiquismo,Idealismo,Materalismo
-¿Cuál es el término que describe la capacidad del cerebro para cambiar su estructura y función en respuesta a la experiencia y el entorno?,A,1,conexion_energetica_cerebro,10,Neuroplasticidad,Adaptabilidad cerebral,Plasticidad neuronal
-¿En qué medida la creencia en la conexión mente-cuerpo puede afectar la respuesta del sistema inmunológico?,A,1,conexion_energetica_cerebro,10,Psiconeuroinmunología,Teoría de la mente cuántica,Homeostasis neural
-¿Cómo se llama la teoría que sugiere que la conciencia humana puede afectar el comportamiento de partículas subatómicas?,A,1,conexion_energetica_cerebro,10,Efecto observador cuántico,Teoría del entrelazamiento,Principio de incertidumbre
-¿Cuál es el término que se refiere a la capacidad del cerebro para cambiar su actividad en respuesta a la exposición repetida a un estímulo?,A,1,conexion_energetica_cerebro,10,Adaptación neuronal,Condicionamiento cerebral,Habituación cortical
-¿En qué medida la práctica de la atención plena puede influir en la regulación emocional y la toma de decisiones?,A,1,conexion_energetica_cerebro,10,Mindfulness,Corteza prefrontal,Sistema límbico
-¿Cómo se llama la creencia en la eficacia de un tratamiento incluso si es inerte basada en la creencia del paciente?,A,1,conexion_energetica_cerebro,10,Efecto placebo,Mente sobre materia,Efecto de autosanación
-¿Cuál es el término que describe la capacidad del cerebro para generar pensamientos y emociones positivas incluso en situaciones difíciles?,A,1,conexion_energetica_cerebro,10,Optimismo,Pensamiento positivo,Resiliencia
-¿En qué área del cerebro se ha observado actividad asociada con la toma de decisiones éticas y el juicio moral?,A,1,conexion_energetica_cerebro,10,Corteza prefrontal,Sistema límbico,Corteza cingulada
-¿Cómo se llama la práctica que implica la concentración en la respiración y la conciencia del momento presente?,A,1,conexion_energetica_cerebro,10,Mindfulness,Meditación trascendental,Yoga
-¿Cuál de los siguientes conceptos está más estrechamente relacionado con la Ley de Atracción?,A,1,evidencias_ley_atraccion,10,Manifestación,Teoría de la relatividad,Ley de la gravedad
-¿Qué sugiere la Ley de Atracción en términos generales?,A,1,evidencias_ley_atraccion,10,La energía positiva atrae experiencias positivas,La energía negativa atrae experiencias negativas,Todo es aleatorio y no hay influencia de la mente
-¿En qué libro popular la Ley de Atracción se presenta como un principio clave?,A,1,evidencias_ley_atraccion,10,"El Secreto" de Rhonda Byrne,"Piense y hágase rico" de Napoleon Hill,"Cómo ganar amigos e influir sobre las personas" de Dale Carnegie
-¿Cuál es uno de los elementos fundamentales según la Ley de Atracción?,A,1,evidencias_ley_atraccion,10,La visualización positiva,La fatalidad,La predicción del futuro
-¿Qué se espera que haga una persona según la Ley de Atracción para atraer lo que desea?,A,1,evidencias_ley_atraccion,10,Emitir vibraciones positivas,Evitar el pensamiento positivo,Adoptar un enfoque neutral
-¿Cuál de las siguientes afirmaciones refleja una idea central de la Ley de Atracción?,A,1,evidencias_ley_atraccion,10,Los pensamientos y emociones positivas atraen eventos y circunstancias positivas,Las circunstancias son independientes de la mente,La suerte es aleatoria y no se puede influir en ella
-¿Qué tipo de energía se dice que atrae la Ley de Atracción?,A,1,evidencias_ley_atraccion,10,Energía positiva,Energía neutra,Energía negativa
-¿En qué área de la vida se supone que la Ley de Atracción puede tener un impacto según sus defensores?,A,1,evidencias_ley_atraccion,10,Todas las áreas de la vida (amor salud dinero etc.),Solo en la salud,Solo en el ámbito laboral
-¿Cuál de los siguientes no es un componente clave de la aplicación de la Ley de Atracción?,A,1,evidencias_ley_atraccion,10,Desapego,Resistencia,Derrotismo
-¿Qué concepto sugiere que la mente tiene la capacidad de influir en la realidad a través de la intención y el enfoque positivo?,A,1,evidencias_ley_atraccion,10,Mente sobre materia,Ley de Atracción,Neuroplasticidad
-¿Qué se considera esencial para que la Ley de Atracción funcione según sus defensores?,A,1,evidencias_ley_atraccion,10,Creencia y fe,Escepticismo y duda,Indiferencia y desinterés
-¿En qué contexto se originó y popularizó la Ley de Atracción en la cultura moderna?,A,1,evidencias_ley_atraccion,10,Movimiento del Nuevo Pensamiento (New Thought),Renacimiento italiano,Revolución Industrial
-¿Cuál de las siguientes afirmaciones refleja una idea asociada con la Ley de Atracción?,A,1,evidencias_ley_atraccion,10,Lo similar atrae a lo similar (like attracts like),Las cosas opuestas se atraen,No hay patrón en la atracción
-¿Qué sugiere la Ley de Atracción sobre el papel de la gratitud?,A,1,evidencias_ley_atraccion,10,La gratitud puede atraer más cosas para agradecer,La gratitud no tiene impacto en la atracción,La gratitud puede atraer experiencias negativas
-¿Qué se espera que haga una persona para aplicar la Ley de Atracción en su vida diaria?,A,1,evidencias_ley_atraccion,10,Visualizar sus deseos,Evitar cualquier pensamiento positivo,Despreocuparse de sus metas
-¿Qué tipo de pensamientos se sugiere que se deben evitar para que la Ley de Atracción funcione de manera efectiva?,A,1,evidencias_ley_atraccion,10,Pensamientos negativos y limitantes,Pensamientos racionales y lógicos,Pensamientos indiferentes
-¿En qué concepto se basa la creencia de que la Ley de Atracción puede influir en la salud física y el bienestar?,A,1,evidencias_ley_atraccion,10,Poder de la mente,Teoría de la relatividad,Homeostasis
-¿Qué sugiere la Ley de Atracción sobre el impacto de las emociones en la atracción de experiencias?,A,1,evidencias_ley_atraccion,10,Las emociones positivas atraen experiencias positivas,Las emociones no tienen impacto en las experiencias,La atracción es completamente aleatoria
-¿Cuál es uno de los enfoques recomendados para aplicar la Ley de Atracción?,A,1,evidencias_ley_atraccion,10,Establecer metas claras y positivas,Evitar establecer metas,Dejar que las circunstancias dicten las metas
-¿Cuál de las siguientes prácticas se considera compatible con la aplicación de la Ley de Atracción?,A,1,evidencias_ley_atraccion,10,La meditación positiva,La preocupación constante,La resistencia activa
-¿Cómo se llama la creencia de que el pensamiento positivo puede atraer experiencias positivas y el pensamiento negativo experiencias negativas?,A,1,evidencias_ley_atraccion,10,Ley de Atracción,Efecto placebo,Principio de incertidumbre
-¿Qué sugiere la Ley de Atracción sobre la importancia de la visualización?,A,1,evidencias_ley_atraccion,10,La visualización positiva puede atraer experiencias deseadas,La visualización no tiene impacto en la realidad,La visualización puede atraer experiencias no deseadas
-¿Qué se espera que haga una persona para superar la resistencia a la Ley de Atracción?,A,1,evidencias_ley_atraccion,10,Cambiar patrones de pensamiento negativos,Reforzar la resistencia,Rendirse ante la resistencia
-¿Cómo se llama la práctica de enfocarse en lo que se quiere en lugar de en lo que no se quiere?,A,1,evidencias_ley_atraccion,10,Enfoque positivo,Principio de atracción,Evitación consciente
-¿Cuál es uno de los principios fundamentales de la Ley de Atracción relacionado con el tiempo?,A,1,evidencias_ley_atraccion,10,El ahora es el momento más poderoso,No hay relación entre el tiempo y la atracción,El futuro es más influenciable que el pasado
-¿Cuál es la creencia central sobre cómo la Ley de Atracción puede afectar las relaciones interpersonales?,A,1,evidencias_ley_atraccion,10,Las vibraciones positivas atraen relaciones positivas,Las relaciones son completamente aleatorias,No hay impacto de la mente en las relaciones
-¿En qué medida la Ley de Atracción se basa en la conexión mente-cuerpo?,A,1,evidencias_ley_atraccion,10,La mente influye en las experiencias físicas y mentales,La mente y el cuerpo son independientes,No hay conexión entre la mente y el cuerpo según la Ley de Atracción
-¿Cómo se llama la creencia en la capacidad de la mente para influir en la realidad a través de la concentración y el enfoque positivo?,A,1,evidencias_ley_atraccion,10,Neuroplasticidad,Ley de Atracción,Principio de autosanación
-¿Cuál es la creencia central sobre cómo la Ley de Atracción puede afectar la salud según sus defensores?,A,1,evidencias_ley_atraccion,10,La mente positiva puede influir en la salud física y emocional,La salud es independiente de la mente,No hay relación entre la mente y la salud
-¿Qué sugiere la Ley de Atracción sobre la importancia de la fe y la creencia en su eficacia?,A,1,evidencias_ley_atraccion,10,La fe y la creencia son fundamentales para su funcionamiento,La fe y la creencia no tienen impacto en la Ley de Atracción,La fe y la creencia pueden interferir con la Ley de Atracción
-¿Cómo se llama la práctica de agradecer por las cosas que aún no han sucedido como si ya hubieran sucedido?,A,1,evidencias_ley_atraccion,10,Gratitud anticipada,Agradecimiento retrospectivo,Apreciación futura
-¿Cuál es uno de los enfoques recomendados para mantener una actitud positiva según la Ley de Atracción?,A,1,evidencias_ley_atraccion,10,Practicar la gratitud diaria,Enfocarse en lo negativo,Evitar reconocer los logros
-¿Qué se espera que haga una persona para aplicar la Ley de Atracción en su vida diaria?,A,1,evidencias_ley_atraccion,10,Visualizar sus deseos,Evitar cualquier pensamiento positivo,Despreocuparse de sus metas
-¿Qué tipo de pensamientos se sugiere que se deben evitar para que la Ley de Atracción funcione de manera efectiva?,A,1,evidencias_ley_atraccion,10,Pensamientos negativos y limitantes,Pensamientos racionales y lógicos,Pensamientos indiferentes
-¿En qué concepto se basa la creencia de que la Ley de Atracción puede influir en la salud física y el bienestar?,A,1,evidencias_ley_atraccion,10,Poder de la mente,Teoría de la relatividad,Homeostasis
-¿Qué sugiere la Ley de Atracción sobre el impacto de las emociones en la atracción de experiencias?,A,1,evidencias_ley_atraccion,10,Las emociones positivas atraen experiencias positivas,Las emociones no tienen impacto en las experiencias,La atracción es completamente aleatoria
-¿Cuál es uno de los enfoques recomendados para aplicar la Ley de Atracción?,A,1,evidencias_ley_atraccion,10,Establecer metas claras y positivas,Evitar establecer metas,Dejar que las circunstancias dicten las metas
-¿Cuál de las siguientes prácticas se considera compatible con la aplicación de la Ley de Atracción?,A,1,evidencias_ley_atraccion,10,La meditación positiva,La preocupación constante,La resistencia activa
-¿Cómo se llama la creencia de que el pensamiento positivo puede atraer experiencias positivas y el pensamiento negativo experiencias negativas?,A,1,evidencias_ley_atraccion,10,Ley de Atracción,Efecto placebo,Principio de incertidumbre
-¿Qué sugiere la Ley de Atracción sobre la importancia de la visualización?,A,1,evidencias_ley_atraccion,10,La visualización positiva puede atraer experiencias deseadas,La visualización no tiene impacto en la realidad,La visualización puede atraer experiencias no deseadas
-¿Qué se espera que haga una persona para superar la resistencia a la Ley de Atracción?,A,1,evidencias_ley_atraccion,10,Cambiar patrones de pensamiento negativos,Reforzar la resistencia,Rendirse ante la resistencia
-¿Cómo se llama la práctica de enfocarse en lo que se quiere en lugar de en lo que no se quiere?,A,1,evidencias_ley_atraccion,10,Enfoque positivo,Principio de atracción,Evitación consciente
-¿Cuál es uno de los principios fundamentales de la Ley de Atracción relacionado con el tiempo?,A,1,evidencias_ley_atraccion,10,El ahora es el momento más poderoso,No hay relación entre el tiempo y la atracción,El futuro es más influenciable que el pasado
-¿Cuál es la creencia central sobre cómo la Ley de Atracción puede afectar las relaciones interpersonales?,A,1,evidencias_ley_atraccion,10,Las vibraciones positivas atraen relaciones positivas,Las relaciones son completamente aleatorias,No hay impacto de la mente en las relaciones
-¿En qué medida la Ley de Atracción se basa en la conexión mente-cuerpo?,A,1,evidencias_ley_atraccion,10,La mente influye en las experiencias físicas y mentales,La mente y el cuerpo son independientes,No hay conexión entre la mente y el cuerpo según la Ley de Atracción
+¿Cómo se llama la teoría que sugiere que la mente y la intención pueden influir en el mundo físico?,A,1,espiritualidad,10,Efecto placebo,Ley de la atracción,Efecto dominó
+¿Cuál es el término que describe la capacidad del cerebro para influir en la salud física a través de procesos mentales?,A,1,espiritualidad,10,Poder de la mente,Psiconeuroinmunología,Neuroplasticidad
+¿Qué fenómeno se asocia con la capacidad del cerebro para influir en eventos aleatorios y generar patrones significativos?,A,1,espiritualidad,10,Sincronicidad,Telepatía,Resonancia magnética
+¿Cómo se llama la creencia en la capacidad del cerebro para comunicarse con otros a través de pensamientos sin palabras?,A,1,espiritualidad,10,Telepatía,Clarividencia,Premonición
+¿Cuál es el nombre del fenómeno que implica la capacidad del cerebro para percibir información más allá de los sentidos tradicionales?,A,1,espiritualidad,10,Percepción extrasensorial (PES),Intuición,Sensación subconsciente
+¿En qué campo de estudio se explora la conexión entre la mente la conciencia y la energía del cerebro?,A,1,espiritualidad,10,Neurociencia espiritual,Física cuántica y conciencia,Parapsicología
+¿Cómo se llama la teoría que sugiere que el cerebro puede influir en la realidad a través de la observación y la intención consciente?,A,1,espiritualidad,10,Teoría del observador,Teoría de la intención,Teoría de la mente cuántica
+¿Cuál es el término que describe la capacidad del cerebro para autorregularse y mantener un equilibrio interno?,A,1,espiritualidad,10,Homeostasis,Equilibrio mental,Autoregulación neuronal
+¿En qué área del cerebro se ha observado actividad durante prácticas meditativas y estados de conexión con el entorno?,A,1,espiritualidad,10,Corteza prefrontal,Sistema límbico,Corteza cingulada
+¿Cuál es el nombre del fenómeno que implica la influencia del pensamiento positivo en la mejora de la salud y el bienestar?,A,1,espiritualidad,10,Efecto placebo,Efecto de autosanación,Poder de la mente
+¿En qué medida la creencia en la conexión mente-cuerpo puede afectar la respuesta del sistema inmunológico?,A,1,espiritualidad,10,Psiconeuroinmunología,Teoría de la mente cuántica,Homeostasis neural
+¿Cómo se llama la teoría que sugiere que la conciencia humana puede afectar el comportamiento de partículas subatómicas?,A,1,espiritualidad,10,Efecto observador cuántico,Teoría del entrelazamiento,Principio de incertidumbre
+¿Cuál es el término que se refiere a la capacidad del cerebro para cambiar su estructura y función en respuesta a la experiencia y el entorno?,A,1,espiritualidad,10,Neuroplasticidad,Adaptabilidad cerebral,Plasticidad neuronal
+¿En qué área del cerebro se ha observado actividad asociada con la empatía y la conexión emocional con los demás?,A,1,espiritualidad,10,Espejo neuronas,Corteza prefrontal,Sistema límbico
+¿Cómo se llama la creencia en la influencia del pensamiento y la intención en la materialización de eventos futuros?,A,1,espiritualidad,10,Ley de la atracción,Principio de resonancia,Teoría del destino
+¿Cuál es el término que describe la capacidad del cerebro para generar patrones coherentes de actividad a través de la concentración y la meditación?,A,1,espiritualidad,10,Coherencia cerebral,Resonancia neuronal,Sincronicidad
+¿En qué área del cerebro se procesan las experiencias subjetivas y la autoconciencia?,A,1,espiritualidad,10,Corteza cingulada,Sistema límbico,Corteza prefrontal
+¿Cómo se llama la práctica que implica la canalización de energía universal para promover la curación y el bienestar?,A,1,espiritualidad,10,Reiki,Qi Gong,Pranic Healing
+¿Cuál es el término que se refiere a la capacidad del cerebro para generar pensamientos y emociones positivas incluso en situaciones difíciles?,A,1,espiritualidad,10,Resiliencia,Optimismo,Pensamiento positivo
+¿En qué medida la práctica de la atención plena puede influir en la regulación emocional y la toma de decisiones?,A,1,espiritualidad,10,Mindfulness,Corteza prefrontal,Sistema límbico
+¿Cómo se llama la teoría que sugiere que la conciencia y la intención pueden afectar la realidad a nivel cuántico?,A,1,espiritualidad,10,Física cuántica y conciencia,Teoría del observador cuántico,Principio de incertidumbre
+¿Cuál es el término que describe la influencia del cerebro en la respuesta del sistema inmunológico a través de procesos mentales?,A,1,espiritualidad,10,Psiconeuroinmunología,Neuroplasticidad,Homeostasis neural
+¿En qué área del cerebro se ha observado actividad asociada con la toma de decisiones éticas y el juicio moral?,A,1,espiritualidad,10,Corteza prefrontal,Sistema límbico,Corteza cingulada
+¿Cómo se llama la práctica que implica la concentración en la respiración y la conciencia del momento presente?,A,1,espiritualidad,10,Mindfulness,Meditación trascendental,Yoga
+¿Cuál es el término que se refiere a la capacidad del cerebro para cambiar su actividad en respuesta a la exposición repetida a un estímulo?,A,1,espiritualidad,10,Adaptación neuronal,Condicionamiento cerebral,Habituación cortical
+¿En qué medida la creencia en la eficacia de un tratamiento puede influir en su resultado incluso si el tratamiento es inerte?,A,1,espiritualidad,10,Efecto placebo,Autohipnosis,Mente sobre materia
+¿Cómo se llama la creencia en la influencia de la mente y la intención en la realidad a nivel cuántico?,A,1,espiritualidad,10,Teoría del observador cuántico,Principio de resonancia,Física cuántica y conciencia
+¿Cuál es el término que describe la capacidad del cerebro para procesar información de manera eficiente y rápida?,A,1,espiritualidad,10,Coherencia cerebral,Optimización neuronal,Rapidez mental
+¿En qué área del cerebro se procesa la información sensorial y se genera la percepción consciente?,A,1,espiritualidad,10,Corteza cerebral,Sistema límbico,Corteza somatosensorial
+¿Cómo se llama la creencia en la influencia de la mente y la conciencia en la creación de la realidad?,A,1,espiritualidad,10,Idealismo,Realismo,Materalismo
+¿Cuál es el término que se refiere a la conexión emocional y psicológica entre individuos a nivel energético?,A,1,espiritualidad,10,Resonancia emocional,Empatía cuántica,Conexión mental
+¿En qué medida la práctica de la meditación puede afectar la estructura y función del cerebro a lo largo del tiempo?,A,1,espiritualidad,10,Neuroplasticidad,Mindfulness,Sincronicidad
+¿Cómo se llama la creencia en la influencia de la mente y la intención en la creación de la realidad?,A,1,espiritualidad,10,Idealismo,Principio de resonancia,Física cuántica y conciencia
+¿Cuál es el término que se refiere a la percepción de información más allá de los sentidos tradicionales?,A,1,espiritualidad,10,Percepción extrasensorial (PES),Intuición,Sensación subconsciente
+¿En qué medida la práctica de la atención plena puede influir en la regulación del estrés y la ansiedad?,A,1,espiritualidad,10,Mindfulness,Sistema límbico,Corteza prefrontal
+¿Cómo se llama la creencia en la comunicación entre mentes a través de pensamientos sin palabras?,A,1,espiritualidad,10,Telepatía,Clarividencia,Premonición
+¿Cuál es el término que se refiere a la capacidad del cerebro para procesar información de manera eficiente y rápida?,A,1,espiritualidad,10,Rapidez mental,Optimización neuronal,Coherencia cerebral
+¿En qué área del cerebro se ha observado actividad asociada con la formación de nuevos recuerdos y la memoria?,A,1,espiritualidad,10,Hipocampo,Sistema límbico,Corteza prefrontal
+¿Cómo se llama la teoría que sugiere que la mente y la conciencia son fundamentales en la creación de la realidad?,A,1,espiritualidad,10,Panpsiquismo,Idealismo,Materalismo
+¿Cuál es el término que describe la capacidad del cerebro para cambiar su estructura y función en respuesta a la experiencia y el entorno?,A,1,espiritualidad,10,Neuroplasticidad,Adaptabilidad cerebral,Plasticidad neuronal
+¿En qué medida la creencia en la conexión mente-cuerpo puede afectar la respuesta del sistema inmunológico?,A,1,espiritualidad,10,Psiconeuroinmunología,Teoría de la mente cuántica,Homeostasis neural
+¿Cómo se llama la teoría que sugiere que la conciencia humana puede afectar el comportamiento de partículas subatómicas?,A,1,espiritualidad,10,Efecto observador cuántico,Teoría del entrelazamiento,Principio de incertidumbre
+¿Cuál es el término que se refiere a la capacidad del cerebro para cambiar su actividad en respuesta a la exposición repetida a un estímulo?,A,1,espiritualidad,10,Adaptación neuronal,Condicionamiento cerebral,Habituación cortical
+¿En qué medida la práctica de la atención plena puede influir en la regulación emocional y la toma de decisiones?,A,1,espiritualidad,10,Mindfulness,Corteza prefrontal,Sistema límbico
+¿Cómo se llama la creencia en la eficacia de un tratamiento incluso si es inerte basada en la creencia del paciente?,A,1,espiritualidad,10,Efecto placebo,Mente sobre materia,Efecto de autosanación
+¿Cuál es el término que describe la capacidad del cerebro para generar pensamientos y emociones positivas incluso en situaciones difíciles?,A,1,espiritualidad,10,Optimismo,Pensamiento positivo,Resiliencia
+¿En qué área del cerebro se ha observado actividad asociada con la toma de decisiones éticas y el juicio moral?,A,1,espiritualidad,10,Corteza prefrontal,Sistema límbico,Corteza cingulada
+¿Cómo se llama la práctica que implica la concentración en la respiración y la conciencia del momento presente?,A,1,espiritualidad,10,Mindfulness,Meditación trascendental,Yoga
+¿Cuál de los siguientes conceptos está más estrechamente relacionado con la Ley de Atracción?,A,1,espiritualidad,10,Manifestación,Teoría de la relatividad,Ley de la gravedad
+¿Qué sugiere la Ley de Atracción en términos generales?,A,1,espiritualidad,10,La energía positiva atrae experiencias positivas,La energía negativa atrae experiencias negativas,Todo es aleatorio y no hay influencia de la mente
+¿En qué libro popular la Ley de Atracción se presenta como un principio clave?,A,1,espiritualidad,10,"El Secreto" de Rhonda Byrne,"Piense y hágase rico" de Napoleon Hill,"Cómo ganar amigos e influir sobre las personas" de Dale Carnegie
+¿Cuál es uno de los elementos fundamentales según la Ley de Atracción?,A,1,espiritualidad,10,La visualización positiva,La fatalidad,La predicción del futuro
+¿Qué se espera que haga una persona según la Ley de Atracción para atraer lo que desea?,A,1,espiritualidad,10,Emitir vibraciones positivas,Evitar el pensamiento positivo,Adoptar un enfoque neutral
+¿Cuál de las siguientes afirmaciones refleja una idea central de la Ley de Atracción?,A,1,espiritualidad,10,Los pensamientos y emociones positivas atraen eventos y circunstancias positivas,Las circunstancias son independientes de la mente,La suerte es aleatoria y no se puede influir en ella
+¿Qué tipo de energía se dice que atrae la Ley de Atracción?,A,1,espiritualidad,10,Energía positiva,Energía neutra,Energía negativa
+¿En qué área de la vida se supone que la Ley de Atracción puede tener un impacto según sus defensores?,A,1,espiritualidad,10,Todas las áreas de la vida (amor salud dinero etc.),Solo en la salud,Solo en el ámbito laboral
+¿Cuál de los siguientes no es un componente clave de la aplicación de la Ley de Atracción?,A,1,espiritualidad,10,Desapego,Resistencia,Derrotismo
+¿Qué concepto sugiere que la mente tiene la capacidad de influir en la realidad a través de la intención y el enfoque positivo?,A,1,espiritualidad,10,Mente sobre materia,Ley de Atracción,Neuroplasticidad
+¿Qué se considera esencial para que la Ley de Atracción funcione según sus defensores?,A,1,espiritualidad,10,Creencia y fe,Escepticismo y duda,Indiferencia y desinterés
+¿En qué contexto se originó y popularizó la Ley de Atracción en la cultura moderna?,A,1,espiritualidad,10,Movimiento del Nuevo Pensamiento (New Thought),Renacimiento italiano,Revolución Industrial
+¿Cuál de las siguientes afirmaciones refleja una idea asociada con la Ley de Atracción?,A,1,espiritualidad,10,Lo similar atrae a lo similar (like attracts like),Las cosas opuestas se atraen,No hay patrón en la atracción
+¿Qué sugiere la Ley de Atracción sobre el papel de la gratitud?,A,1,espiritualidad,10,La gratitud puede atraer más cosas para agradecer,La gratitud no tiene impacto en la atracción,La gratitud puede atraer experiencias negativas
+¿Qué se espera que haga una persona para aplicar la Ley de Atracción en su vida diaria?,A,1,espiritualidad,10,Visualizar sus deseos,Evitar cualquier pensamiento positivo,Despreocuparse de sus metas
+¿Qué tipo de pensamientos se sugiere que se deben evitar para que la Ley de Atracción funcione de manera efectiva?,A,1,espiritualidad,10,Pensamientos negativos y limitantes,Pensamientos racionales y lógicos,Pensamientos indiferentes
+¿En qué concepto se basa la creencia de que la Ley de Atracción puede influir en la salud física y el bienestar?,A,1,espiritualidad,10,Poder de la mente,Teoría de la relatividad,Homeostasis
+¿Qué sugiere la Ley de Atracción sobre el impacto de las emociones en la atracción de experiencias?,A,1,espiritualidad,10,Las emociones positivas atraen experiencias positivas,Las emociones no tienen impacto en las experiencias,La atracción es completamente aleatoria
+¿Cuál es uno de los enfoques recomendados para aplicar la Ley de Atracción?,A,1,espiritualidad,10,Establecer metas claras y positivas,Evitar establecer metas,Dejar que las circunstancias dicten las metas
+¿Cuál de las siguientes prácticas se considera compatible con la aplicación de la Ley de Atracción?,A,1,espiritualidad,10,La meditación positiva,La preocupación constante,La resistencia activa
+¿Cómo se llama la creencia de que el pensamiento positivo puede atraer experiencias positivas y el pensamiento negativo experiencias negativas?,A,1,espiritualidad,10,Ley de Atracción,Efecto placebo,Principio de incertidumbre
+¿Qué sugiere la Ley de Atracción sobre la importancia de la visualización?,A,1,espiritualidad,10,La visualización positiva puede atraer experiencias deseadas,La visualización no tiene impacto en la realidad,La visualización puede atraer experiencias no deseadas
+¿Qué se espera que haga una persona para superar la resistencia a la Ley de Atracción?,A,1,espiritualidad,10,Cambiar patrones de pensamiento negativos,Reforzar la resistencia,Rendirse ante la resistencia
+¿Cómo se llama la práctica de enfocarse en lo que se quiere en lugar de en lo que no se quiere?,A,1,espiritualidad,10,Enfoque positivo,Principio de atracción,Evitación consciente
+¿Cuál es uno de los principios fundamentales de la Ley de Atracción relacionado con el tiempo?,A,1,espiritualidad,10,El ahora es el momento más poderoso,No hay relación entre el tiempo y la atracción,El futuro es más influenciable que el pasado
+¿Cuál es la creencia central sobre cómo la Ley de Atracción puede afectar las relaciones interpersonales?,A,1,espiritualidad,10,Las vibraciones positivas atraen relaciones positivas,Las relaciones son completamente aleatorias,No hay impacto de la mente en las relaciones
+¿En qué medida la Ley de Atracción se basa en la conexión mente-cuerpo?,A,1,espiritualidad,10,La mente influye en las experiencias físicas y mentales,La mente y el cuerpo son independientes,No hay conexión entre la mente y el cuerpo según la Ley de Atracción
+¿Cómo se llama la creencia en la capacidad de la mente para influir en la realidad a través de la concentración y el enfoque positivo?,A,1,espiritualidad,10,Neuroplasticidad,Ley de Atracción,Principio de autosanación
+¿Cuál es la creencia central sobre cómo la Ley de Atracción puede afectar la salud según sus defensores?,A,1,espiritualidad,10,La mente positiva puede influir en la salud física y emocional,La salud es independiente de la mente,No hay relación entre la mente y la salud
+¿Qué sugiere la Ley de Atracción sobre la importancia de la fe y la creencia en su eficacia?,A,1,espiritualidad,10,La fe y la creencia son fundamentales para su funcionamiento,La fe y la creencia no tienen impacto en la Ley de Atracción,La fe y la creencia pueden interferir con la Ley de Atracción
+¿Cómo se llama la práctica de agradecer por las cosas que aún no han sucedido como si ya hubieran sucedido?,A,1,espiritualidad,10,Gratitud anticipada,Agradecimiento retrospectivo,Apreciación futura
+¿Cuál es uno de los enfoques recomendados para mantener una actitud positiva según la Ley de Atracción?,A,1,espiritualidad,10,Practicar la gratitud diaria,Enfocarse en lo negativo,Evitar reconocer los logros
+¿Qué se espera que haga una persona para aplicar la Ley de Atracción en su vida diaria?,A,1,espiritualidad,10,Visualizar sus deseos,Evitar cualquier pensamiento positivo,Despreocuparse de sus metas
+¿Qué tipo de pensamientos se sugiere que se deben evitar para que la Ley de Atracción funcione de manera efectiva?,A,1,espiritualidad,10,Pensamientos negativos y limitantes,Pensamientos racionales y lógicos,Pensamientos indiferentes
+¿En qué concepto se basa la creencia de que la Ley de Atracción puede influir en la salud física y el bienestar?,A,1,espiritualidad,10,Poder de la mente,Teoría de la relatividad,Homeostasis
+¿Qué sugiere la Ley de Atracción sobre el impacto de las emociones en la atracción de experiencias?,A,1,espiritualidad,10,Las emociones positivas atraen experiencias positivas,Las emociones no tienen impacto en las experiencias,La atracción es completamente aleatoria
+¿Cuál es uno de los enfoques recomendados para aplicar la Ley de Atracción?,A,1,espiritualidad,10,Establecer metas claras y positivas,Evitar establecer metas,Dejar que las circunstancias dicten las metas
+¿Cuál de las siguientes prácticas se considera compatible con la aplicación de la Ley de Atracción?,A,1,espiritualidad,10,La meditación positiva,La preocupación constante,La resistencia activa
+¿Cómo se llama la creencia de que el pensamiento positivo puede atraer experiencias positivas y el pensamiento negativo experiencias negativas?,A,1,espiritualidad,10,Ley de Atracción,Efecto placebo,Principio de incertidumbre
+¿Qué sugiere la Ley de Atracción sobre la importancia de la visualización?,A,1,espiritualidad,10,La visualización positiva puede atraer experiencias deseadas,La visualización no tiene impacto en la realidad,La visualización puede atraer experiencias no deseadas
+¿Qué se espera que haga una persona para superar la resistencia a la Ley de Atracción?,A,1,espiritualidad,10,Cambiar patrones de pensamiento negativos,Reforzar la resistencia,Rendirse ante la resistencia
+¿Cómo se llama la práctica de enfocarse en lo que se quiere en lugar de en lo que no se quiere?,A,1,espiritualidad,10,Enfoque positivo,Principio de atracción,Evitación consciente
+¿Cuál es uno de los principios fundamentales de la Ley de Atracción relacionado con el tiempo?,A,1,espiritualidad,10,El ahora es el momento más poderoso,No hay relación entre el tiempo y la atracción,El futuro es más influenciable que el pasado
+¿Cuál es la creencia central sobre cómo la Ley de Atracción puede afectar las relaciones interpersonales?,A,1,espiritualidad,10,Las vibraciones positivas atraen relaciones positivas,Las relaciones son completamente aleatorias,No hay impacto de la mente en las relaciones
+¿En qué medida la Ley de Atracción se basa en la conexión mente-cuerpo?,A,1,espiritualidad,10,La mente influye en las experiencias físicas y mentales,La mente y el cuerpo son independientes,No hay conexión entre la mente y el cuerpo según la Ley de Atracción
 ¿Cómo se llama la creencia en la capacidad de la mente para influir en la realidad a través de la concentración y el enfoque positivo
 ¿Qué significa la sigla CPU?,A,1,informatica,10,Unidad Central de Procesamiento,Unidad de Control Periférico,Conexión de Programas Universales
 ¿Cuál de los siguientes es un sistema operativo?,A,1,informatica,10,Windows,Linux,Microsoft Office
@@ -2413,8 +2412,190 @@ En el desarrollo de software ¿qué es el "principio de inversión de dependenci
 ¿En qué consiste la "persistencia de datos" en el desarrollo de software y cuáles son las opciones comunes para implementarla?,B,3,backend,20,La persistencia de datos implica el almacenamiento duradero de la información y las opciones comunes incluyen bases de datos relacionales NoSQL y sistemas de archivos,La persistencia de datos implica la transmisión de información entre aplicaciones y las opciones comunes incluyen servicios web y API,El término "persistencia de datos" no se aplica en el desarrollo de software
 En sistemas distribuidos ¿qué desafíos pueden surgir al manejar la "consistencia eventual"?,A,3,backend,20,La posibilidad de que los nodos tengan copias no actualizadas durante un período de tiempo y la necesidad de resolver conflictos,La garantía de que todos los nodos tengan datos actualizados en todo momento sin posibilidad de conflictos,La incapacidad de compartir datos entre nodos lo que limita la consistencia
 ¿Qué es la "arquitectura orientada a eventos" y cuándo es apropiada en el desarrollo backend?,C,3,backend,20,Un enfoque en el que los componentes se comunican a través de eventos siendo apropiado para sistemas con múltiples servicios independientes,Un enfoque centrado en la manipulación de datos de manera secuencial siendo apropiado para sistemas monolíticos,Un enfoque basado en operaciones CRUD (Crear Leer Actualizar Eliminar) siendo apropiado para bases de datos relacionales
+
 En el contexto de microservicios ¿qué es el "principio de autenticidad del servicio" y por qué es importante?,A,3,backend,20,Un servicio debe ser auténtico y transparente en su comportamiento, proporcionando información precisa sobre sus capacidades y limitaciones,Mejora la eficiencia del sistema al ocultar detalles internos de los servicios
 
+¿Cuál es la unidad básica de la vida?,A,1,ciencia,10,Célula,Molécula,Átomo
+¿Cuántos planetas hay en nuestro sistema solar?,A,1,ciencia,10,8,9,10
+¿Qué gas necesitan las plantas para realizar la fotosíntesis?,A,1,ciencia,10,Dióxido de carbono,Oxígeno,Nitrógeno
+¿Cuál es el hueso más largo del cuerpo humano?,A,1,ciencia,10,Fémur,Tibia,Húmero
+¿Qué gas compone la mayor parte de la atmósfera terrestre?,A,1,ciencia,10,Nitrógeno,Oxígeno,Dióxido de carbono
+¿Cuál es la fuerza que mantiene a los objetos en la Tierra atrayéndolos hacia su centro?,A,1,ciencia,10,Gravedad,Magnetismo,Energía
+¿Cuál es el proceso por el cual las plantas fabrican su propio alimento?,A,1,ciencia,10,Fotosíntesis,Respiración,Transpiración
+¿Cuál es el órgano responsable de bombear la sangre en el cuerpo humano?,A,1,ciencia,10,Corazón,Pulmón,Hígado
+¿Cuál es el planeta más grande de nuestro sistema solar?,A,1,ciencia,10,Júpiter,Neptuno,Saturno
+¿En qué parte del cuerpo se encuentra el cerebro?,A,1,ciencia,10,Cabeza,Abdomen,Pie
+¿Cuál es la fórmula química del agua?,A,1,ciencia,10,H2O,CO2,NaCl
+¿Qué tipo de energía tiene un objeto en movimiento?,A,1,ciencia,10,Energía cinética,Energía potencial,Energía térmica
+¿Qué es un átomo?,A,1,ciencia,10,La unidad más pequeña de un elemento,Un tipo de molécula,Un compuesto químico
+¿Cuál es la capa más externa de la Tierra?,A,1,ciencia,10,Corteza,Manto,Núcleo
+¿Qué gas permite la respiración de los seres humanos?,A,1,ciencia,10,Oxígeno,Dióxido de carbono,Nitrógeno
+¿Cuántos huesos tiene el cuerpo humano adulto?,A,1,ciencia,10,206,156,106
+¿Cuál es la principal función de los pulmones?,A,1,ciencia,10,Intercambio de oxígeno y dióxido de carbono,Producción de sangre,Digestión
+¿Cuál es el componente principal de la capa de ozono?,A,1,ciencia,10,Oxígeno,Ozono,Oxígeno atmosférico
+¿Qué tipo de energía tiene un objeto en reposo?,A,1,ciencia,10,Energía potencial,Energía cinética,Energía térmica
+¿Cuál es el planeta más cercano al Sol?,A,1,ciencia,10,Mercurio,Venus,Tierra
+¿Qué organela es conocida como la "central de energía" de la célula?,A,1,ciencia,10,Mitochondria,Ribosoma,Retículo endoplasmático
+¿Cuál es la función principal de la clorofila en las plantas?,A,1,ciencia,10,Realizar la fotosíntesis,Producir flores,Almacenar agua
+¿Qué gas es esencial para la respiración de los seres humanos?,A,1,ciencia,10,Oxígeno,Nitrógeno,Dióxido de carbono
+¿Cuál es el nombre del proceso por el cual las plantas liberan oxígeno?,A,1,ciencia,10,Fotosíntesis,Respiración,Transpiración
+¿Cuántos lados tiene un triángulo?,A,1,ciencia,10,3,4,5
+¿Cuál es el número atómico del oxígeno?,A,1,ciencia,10,8,16,32
+¿En qué año tuvo lugar el primer alunizaje humano?,A,1,ciencia,10,1969,1979,1989
+¿Cuál es la unidad de medida de la electricidad?,A,1,ciencia,10,Voltio,Amperio,Watio
+¿Cuál es el proceso por el cual el agua se convierte en vapor?,A,1,ciencia,10,Ebullición,Evaporación,Condensación
+¿Cuál es la ley de la gravitación universal formulada por Isaac Newton?,A,1,ciencia,10,"F=G*(m1*m2)/r^2","F=m*a","E=mc^2"
+¿Cuál es el planeta más pequeño de nuestro sistema solar?,A,1,ciencia,10,Mercurio,Plutón,Marte
+¿Cuál es la función principal de los riñones en el cuerpo humano?,A,1,ciencia,10,Filtrar la sangre,Producir insulina,Producir glóbulos rojos
+¿Qué tipo de energía tiene un objeto en altura?,A,1,ciencia,10,Energía potencial,Energía cinética,Energía térmica
+¿Cuál es el metal más abundante en la corteza terrestre?,A,1,ciencia,10,Aluminio,Hierro,Cobre
+¿Qué gas es esencial para la fotosíntesis de las plantas?,A,1,ciencia,10,Dióxido de carbono,Oxígeno,Nitrógeno
+¿Cuál es la ley de conservación de la masa?,A,1,ciencia,10,"La masa total de un sistema cerrado permanece constante","La masa puede cambiar en función de la temperatura","La masa se puede crear o destruir"
+¿Cuál es la distancia promedio de la Tierra al Sol?,A,1,ciencia,10,149.6 millones de kilómetros,100 mil kilómetros,200 millones de kilómetros
+¿Cuántos lados tiene un cuadrado?,A,1,ciencia,10,4,3,5
+¿Cuál es la fuerza que mantiene a los planetas en órbita alrededor del Sol?,A,1,ciencia,10,Gravedad,Centrípeta,Centrífuga
+¿Qué gas necesitan las plantas para realizar la fotosíntesis?,A,1,ciencia,10,Oxígeno,Dióxido de carbono,Nitrógeno
+¿Cuántos huesos tiene el cuerpo humano en total?,A,1,ciencia,10,206,215,230
+¿Qué gas compone la mayor parte de la atmósfera de la Tierra?,A,1,ciencia,10,Nitrógeno,Oxígeno,Dióxido de carbono
+¿Cuál es la unidad básica de la vida?,A,1,ciencia,10,Célula,Átomo,Molécula
+¿Qué tipo de energía tiene un objeto en movimiento?,A,1,ciencia,10,Energía cinética,Energía potencial,Energía térmica
+¿Cuál es la capa más externa de la Tierra?,A,1,ciencia,10,Corteza,Manto,Núcleo
+¿Cuál es la distancia promedio entre la Tierra y el Sol?,A,1,ciencia,10,149.6 millones de kilómetros,100 millones de kilómetros,200 millones de kilómetros
+¿Cuál es la función principal de los pulmones?,A,1,ciencia,10,Respiración,Gestión del agua,Digestión
+¿Cuál es el proceso por el cual las plantas convierten la luz solar en energía?,A,1,ciencia,10,Fotosíntesis,Respiración,Circulación
+¿Cuál es la ley de la conservación de la energía?,A,2,ciencia,15,La energía no se crea ni se destruye solo se transforma,La energía total en un sistema siempre aumenta,La energía no puede ser medida
+¿Qué científico formuló la teoría de la relatividad?,A,2,ciencia,15,Albert Einstein,Isaac Newton,Nikola Tesla
+¿Cuántos elementos químicos hay en la tabla periódica actualmente?,A,2,ciencia,15,118,92,103
+¿Cuál es el componente principal de la capa de ozono?,A,2,ciencia,15,Oxígeno,Ozono,Hidrógeno
+¿En qué año se lanzó el primer satélite artificial el Sputnik 1?,A,2,ciencia,15,1957,1965,1949
+¿Cuál es la unidad básica de la herencia genética?,A,2,ciencia,15,Gen,Ácido ribonucleico (ARN),Cromosoma
+¿Cuál es el proceso mediante el cual las células convierten glucosa en energía?,A,2,ciencia,15,Respiración celular,Fotosíntesis,División celular
+¿Qué teoría explica la evolución de las especies a lo largo del tiempo?,A,2,ciencia,15,Teoría de la evolución de Darwin,Teoría de la relatividad,Teoría cuántica
+¿Cuál es la velocidad de la luz en el vacío?,A,2,ciencia,15,299.792 kilómetros por segundo,150.000 kilómetros por segundo,500.000 kilómetros por segundo
+¿Qué es la teoría de la selección natural y quién la propuso?,A,2,ciencia,15,Charles Darwin,Isaac Newton,Galileo Galilei
+¿Cuál es la diferencia entre una reacción química exotérmica y endotérmica?,A,2,ciencia,15,En una exotérmica se libera energía; en una endotérmica se absorbe energía,En una endotérmica se libera energía; en una exotérmica se absorbe energía,Ambas liberan la misma cantidad de energía
+¿Qué es la entropía en termodinámica?,A,2,ciencia,15,Medida del desorden o caos en un sistema,Medida de la energía térmica total de un sistema,Medida de la presión en un sistema
+¿Cuál es el proceso por el cual las estrellas generan energía?,A,2,ciencia,15,Fusión nuclear,Fisión nuclear,Reacción química
+¿Cuál es el principio detrás de la resonancia en la física?,A,2,ciencia,15,La transferencia eficiente de energía entre sistemas,La anulación de ondas sonoras,La absorción total de luz
+¿Cuál es el componente principal del sistema nervioso central?,A,2,ciencia,15,Cerebro,Médula espinal,Ganglios
+¿Cuál es la función principal de los leucocitos en el sistema inmunológico?,A,2,ciencia,15,Combatir infecciones y enfermedades,Transportar oxígeno,Regular la temperatura corporal
+¿Qué es un agujero negro?,A,2,ciencia,15,Una región del espacio con una gravedad tan intensa que nada puede escapar de ella,Un área donde la luz se acumula,Una región del espacio sin gravedad
+¿Cuál es la diferencia entre un ácido y una base en química?,A,2,ciencia,15,Los ácidos liberan iones de hidrógeno en solución mientras que las bases liberan iones de hidróxido,Los ácidos liberan iones de hidróxido en solución mientras que las bases liberan iones de hidrógeno,Ambos liberan la misma cantidad de iones
+¿Qué ley de la física establece que la fuerza aplicada a un objeto es igual a su masa multiplicada por su aceleración?,A,2,ciencia,15,Ley de Newton de la fuerza,Segunda ley de Newton,Ley de la conservación de la energía
+¿Cuál es el componente principal del núcleo de un átomo?,A,2,ciencia,15,Protones,Neutrones,Electrones
+¿Cuál es la diferencia entre una célula animal y una célula vegetal?,A,2,ciencia,15,La célula vegetal tiene una pared celular y cloroplastos,La célula animal tiene una membrana celular más gruesa,La célula animal tiene vacuolas más grandes
+¿Qué es la ley de Boyle en la física de los gases?,A,2,ciencia,15,La presión de un gas es inversamente proporcional a su volumen a temperatura constante,La presión de un gas es directamente proporcional a su volumen a temperatura constante,La presión de un gas es independiente de su volumen
+¿Cuál es la estructura básica de un virus?,A,2,ciencia,15,Ácido nucleico envuelto en proteínas,Membrana celular con núcleo,ADN y ARN en el citoplasma
+¿Cuál es el proceso de conversión de un sólido directamente a gas sin pasar por el estado líquido?,A,2,ciencia,15,Sublimación,Evaporación,Fusión
+¿Cuál es el nombre del proceso por el cual las células se dividen para formar dos células hijas idénticas?,A,2,ciencia,15,Mitosis,Meiosis,Fotosíntesis
+¿Qué es un isótopo?,A,2,ciencia,15,Átomos de un elemento con el mismo número de protones pero diferente número de neutrones,Átomos de diferentes elementos con el mismo número de protones,Átomos con carga eléctrica
+¿Cuál es la diferencia entre un sólido y un líquido en términos de la estructura molecular?,A,2,ciencia,15,Los sólidos tienen una estructura ordenada y los líquidos tienen una estructura menos ordenada,Los líquidos tienen una estructura ordenada y los sólidos tienen una estructura menos ordenada,Ambos tienen la misma estructura molecular
+¿Cuál es la principal función de la enzima amilasa en el sistema digestivo?,A,2,ciencia,15,Descomponer el almidón en glucosa,Descomponer las proteínas en aminoácidos,Descomponer las grasas en ácidos grasos
+¿Cuál es el nombre de la teoría que explica la expansión del universo desde un estado inicial extremadamente denso y caliente?,A,2,ciencia,15,Big Bang,Teoría de cuerdas,Teoría del caos
+¿Cuál es el proceso mediante el cual las plantas obtienen agua y nutrientes del suelo?,A,2,ciencia,15,Transpiración,Asimilación,Photosíntesis
+¿Qué tipo de reacción nuclear es responsable de la energía liberada en el sol?,A,2,ciencia,15,Fusión nuclear,Fisión nuclear,Desintegración radiactiva
+¿Cuál es la función principal de los riñones en el cuerpo humano?,A,2,ciencia,15,Filtrar la sangre y eliminar productos de desecho,Producir insulina,Regular la temperatura corporal
+¿Qué ley de la termodinámica establece que la energía total de un sistema aislado siempre se conserva?,A,2,ciencia,15,Primera ley de la termodinámica,Ley de Boyle,Segunda ley de la termodinámica
+¿Cuál es el gas más abundante en la atmósfera de la Tierra?,A,2,ciencia,15,Nitrógeno,Oxígeno,Dióxido de carbono
+¿Qué es la ley de la reflexión en óptica?,A,2,ciencia,15,El ángulo de incidencia es igual al ángulo de reflexión,El ángulo de incidencia es mayor que el ángulo de reflexión,El ángulo de incidencia es menor que el ángulo de reflexión
+¿Cuál es el proceso de conversión de un gas a un líquido?,A,2,ciencia,15,Condensación,Evaporación,Sublimación
+¿Cuál es el pH neutro en la escala de pH?,A,2,ciencia,15,7,5,10
+¿Cuál es la función principal de la hemoglobina en la sangre?,A,2,ciencia,15,Transportar oxígeno,Combatir infecciones,Coagulación sanguínea
+¿Qué es un electrón?,A,2,ciencia,15,Partícula subatómica con carga negativa,Partícula subatómica con carga positiva,Partícula subatómica sin carga
+¿Cuál es la ley de la gravedad propuesta por Isaac Newton?,A,2,ciencia,15,Ley de la gravitación universal,Ley de Kepler,Ley de Boyle
+¿Qué es la mitocondria y cuál es su función principal en las células?,A,2,ciencia,15,Orgánulo que produce energía a través de la respiración celular,Orgánulo encargado de la fotosíntesis,Orgánulo responsable de la síntesis de proteínas
+¿Cuál es la estructura básica de un ácido nucleico?,A,2,ciencia,15,Cadena de nucleótidos,Secuencia de aminoácidos,Capa doble de fosfolípidos
+¿Qué es el ADN y cuál es su función en las células?,A,2,ciencia,15,Material genético que contiene instrucciones para el desarrollo y funcionamiento de los organismos,Orgánulo encargado de la producción de energía,Estructura que transporta proteínas en la célula
+¿Cuál es el nombre del proceso por el cual las plantas toman la energía del sol y la convierten en glucosa?,A,2,ciencia,15,Fotosíntesis,Respiración celular,Transpiración
+¿Cuál es el componente principal del sistema nervioso periférico?,A,2,ciencia,15,Nervios,Encéfalo,Médula espinal
+¿Qué es la teoría celular?,A,2,ciencia,15,Propuesta de que las células son la unidad básica de la vida,Teoría sobre el origen del universo,Explicación de la evolución biológica
+¿Cuál es la unidad básica de la herencia genética en los seres vivos?,A,2,ciencia,15,Gen,Ácido ribonucleico (ARN),Cromosoma
+¿Cuál es la diferencia entre un ácido y una base según la escala de pH?,A,2,ciencia,15,Los ácidos tienen un pH menor a 7 mientras que las bases tienen un pH mayor a 7,Los ácidos tienen un pH mayor a 7 mientras que las bases tienen un pH menor a 7,Ambos tienen el mismo pH
+¿Cuál es el nombre del proceso por el cual el cuerpo humano regula la glucosa en la sangre?,A,2,ciencia,15,Homeostasis,Reacción química,Descomposición
+¿Qué es un neutrón?,A,2,ciencia,15,Partícula subatómica sin carga eléctrica,Partícula subatómica con carga negativa,Partícula subatómica con carga positiva
+¿Cuál es el proceso por el cual una célula se divide en dos células hijas idénticas?,A,2,ciencia,15,Mitosis,Meiosis,Fotosíntesis
+¿Cuál es la principal función de la clorofila en las plantas?,A,2,ciencia,15,Capturar la luz solar para realizar la fotosíntesis,Regular el crecimiento celular,Transportar nutrientes
+¿Qué es un isómero en química?,A,2,ciencia,15,Compuestos con la misma fórmula molecular pero diferente estructura,Compuestos que tienen la misma estructura molecular,Compuestos con diferentes fórmulas moleculares
+¿Cuál es el componente principal de la capa de ozono?,A,2,ciencia,15,Oxígeno,Ozono,Hidrógeno
+¿Cuál es la función principal de las enzimas en los organismos vivos?,A,2,ciencia,15,Facilitar y acelerar las reacciones químicas,Transportar oxígeno,Generar energía
+¿Qué es la ley de la inercia?,A,2,ciencia,15,Un objeto en reposo tiende a permanecer en reposo y un objeto en movimiento tiende a permanecer en movimiento,La fuerza aplicada a un objeto es igual a la masa del objeto por su aceleración,La aceleración de un objeto es directamente proporcional a la fuerza neta aplicada sobre él
+¿Cuál es el nombre de la molécula de almacenamiento de energía en las células?,A,2,ciencia,15,ATP (Adenosín Trifosfato),ADN (Ácido Desoxirribonucleico),ARN (Ácido Ribonucleico)
+¿Cuál es el nombre del proceso por el cual un líquido se convierte en gas en la superficie?,A,2,ciencia,15,Ebullición,Vaporización,Condensación
+¿Cuál es el componente principal de la membrana celular?,A,2,ciencia,15,Fosfolípidos,Proteínas,Glúcidos
+¿Qué es la teoría de la relatividad especial de Einstein?,A,2,ciencia,15,Teoría que describe el movimiento a velocidades cercanas a la velocidad de la luz,Teoría que explica la gravedad,Teoría que describe la interacción electromagnética
+¿Cuál es el proceso de conversión de glucosa en energía en ausencia de oxígeno?,A,2,ciencia,15,Fermentación,Respiración celular,Fotosíntesis
+¿Cuál es la ley de Coulomb en física?,A,2,ciencia,15,Ley que describe la interacción entre cargas eléctricas, Ley que rige la presión de los gases, Ley que explica la reflexión de la luz
+¿Cuál es el nombre del proceso por el cual las células se vuelven especializadas en una función particular?,A,2,ciencia,15,Diferenciación celular,Mitosis,Meiosis
+¿Qué es la ley de la acción y reacción de Newton?,A,2,ciencia,15,Por cada acción hay una reacción igual y opuesta,La fuerza aplicada es directamente proporcional a la masa,La velocidad de un objeto en movimiento es constante
+¿Cuál es el componente principal del sistema endocrino y qué función cumple?,A,2,ciencia,15,Glándulas,Producción y secreción de hormonas,Transporte de nutrientes
+¿Cuál es la función de las válvulas en el sistema circulatorio?,A,2,ciencia,15,Evitar el retroceso de la sangre,Controlar el flujo de oxígeno,Regular la temperatura corporal
+¿Cuál es el nombre del proceso por el cual los organismos obtienen energía directamente de las moléculas de glucosa?,A,2,ciencia,15,Respiración celular,Fotosíntesis,Transpiración
+¿Cuál es el componente principal del sistema linfático y cuál es su función principal?,A,2,ciencia,15,Ganglios linfáticos,Defensa contra infecciones y enfermedades,Producción de insulina
+¿Qué es un agente mutagénico?,A,2,ciencia,15,Sustancia que induce cambios genéticos,Proteína encargada de la replicación del ADN,Elemento que forma enlaces iónicos
+¿Cuál es la diferencia entre un elemento y un compuesto en química?,A,2,ciencia,15,Los elementos son sustancias puras formadas por átomos del mismo tipo mientras que los compuestos son combinaciones de átomos de diferentes tipos,Los elementos son combinaciones de átomos de diferentes tipos mientras que los compuestos son sustancias puras formadas por átomos del mismo tipo,Ambos son lo mismo
+¿Cuál es la partícula subatómica más masiva?,A,3,ciencia,20,Neutrón,Protón,Electrón
+¿En qué año se descubrió el bosón de Higgs?,A,3,ciencia,20,2012,2008,2010
+¿Cuál es la velocidad de escape de la Tierra?,A,3,ciencia,20,11.2 km/s,9.8 km/s,7.5 km/s
+¿Cuál es la ley de Planck en la física cuántica?,A,3,ciencia,20,La energía de una partícula es proporcional a su frecuencia,La energía de una partícula es inversamente proporcional a su frecuencia,La energía de una partícula es constante
+¿Qué es la dualidad onda-partícula en la mecánica cuántica?,A,3,ciencia,20,El comportamiento de las partículas puede ser tanto onda como partícula,El comportamiento de las partículas es siempre ondulatorio,El comportamiento de las partículas es siempre de partícula
+¿Cuál es la teoría que unifica la mecánica cuántica y la relatividad general?,A,3,ciencia,20,Teoría de cuerdas,Teoría del todo,Teoría de la relatividad especial
+¿Cuál es la temperatura más baja teóricamente posible en el universo?,A,3,ciencia,20,Cero absoluto,100 K,273.15°C
+¿En qué año se llevó a cabo el experimento de la doble rendija con electrones?,A,3,ciencia,20,1927,1905,1955
+¿Cuál es la masa del electrón en unidades de masa atómica?,A,3,ciencia,20,1/1836 de la masa del protón,La misma que la del protón,10 veces la masa del protón
+¿Qué es la constante de Planck reducida (h-barra)?,A,3,ciencia,20,La constante de Planck dividida por 2π,La raíz cuadrada de la constante de Planck,La constante de Planck al cuadrado
+¿Cuál es la teoría que postula la existencia de partículas llamadas axiones como componente de la materia oscura?,A,3,ciencia,20,Teoría axiónica,Teoría de cuerdas,Teoría de campos cuánticos
+¿Cuál es la masa del bosón W en unidades de energía?,A,3,ciencia,20,80.4 GeV/c²,15.7 TeV/c²,250 MeV/c²
+¿Qué es la paradoja de la información en agujeros negros?,A,3,ciencia,20,La información parece perderse cuando cae en un agujero negro,La información es liberada cuando un agujero negro se forma,La información es absorbida por la materia oscura
+¿Cuál es el tiempo de vida medio de un protón en descomposición?,A,3,ciencia,20,Mayor que 1 × 10^34 años,Alrededor de 2.2 minutos,Menos de 1 segundo
+¿Qué fenómeno se describe mediante las ecuaciones de Maxwell en electromagnetismo?,A,3,ciencia,20,Ondas electromagnéticas,Gravitación cuántica,Teoría de la relatividad
+¿Cuál es el principio fundamental detrás de la terapia de protones en radioterapia?,A,3,ciencia,20,La capacidad de los protones para depositar su energía de manera más precisa,La capacidad de los protones para viajar más rápido que otras partículas,La capacidad de los protones para ser más baratos que otras terapias
+¿En qué año se descubrió el primer exoplaneta en órbita alrededor de una estrella similar al Sol?,A,3,ciencia,20,1995,2001,1987
+¿Cuál es la partícula elemental responsable de la fuerza nuclear débil?,A,3,ciencia,20,Bosón W,Z,Neutrino
+¿Qué es el teorema de Gödel en la teoría de la incompletitud?,A,3,ciencia,20,La imposibilidad de demostrar la consistencia de un sistema formal desde dentro de ese sistema,Las leyes de la termodinámica,La existencia de un límite en la precisión de las mediciones cuánticas
+¿En qué año se confirmó experimentalmente la existencia de ondas gravitacionales?,A,3,ciencia,20,2015,2012,2018
+¿Cuál es la teoría que propone que el universo se está expandiendo a una velocidad acelerada?,A,3,ciencia,20,Teoría de la inflación,Teoría del caos,Teoría del estado estacionario
+¿Qué es el principio de incertidumbre de Heisenberg?,A,3,ciencia,20,Imposibilidad de conocer simultáneamente la posición y el momento de una partícula con precisión infinita,Principio que establece que la luz es tanto onda como partícula,Imposibilidad de conocer la velocidad y dirección de una partícula con precisión infinita
+¿Cuál es el nombre del experimento que demostró la dualidad onda-partícula de los electrones?,A,3,ciencia,20,Experimento de la doble rendija,Experimento de la caja negra,Experimento de la bomba atómica
+¿Qué es el entrelazamiento cuántico?,A,3,ciencia,20,Relación cuántica entre partículas donde el estado de una afecta instantáneamente al estado de la otra,Propiedad de los electrones que les permite moverse en dos estados al mismo tiempo,Principio que establece que todas las partículas cuánticas están conectadas en un estado cuántico
+¿Cuál es la teoría que describe la formación y evolución del universo a partir de una singularidad?,A,3,ciencia,20,Teoría del Big Bang,Teoría del estado estacionario,Teoría de cuerdas
+¿Qué es la paradoja de Schrödinger en la mecánica cuántica?,A,3,ciencia,20,Propone que un gato puede estar simultáneamente vivo y muerto,Principio que establece que las partículas cuánticas tienen un estado cuántico fijo,Teoría que contradice la relatividad especial de Einstein
+¿Cuál es la diferencia entre la antimateria y la materia ordinaria?,A,3,ciencia,20,La antimateria tiene cargas opuestas a la materia ordinaria,La antimateria tiene menos masa que la materia ordinaria,La antimateria no interactúa con la gravedad
+¿Qué es la condensación de Bose-Einstein?,A,3,ciencia,20,Estado de la materia en el que las partículas se enfrían hasta casi el cero absoluto y se comportan como una sola partícula cuántica,Reacción química en la que se produce una sustancia a partir de dos o más sustancias,Proceso de conversión de un sólido directamente a gas sin pasar por el estado líquido
+¿Cuál es la función del acelerador de partículas conocido como LHC (Gran Colisionador de Hadrones)?,A,3,ciencia,20,Colisionar partículas a altas energías para estudiar las interacciones subatómicas,Generar energía a partir de la colisión de partículas,Estudiar la radiación cósmica proveniente del espacio
+¿Qué es la energía oscura?,A,3,ciencia,20,Forma hipotética de energía que estaría causando la aceleración de la expansión del universo,Forma de energía liberada durante la fisión nuclear,Teoría que explica la expansión del universo a través de la luz
+¿Cuál es el nombre del telescopio espacial lanzado por la NASA en 1990?,A,3,ciencia,20,Telescopio Espacial Hubble,Telescopio Espacial Kepler,Telescopio Espacial James Webb
+¿Qué es la paradoja del agujero de gusano?,A,3,ciencia,20,Teoría que sugiere la existencia de atajos a través del espacio-tiempo,Imposibilidad de observar agujeros de gusano,Teoría que contradice la teoría de la relatividad
+¿Cuál es el principio de la supersimetría en física de partículas?,A,3,ciencia,20,Propone la existencia de partículas supersimétricas asociadas a cada partícula conocida,Principio que establece que las partículas subatómicas son simétricas entre sí,Teoría que postula la existencia de partículas supersimétricas como componentes de la materia oscura
+¿Cuál es la relación entre la temperatura y la velocidad de las partículas en un gas según la ley de los gases ideales?,A,3,ciencia,20,La velocidad de las partículas aumenta con la temperatura,La velocidad de las partículas disminuye con la temperatura,La velocidad de las partículas no está relacionada con la temperatura
+¿Qué es el experimento de Michelson-Morley?,A,3,ciencia,20,Experimento que intentó medir la velocidad de la Tierra a través del éter,Experimento que demostró la dualidad onda-partícula de la luz,Experimento que confirmó la teoría de la relatividad
+¿Cuál es el nombre de la partícula hipotética que sería responsable de la masa de todas las demás partículas subatómicas?,A,3,ciencia,20,Bosón de Higgs,Quark,Neutrino
+¿Cuál es la teoría que propone que el espacio-tiempo está formado por unidades indivisibles llamadas "quanta" o "granos"?,A,3,ciencia,20,Teoría cuántica de la gravedad,Teoría de cuerdas,Teoría del todo
+¿Cuál es la diferencia entre la relatividad especial y la relatividad general de Einstein?,A,3,ciencia,20,La relatividad especial se aplica a objetos en movimiento uniforme mientras que la relatividad general incluye la gravedad,La relatividad especial se aplica a objetos en reposo mientras que la relatividad general se aplica a objetos en movimiento,La relatividad especial se aplica solo a partículas subatómicas mientras que la relatividad general se aplica a cuerpos grandes
+¿En qué consiste la paradoja de los gemelos en la teoría de la relatividad?,A,3,ciencia,20,El gemelo que viaja a velocidades cercanas a la velocidad de la luz envejece más lentamente que el gemelo en reposo,Los gemelos que viajan en direcciones opuestas envejecen a la misma velocidad,Los gemelos que están separados por una gran distancia envejecen a la misma velocidad
+¿Cuál es la teoría que propone la existencia de universos paralelos o multiverso?,A,3,ciencia,20,Teoría de cuerdas,Teoría del multiverso,Teoría de la relatividad
+¿Qué es la entropía en termodinámica?,A,3,ciencia,20,Medida del desorden o la falta de disponibilidad de la energía en un sistema,Medida de la cantidad de calor en un sistema,Medida de la presión atmosférica en un sistema
+¿Cuál es el principio de la decoherencia cuántica?,A,3,ciencia,20,La interacción con el entorno lleva a la pérdida de la superposición cuántica,La materia se comporta tanto como onda como partícula,La luz se comporta como partícula en ciertas condiciones
+¿En qué consiste el experimento de la paradoja EPR en la teoría cuántica?,A,3,ciencia,20,Propone que las partículas cuánticas pueden estar entrelazadas independientemente de la distancia,Propone que las partículas cuánticas pueden tener una posición precisa y velocidad simultáneamente,Propone que las partículas cuánticas pueden moverse más rápido que la luz
+¿Cuál es el nombre del principio que establece que dos variables físicas no pueden ser medidas simultáneamente con precisión infinita?,A,3,ciencia,20,Principio de incertidumbre de Heisenberg,Principio de conservación de la energía,Principio de conservación del momento angular
+¿Qué es la teoría del colapso de la función de onda en la mecánica cuántica?,A,3,ciencia,20,Propone que la función de onda colapsa a un estado definido cuando se realiza una medición,Propone que la función de onda se expande indefinidamente,Propone que la función de onda siempre permanece en superposición
+¿Cuál es el principio de Pauli en la mecánica cuántica?,A,3,ciencia,20,Establece que dos electrones en un átomo no pueden tener los mismos cuatro números cuánticos,Establece que las partículas cuánticas se comportan tanto como onda como partícula,Establece que la posición y velocidad de una partícula cuántica pueden conocerse simultáneamente
+¿Cuál es la diferencia entre la energía cinética y la energía potencial?,A,3,ciencia,20,La energía cinética está asociada al movimiento mientras que la energía potencial está asociada a la posición,La energía cinética está asociada a la posición mientras que la energía potencial está asociada al movimiento,Ambas son lo mismo
+¿Cuál es el nombre de la partícula elemental que es su propia antipartícula?,A,3,ciencia,20,Neutrino mayorana,Quark,Electrón
+¿Qué es el principio holográfico propuesto en la teoría de cuerdas?,A,3,ciencia,20,La información en un volumen tridimensional está completamente contenida en su superficie bidimensional,La información en una superficie bidimensional está completamente contenida en su volumen tridimensional,La información no puede ser contenida en ninguna dimensión
+¿En qué consiste la paradoja de la información en agujeros negros?,A,3,ciencia,20,La información parece perderse cuando cae en un agujero negro,La información es liberada cuando un agujero negro se forma,La información es absorbida por la materia oscura
+¿Cuál es la diferencia entre la antimateria y la materia ordinaria?,A,3,ciencia,20,La antimateria tiene cargas opuestas a la materia ordinaria,La antimateria tiene menos masa que la materia ordinaria,La antimateria no interactúa con la gravedad
+¿Qué es el entrelazamiento cuántico?,A,3,ciencia,20,Relación cuántica entre partículas donde el estado de una afecta instantáneamente al estado de la otra,Propiedad de los electrones que les permite moverse en dos estados al mismo tiempo,Principio que establece que todas las partículas cuánticas están conectadas en un estado cuántico
+¿Cuál es la función del acelerador de partículas conocido como LHC (Gran Colisionador de Hadrones)?,A,3,ciencia,20,Colisionar partículas a altas energías para estudiar las interacciones subatómicas,Generar energía a partir de la colisión de partículas,Estudiar la radiación cósmica proveniente del espacio
+¿Qué es la energía oscura?,A,3,ciencia,20,Forma hipotética de energía que estaría causando la aceleración de la expansión del universo,Forma de energía liberada durante la fisión nuclear,Teoría que explica la expansión del universo a través de la luz
+¿Cuál es el nombre del telescopio espacial lanzado por la NASA en 1990?,A,3,ciencia,20,Telescopio Espacial Hubble,Telescopio Espacial Kepler,Telescopio Espacial James Webb
+¿Qué es la paradoja del agujero de gusano?,A,3,ciencia,20,Teoría que sugiere la existencia de atajos a través del espacio-tiempo,Imposibilidad de observar agujeros de gusano,Teoría que contradice la teoría de la relatividad
+¿Cuál es el principio de la supersimetría en física de partículas?,A,3,ciencia,20,Propone la existencia de partículas supersimétricas asociadas a cada partícula conocida,Principio que establece que las partículas subatómicas son simétricas entre sí,Teoría que postula la existencia de partículas supersimétricas como componentes de la materia oscura
+¿Cuál es la relación entre la temperatura y la velocidad de las partículas en un gas según la ley de los gases ideales?,A,3,ciencia,20,La velocidad de las partículas aumenta con la temperatura,La velocidad de las partículas disminuye con la temperatura,La velocidad de las partículas no está relacionada con la temperatura
+¿Qué es el experimento de Michelson-Morley?,A,3,ciencia,20,Experimento que intentó medir la velocidad de la Tierra a través del éter,Experimento que demostró la dualidad onda-partícula de la luz,Experimento que confirmó la teoría de la relatividad
+¿Cuál es el nombre de la partícula hipotética que sería responsable de la masa de todas las demás partículas subatómicas?,A,3,ciencia,20,Bosón de Higgs,Quark,Neutrino
+¿Cuál es la teoría que propone que el espacio-tiempo está formado por unidades indivisibles llamadas "quanta" o "granos"?,A,3,ciencia,20,Teoría cuántica de la gravedad,Teoría de cuerdas,Teoría del todo
+¿Cuál es la diferencia entre la relatividad especial y la relatividad general de Einstein?,A,3,ciencia,20,La relatividad especial se aplica a objetos en movimiento uniforme mientras que la relatividad general incluye la gravedad,La relatividad especial se aplica a objetos en reposo mientras que la relatividad general se aplica a objetos en movimiento,La relatividad especial se aplica solo a partículas subatómicas mientras que la relatividad general se aplica a cuerpos grandes
+¿En qué consiste la paradoja de los gemelos en la teoría de la relatividad?,A,3,ciencia,20,El gemelo que viaja a velocidades cercanas a la velocidad de la luz envejece más lentamente que el gemelo en reposo,Los gemelos que viajan en direcciones opuestas envejecen a la misma velocidad,Los gemelos que están separados por una gran distancia envejecen a la misma velocidad
 
 
 

@@ -27,7 +27,11 @@
                     <button class="perimeter-button" style="--index: {{ forloop.counter }}; --total: {{ all_categories|length }}">{{ category }}</button>
                 </form>  
                 {% endfor %}
-                <button class ="center-button">Test cultura general</button>
+                <form method="GET" action="{% url 'obtener_pregunta_n1' category_selected='sociedad' %}">
+                  {% csrf_token %}
+                  <button class ="center-button">Test cultura general</button>
+
+                </form>
 
                 
             </div>
