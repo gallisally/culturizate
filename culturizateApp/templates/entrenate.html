@@ -76,31 +76,18 @@
             <button class="btn {{ color }} btn-toggle " style="--index: {{ forloop.counter }}; --total: {{ category_color_list|length }}; --border:20px solid {{ color }}" data-bs-toogle="dropdown" aria-expanded="false" >
                 {{ category }}
             </button>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Separated link</a></li>
-              </ul>
         </form>  
         {% endfor %}
         <div class="btn-group ">
             <form method="GET" action="{% url 'obtener_pregunta_n1' category_selected='sociedad' %}">
                 {% csrf_token %}
-                <div class="dropdown">
-                    <button class ="btn btn-outline-dark btn-toggle dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" >
+                
+                    <button class ="btn btn-outline-dark btn-toggle dropdown-toggle" >
                         Test cultura general 
                     </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Separated link</a></li>
-                    </ul>
+                    
 
-                </div>
+              
                 
           
               </form>
