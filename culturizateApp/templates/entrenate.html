@@ -14,6 +14,7 @@
 {# Display django.contrib.messages as Bootstrap alerts #}
 {% bootstrap_messages %}
 {% block content %}
+<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/TZf4ZyXb0lXXi" width="100%" height="100%" style="position:absolute; pointer-events:none" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
@@ -25,7 +26,7 @@
     font-weight: bold; font-style: normal; font-size:40px; }
 
 
-    .btn-toggle {
+    .btn-toggle  {
       position:absolute;
       width: 150px;
       height: 150px;
@@ -48,18 +49,25 @@
     .circle-container {
     width: 500px;
     height: 500px;
-    position: relative;
+    position: absolute;
     border-radius: 50%;
-    /*top:50%;
-    left:50%;*/
-    top:-180px;
-    left:525px;
-    transform: translate(-50%, 50%);
     background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh; /*deforma el contenedor*/
+    
+    margin-bottom: -200px;
+    margin-left:400px;
+    margin-right:auto;
+/*
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;*/
     }
+  
    
 
   </style>
@@ -68,30 +76,40 @@
 
 
   <div class="col-md-6 btn-group">
-    <div class="circle-container" style="--angle: 60deg; margin-top: 20px;">  
+    <div class="circle-container container-sm" style="--angle: 60deg; margin-top: 20px;"> 
         {% for category,color in category_color_list %}
-       
-        <form method="GET" action="{% url 'obtener_pregunta_n1' category_selected=category %}">
             {% csrf_token %}
-            <button class="btn {{ color }} btn-toggle " style="--index: {{ forloop.counter }}; --total: {{ category_color_list|length }}; --border:20px solid {{ color }}" data-bs-toogle="dropdown" aria-expanded="false" >
+            <button class=" btn {{ color }} btn-toggle dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="--index: {{ forloop.counter }}; --total: {{ category_color_list|length }}; --border:20px solid {{ color }}" >
                 {{ category }}
             </button>
-        </form>  
-        {% endfor %}
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="{% url 'take_question' category_selected=category nivel='1' %}">Nivel 1</a></li>
+                <li><a class="dropdown-item" href="{% url 'take_question' category_selected=category nivel='2' %}">Nivel 2</a></li>
+                <li><a class="dropdown-item" href="{% url 'take_question' category_selected=category nivel='3' %}">Nivel 3</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="{% url 'take_question' category_selected='sociedad' nivel='5' %}">General</a></li>
+            </ul>
+         
+        {% endfor %}  
         
-            <form method="GET" action="{% url 'obtener_pregunta_n1' category_selected='sociedad' %}">
-                {% csrf_token %}
-                
-                    <button class ="btn btn-outline-dark btn-toggle " >
-                        Test cultura general 
-                    </button>
-                    
-
+            <button  class="btn btn-outline-ligh btn-toggle dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"  style=" border:4px; background-image: url('/static/culturizateApp/images/earth_planet.png'); background-size: cover; background-position: center center; background-repeat: no-repeat;">
               
-                
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="{% url 'take_question' category_selected='sociedad' nivel='1' %}">Nivel 1</a></li>
+                <li><a class="dropdown-item" href="{% url 'take_question' category_selected='sociedad' nivel='2' %}">Nivel2</a></li>
+                <li><a class="dropdown-item" href="{% url 'take_question' category_selected='sociedad' nivel='3' %}">Nivel 3</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="{% url 'take_question' category_selected='sociedad' nivel='5' %}">General</a></li>
+            </ul>
+         
           
-              </form>
-       
+        
+                      
+                         
+             
+              
+           
         
     </div>  
       </div> 
@@ -126,4 +144,5 @@
 
   
   </script>
+  </div>
 {% endblock %}

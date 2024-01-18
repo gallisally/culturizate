@@ -122,21 +122,22 @@ def perfil(request):
 
 def obtain_categories(request):
     all_categories = ["informatica", "historia", "geopolitica", "espiritualidad", "curiosidades", "ciencia"]
-    colors=["btn-outline-primary","btn-outline-secondary","btn-outline-success", "btn-outline-danger","btn-outline-warning","btn-outline-info"]
+    colors=["btn-outline-primary","btn-outline-light","btn-outline-success", "btn-outline-danger","btn-outline-warning","btn-outline-info"]
     category_color_list=zip(all_categories,colors)
     return render(request,'entrenate.html',{'category_color_list': category_color_list})
 
-def obtener_pregunta_n1(request,category_selected=None):
+
+    
+def take_question(request,category_selected=None,nivel=None):
     # Obtener todas las categorías disponibles
     #all_categories = BaseQuestion.objects.values_list('category', flat=True).distinct()
     all_categories=['informatica','historia','geopolitica','espiritualidad','curiosidades','ciencia']
     angle = 360 / len(all_categories)
     user_profile=request.user
-    if category_selected is not None: 
-        print(f'se ha seleccionado la categoria {category_selected}')
+    if nivel==5:
         question=BaseQuestion.objects.filter(category=category_selected).order_by('?').first()
-    else: 
-        question=BaseQuestion.objects.order_by('?').first()
+    else:
+        question=BaseQuestion.objects.filter(category=category_selected,nivel_dificultad=nivel).order_by('?').first()
     try:
         if request.method=='GET':
             if question is not None:
@@ -168,6 +169,7 @@ def obtener_pregunta_n1(request,category_selected=None):
                 'all_categories': all_categories,
                 'angle': angle,
                 'user_category_score':user_category_score,
+                'nivel':nivel,
 
             }
 
@@ -181,6 +183,7 @@ def obtener_pregunta_n1(request,category_selected=None):
         print(f"Error: {type(e).__name__} - {str(e)}")
         # Manejar el error de manera adecuada, por ejemplo, redirigir a una página de error
         return HttpResponse('Error, vuelve a intentarlo más tarde')
+        
         
 @login_required
 def checkAnswer(request):
