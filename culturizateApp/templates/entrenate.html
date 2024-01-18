@@ -78,11 +78,11 @@
             </button>
         </form>  
         {% endfor %}
-        <div class="btn-group ">
+        
             <form method="GET" action="{% url 'obtener_pregunta_n1' category_selected='sociedad' %}">
                 {% csrf_token %}
                 
-                    <button class ="btn btn-outline-dark btn-toggle dropdown-toggle" >
+                    <button class ="btn btn-outline-dark btn-toggle " >
                         Test cultura general 
                     </button>
                     
@@ -91,7 +91,7 @@
                 
           
               </form>
-        </div>
+       
         
     </div>  
       </div> 
