@@ -14,6 +14,14 @@ class UserProfile(AbstractUser):
     email = models.EmailField()
     score = models.IntegerField(default=0)
     attempts = models.IntegerField(default=0)
+    ciencia_score=models.IntegerField(default=0)
+    historia_score=models.IntegerField(default=0)
+    geopolitica_score=models.IntegerField(default=0)
+    curiosidades_score=models.IntegerField(default=0)
+    espiritualidad_score=models.IntegerField(default=0)
+    historia_score=models.IntegerField(default=0)
+    sociedad_score=models.IntegerField(default=0)
+
 
 
 

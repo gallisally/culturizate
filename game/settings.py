@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -38,9 +39,15 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "culturizateApp",
-    "crispy_forms",
-    "crispy_bootstrap4",
+    'bootstrap5',
+    'crispy_forms',
+    'crispy_bootstrap5',
+    #"crispy_bootstrap4",
+    
 ]
+#CRISPY_TEMPLATE_PACK = 'bootstrap4'
+CRISPY_ALLOWED_TEMPLATE_PACKS='bootstrap5'
+CRISPY_TEMPLATE_PACK = 'bootstrap5'
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
@@ -53,6 +60,10 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = "game.urls"
+#STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'culturizateApp/static')]
+
 
 TEMPLATES = [
     {
@@ -78,8 +89,8 @@ TEMPLATES = [
 WSGI_APPLICATION = "game.wsgi.application"
 
 
-CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
-CRISPY_TEMPLATE_PACK = "bootstrap4"
+#CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
+#CRISPY_TEMPLATE_PACK = "bootstrap4"
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
@@ -129,8 +140,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 
-STATIC_URL = '/static/'
-STATICFILES_DIRS = [BASE_DIR / "culturizateApp" / "static"]
+
+
+#STATICFILES_DIRS = [BASE_DIR / "culturizateApp" / "static"]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field

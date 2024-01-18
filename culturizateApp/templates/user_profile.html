@@ -1,94 +1,62 @@
+{# Load the tag library #}
 {% extends 'base.html' %}
+{% load bootstrap5 %}
+{% load static %}
 
+{# Load CSS and JavaScript #}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
 
-   
+{# Display django.contrib.messages as Bootstrap alerts #}
+{% bootstrap_messages %}
 
 {% block content %}
-  <div class="container mt-5">
-    <div class="row justify-content-center">
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-header">
-            <h2 class="text-center">Perfil de Usuario</h2>
-          </div>
-          <div class="card-body text-center">
-            <p>Nombre de Usuario: {{ user.username }}</p>
-            <p>Puntuación Acumulada: {{ user.score }}</p>
+
+{% block css %}
+<style>
+    @font-face { font-family: 'Lemon';
+    src: local('Lemon'), url('{% static "culturizateApp/fonts/Lemon-Regular.ttf" %}') format('truetype'); 
+    font-weight: normal; font-style: normal; } 
+    
+    .rounded-div {
+      border-radius:30px;
+      cursor:pointer;
+      font-family:'Lemon', serif;
+      font-size:50px;
+    }
+    .rounded-div:hover{
+      background-color: beige;
+    }
+</style>
+{% endblock %}
+
+    <div class="container-fluid p-0 min-vh-100">
+        <div class="row align-items-center h-100 mb-2">
+            <div class="col ">
+              <a href="{% url 'perfil' %}">
+                <div class="rounded-div p-5 text-center bg-primary text-light ">TU PERFIL</div>
+
+              </a>
+            </div>
+            <div class="col">
+              <a href="{% url 'obtain_categories' %}">
+
+                <div class="rounded-div  p-5 text-center bg-danger cursor-pointer">ENTRÉNATE</div>
+              </a>
+            </div>
+        </div>
+        <div class="row g-20"></div>
+
+        
+        <div class="row align-items-center h-100 mt-2">
+            <div class="col">
+                <div class="rounded-div p-5 text-center bg-success cursor-pointer">TU AVANCE</div>
+            </div>
+            <div class="col">
+                <div class="rounded-div p-5 text-center bg-warning cursor-pointer ">Maestro GPT</div>
+            </div>
         </div>
     </div>
-</div>
-</div>
-</div>
-     
-            <div class="circle-container" style="--angle: 60deg; margin-top: 20px;">  
-                {% for category in all_categories %}
-                <form method="GET" action="{% url 'obtener_pregunta_n1' category_selected=category %}">
-                    {% csrf_token %}
-                    <button class="perimeter-button" style="--index: {{ forloop.counter }}; --total: {{ all_categories|length }}">{{ category }}</button>
-                </form>  
-                {% endfor %}
-                <form method="GET" action="{% url 'obtener_pregunta_n1' category_selected='sociedad' %}">
-                  {% csrf_token %}
-                  <button class ="center-button">Test cultura general</button>
-
-                </form>
-
-                
-            </div>
-  
-
-<style>
-    .circle-container {
-  width: 500px;
-  height: 500px;
-  position: relative;
-  border-radius: 50%;
-  background-color: lightgray;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  margin-left: 470px; /* Ajusta según sea necesario */
-}
-   
-   .perimeter-button{
-     position: absolute;
-     width: 150px;
-     height: 150px;
-     border-radius: 50%;
-     background-color: blue;
-     color: white;
-     font-weight: bold;
-     margin-left:40px;
-     margin-top: -80px;
-     
-
-   }
-   
-   .perimeter-button {
-     transform: rotate(calc(var(--angle) * var(--index))) translateY(-180px) rotate(calc(-1 * var(--angle) * var(--index)));
-   }
-   .center-button {
-    display: inline-block;
-    padding: 15px 30px;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    background-color: #3498db;
-    color: #ffffff;
-    border-radius: 8px;
-    transition: background-color 0.3s ease;
-    cursor: pointer;
-  }
-
-  .center-button:hover {
-    background-color: #2980b9;
-  }
-  
-
-   </style>
 
 {% endblock %}
 
-    

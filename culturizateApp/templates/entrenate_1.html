@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+
+
+   
+
+{% block content %}
+ 
+     <div class="col-md-6">
+            <div class="circle-container" style="--angle: 60deg; margin-top: 20px;">  
+                {% for category in all_categories %}
+                <form method="GET" action="{% url 'obtener_pregunta_n1' category_selected=category %}">
+                    {% csrf_token %}
+                    <button class="perimeter-button" style="--index: {{ forloop.counter }}; --total: {{ all_categories|length }}">{{ category }}</button>
+                </form>  
+                {% endfor %}
+                <form method="GET" action="{% url 'obtener_pregunta_n1' category_selected='sociedad' %}">
+                  {% csrf_token %}
+                  <button class ="center-button">Test cultura general</button>
+
+                </form>
+
+              </div>
+            </div>
+
+          
+  
+
+<style>
+    .circle-container {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  border-radius: 50%;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 470px; /* Ajusta según sea necesario */
+}
+   
+   .perimeter-button{
+     position: absolute;
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     background-color: blue;
+     color: white;
+     font-weight: bold;
+     margin-left:40px;
+     margin-top: -80px;
+     
+
+   }
+   
+   .perimeter-button {
+     transform: rotate(calc(var(--angle) * var(--index))) translateY(-180px) rotate(calc(-1 * var(--angle) * var(--index)));
+   }
+   .center-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3498db;
+    color: #ffffff;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+
+  .center-button:hover {
+    background-color: #2980b9;
+  }
+  
+
+   </style>
+
+{% endblock %}
+
+    

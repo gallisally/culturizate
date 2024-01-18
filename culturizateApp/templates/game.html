@@ -26,11 +26,13 @@
       <p>Nivel de Dificultad: {{ nivel_dificultad }}</p>
       <p>Categoría: {{ category }}</p>
       <p>Puntos: {{ points }}</p>
-      <p>Puntuacion acumulada: {{ score }}</p>
+      <p>Puntuacion general acumulada: {{ user.score }}</p>
+      <p>Tu puntuacion en {{ category }} es: {{ user_category_score }}</p>
 
       <button id="response-button" type="submit"class="btn btn-primary" >Responder</button>
       <!--<button id="next-question-button" >Siguiente</button>-->
       <a href="{% url 'obtener_pregunta_n1' category_selected=category %}" class="btn btn-primary">Siguiente Pregunta</a>
+      <a href="{% url 'profile'  %}" class="btn btn-primary">Vuelve al perfil</a>
 
     </form>
     <div id ="respuesta-container"></div>

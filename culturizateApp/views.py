@@ -8,15 +8,16 @@ from django import forms
 from crispy_forms.helper import FormHelper
 from crispy_forms.layout import Submit
 from django.contrib.auth.forms import UserCreationForm
-from .forms import UserProfileCreationForm
+#from .forms import UserProfileCreationForm
 from django.urls import reverse_lazy
 from django.contrib.auth.decorators import login_required
 from .models import BaseQuestion,UserProfile
-from .forms import UserAnswerForm
+#from .forms import UserAnswerForm
 from random import choice
 from .utils import obtener_pregunta_n1
 import logging
 from django.views.generic import View
+from .forms import MyForm
 
 
 
@@ -49,7 +50,7 @@ def signin_view(request):
 
     context = {'form': form}
     return render(request, 'signin.html', context)
-
+"""
 @login_required
 def user_profile(request):
     user=request.user
@@ -57,10 +58,25 @@ def user_profile(request):
 
     return render(request,'user_profile.html',{'user':user,'all_categories': all_categories})
 
+"""
+
+
+@login_required
+def user_profile(request):
+    if request.method == 'POST':
+        form = MyForm(request.POST)
+        if form.is_valid():
+            pass
+    else:
+        form = MyForm()
+    return render(request, 'user_profile.html', {'form': form})
+
 class CustomLoginView(LoginView):
     form_class = CustomAuthenticationForm
     template_name = 'login.html'  # Ajusta la plantilla según tus necesidades
     success_url=reverse_lazy('game')
+
+
 
 def play_game(request):
     questions=BaseQuestion.objects.filter(nivel_dificultad=1).order_by('?')[:10]
@@ -100,27 +116,22 @@ def play_game(request):
 def game(request):
     return render(request,'game.html')
 
+def perfil(request):
+    return render(request,'perfil.html')
 
 
 def obtain_categories(request):
     all_categories = ["informatica", "historia", "geopolitica", "espiritualidad", "curiosidades", "ciencia"]
-    context = {
-        'all_categories': {
-            'informatica': 'Informática',
-            'historia': 'Historia',
-            'geopolitica': 'Geopolítica',
-            'espiritualidad': 'Espiritualidad',
-            'curiosidades': 'Curiosidades',
-            'ciencia': 'Ciencia',
-        },
-    }
-    return render(request,'user_profile.html',context)
+    colors=["btn-outline-primary","btn-outline-secondary","btn-outline-success", "btn-outline-danger","btn-outline-warning","btn-outline-info"]
+    category_color_list=zip(all_categories,colors)
+    return render(request,'entrenate.html',{'category_color_list': category_color_list})
 
 def obtener_pregunta_n1(request,category_selected=None):
     # Obtener todas las categorías disponibles
     #all_categories = BaseQuestion.objects.values_list('category', flat=True).distinct()
     all_categories=['informatica','historia','geopolitica','espiritualidad','curiosidades','ciencia']
     angle = 360 / len(all_categories)
+    user_profile=request.user
     if category_selected is not None: 
         print(f'se ha seleccionado la categoria {category_selected}')
         question=BaseQuestion.objects.filter(category=category_selected).order_by('?').first()
@@ -134,6 +145,8 @@ def obtener_pregunta_n1(request,category_selected=None):
                     ('B',question.option_b),
                     ('C',question.option_c),
                 ]
+                category_score_field=f'{question.category}_score'
+                user_category_score=getattr(user_profile,category_score_field)
                 options=sorted(options,key=lambda x:choice([0,1,2]))
                 request.session['current_question'] = {       
                     'question_text' : question.question_text,
@@ -141,7 +154,9 @@ def obtener_pregunta_n1(request,category_selected=None):
                     'points':question.points,
                     'nivel_dificultad':question.nivel_dificultad,
                     'category':question.category,
-                    'correct_answer':question.correct_option 
+                    'correct_answer':question.correct_option ,
+
+
                     }
                 context = {
                 'question_text': question.question_text,
@@ -152,6 +167,7 @@ def obtener_pregunta_n1(request,category_selected=None):
                 'correct_answer': question.correct_option,
                 'all_categories': all_categories,
                 'angle': angle,
+                'user_category_score':user_category_score,
 
             }
 
@@ -171,23 +187,39 @@ def checkAnswer(request):
     if request.method=='POST':
         user_answer=request.POST.get('user_answer')
         current_question=request.session.get('current_question',{})
+        current_category=current_question.get('category',None)
         #user_profile=UserProfile.get.object(user=request.user)
-
         user_profile=request.user
         if user_answer ==  current_question['correct_answer']:
             response_message='Has acertado!'
             user_profile.score +=current_question['points']
             print(f'tu puntuaxion es de {user_profile.score}')
             user_profile.save()
+            if current_category:
+                print(f' hsa elegido la categoria {current_category}')
+                user_category_score=getattr(user_profile,f'{current_category}_score')
+                user_category_score+=current_question['points']
+                setattr(user_profile,f'{current_category}_score',user_category_score)
+                user_profile.save()
+                
+
         else:
             response_message='Has fallado!'
-
+        
         current_question['response_message']=response_message
+        
         current_question['score']=user_profile.score
+        current_question['user_category_score']= getattr(user_profile, f'{current_category}_score')
         #actualizando diccionario con el mensaje de respuesta
         request.session['current_question']=current_question
         
+        
+        
+      
+        
+        
 
+        #return render(request,'game.html',current_question)
         return render(request,'game.html',current_question)
     return HttpResponse('La funcion checkAnswer solo admite solicitudes POST')
 
