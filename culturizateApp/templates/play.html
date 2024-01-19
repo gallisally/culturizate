@@ -1,0 +1,130 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% block css %}
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}*/
+
+/*.container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}*/
+
+.button {
+    
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 200px;
+    height: 200px;
+    border-radius:50px;
+    font-size: 24px;
+    cursor: pointer;
+    user-select: none;
+    /*box-shadow: 0 5px 50px rgba(0, 0, 0, 0.2);*/
+    box-shadow: 0 10px 100px rgba(0, 0, 0, 0.5);
+    margin-left:80px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+}
+
+.button-1 {
+    background-color: #4CAF50;
+    color: white;
+    left:0;
+    
+}
+
+.button-1:hover {
+    background-color: #3e8e41;
+    transform: translate(-5%,5%) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.button-2 {
+    background-color: #2196F3;
+    color: white;
+    left:250px;
+    /*margin-top: 30px;*/
+}
+
+.button-2:hover {
+    background-color: #1e88e5;
+    transform: translate(-0.5%,0.5%) scale(1,1);
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.3);
+
+}
+.card {
+    height:500px;
+
+}
+</style>
+{% endblock %}
+
+
+
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="text-center">{{ user }}, juega mientras te culturizas!</h2>
+          </div>
+          <div class="card-body">
+        <form action="{% url 'obtain_categories' %}" action="POST">
+        <button class="button button-1" id="button1" onclick="moveButton(1) ">
+            Entrenate
+        </button>
+        </form>
+        <form action="{% url 'get_tested' %}" action="POST">c
+            <button class="button button-2" id="button2" onclick="moveButton(2)">
+                Examinate
+            </button>
+
+        </form>
+        
+    </div>
+</div>
+</div>
+</div>
+</div>
+
+
+<script>
+    function moveButton(buttonNumber) {
+    const button1 = document.getElementById('button1');
+    const button2 = document.getElementById('button2');
+
+    if (buttonNumber === 1) {
+        button1.style.animation = 'moveButton1 1s forwards';
+        button2.style.animation = 'moveButton2 1s forwards';
+    } else {
+        button1.style.animation = 'moveButton2 1s forwards';
+        button2.style.animation = 'moveButton1 1s forwards';
+    }
+}
+</script>
+
+{% endblock%}

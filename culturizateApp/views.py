@@ -191,6 +191,7 @@ def checkAnswer(request):
         user_answer=request.POST.get('user_answer')
         current_question=request.session.get('current_question',{})
         current_category=current_question.get('category',None)
+        current_level=current_question.get('nivel_dificultad',None)
         #user_profile=UserProfile.get.object(user=request.user)
         user_profile=request.user
         if user_answer ==  current_question['correct_answer']:
@@ -204,25 +205,26 @@ def checkAnswer(request):
                 user_category_score+=current_question['points']
                 setattr(user_profile,f'{current_category}_score',user_category_score)
                 user_profile.save()
-                
-
         else:
             response_message='Has fallado!'
-        
-        current_question['response_message']=response_message
-        
+        current_question['response_message']=response_message   
         current_question['score']=user_profile.score
         current_question['user_category_score']= getattr(user_profile, f'{current_category}_score')
         #actualizando diccionario con el mensaje de respuesta
         request.session['current_question']=current_question
-        
-        
-        
-      
-        
-        
 
         #return render(request,'game.html',current_question)
         return render(request,'game.html',current_question)
     return HttpResponse('La funcion checkAnswer solo admite solicitudes POST')
 
+@login_required
+def play(request):
+    return render(request,'play.html')
+
+@login_required
+def get_tested(request):
+    return render(request,'get_tested.html')
+
+@login_required
+def art_test(request):
+    return render(request,'art_test.html')

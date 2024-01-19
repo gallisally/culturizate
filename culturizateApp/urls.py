@@ -20,6 +20,9 @@ urlpatterns = [
     #path('obtener_pregunta_n1/(?P<category_selected>[^/]+)/\\Z',views.obtener_pregunta_n1, name='obtener_pregunta_n1'),
     path('checkAnswer/',views.checkAnswer,name='checkAnswer'),
     path('obtain_categories/',views.obtain_categories,name='obtain_categories'),
+    path('play/',views.play,name="play"),
+    path('get_tested/',views.get_tested,name='get_tested'),
+    path('art_test/',views.art_test,name='art_test'),
 ]
 
 

@@ -45,3 +45,18 @@ class Puntuacion(models.Model):
     #respuesta = models.CharField(max_length=255)
     #correcta = models.BooleanField()
 
+
+class Cuadro(models.Model):
+    cuadro=models.CharField(max_length=500)
+    autor=models.CharField(max_length=200)
+    year=models.IntegerField()
+    description=models.CharField(max_length=10000)
+    A=models.CharField(max_length=200)
+    B=models.CharField(max_length=200)
+    C=models.CharField(max_length=200)
+    image=models.CharField(max_length=400)
+
+
+
+
+    
