@@ -9,10 +9,14 @@ class Command(BaseCommand):
     def handle(self, *args, **kwargs):
         script_dir = os.path.dirname(os.path.abspath(__file__))
         csv_file = os.path.join(script_dir, 'obras_arte.csv')
-
+        #borrar datos
+        """with open(csv_file, 'w', newline='') as file:
+            file.write("") """
         with open(csv_file, 'r') as file:
             csv_reader = csv.DictReader(file)
             csv_reader = csv.DictReader(file, fieldnames=['cuadro', 'autor', 'year', 'description', 'a', 'b', 'c', 'image'])
+             # Abre el archivo CSV en modo de escritura para truncarlo
+       
 
             for row_number,row in enumerate(csv_reader,start=1):
                 try:

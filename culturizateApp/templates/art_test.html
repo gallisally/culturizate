@@ -1,1 +1,135 @@
-{% extends 'base.html%}
+<!-- game.html -->
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} Juego {% endblock %}
+
+{% block content %}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card" style="width:100%">
+            <img src="{% static image %}" class="card-image-top mx-auto my-3" alt="cuadro" width="500" height="200" >
+            <div class="card-header">
+            <h2 class="text-center">¿Quien es el autor de {{ cuadro }}?</h2>
+          </div>
+          <div class="card-body">
+
+  <div id="game-container">
+    
+    {% if no_questions %}
+    <p>No hay preguntas disponibles</p>
+    {% else %}
+       <p>{{ question_option}}</p>
+
+    <form id="question-form" method="POST" >
+
+      {% csrf_token %}
+      
+      {% for option in options %}
+        <input type="radio" name="user_answer" value="{{ option.0 }}" id="{{ option.0 }}">
+        <label for="{{ option.0 }}">{{ option.1 }}</label><br>
+      {% endfor %}
+
+    
+      <button id="response-button" type="submit"class="btn btn-primary"  data-art-score="{{ initial_score }}">Responder</button>
+    
+      <!--<button id="next-question-button" >Siguiente</button>-->
+      <a id="next_question" href="{% url 'art_question' %}" class="btn btn-primary">Siguiente Pregunta</a>
+      <a href="{% url 'obtain_categories'  %}" class="btn btn-primary"> Cambia seccion</a>
+      <a href="{% url 'get_tested'  %}" class="btn btn-primary"> Más tests</a>
+
+
+      <!--<p>Puntos acumulados: <span id="art-score">{{ art_score }} </span></p>-->
+      <p>Puntos acumulados: <span id="initial-score">{{ initial_score }} </span></p>
+      <p>Numero de aciertos: <span id="art-success">{{ art_success }} </span></p>
+    </form>
+    <div id="data-container"></div>
+    {% if user_profile.round == 10 %}
+    <div id="results-test">
+      <p>Puntuacion total obtenida: {{ initial_score }}</p>
+        <!-- Contenido que quieres mostrar solo cuando user_profile.round es igual a 10 -->
+        <p>{{ current_question.new_art_score_message }}</p>
+        <!-- Otro contenido relacionado con los resultados del test -->
+    </div>
+{% endif %}
+  
+    
+    <div id ="respuesta-container"></div>
+    {% if response_message %}
+      <p>{{response_message}}</p>
+    {% endif %}
+    {% endif %}
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<script>
+  // actualizando la puntuacion
+  $(document).ready(function(){
+    $("#response-button").on("click",function(){
+      var formData=$("#question-form").serialize();
+      event.preventDefault(); 
+
+      $.ajax({
+        type:"POST",
+        url: "{% url 'checkArtAnswer' %}",
+        data:formData,
+        success:function(response){
+          $("#respuesta-container").html(response.response_message);
+          $("#data-container").html(`Puntos: ${response.art_score}, Aciertos: ${response.art_success}, Te quedan ${response.art_attempts} intentos, Fallos: ${response.art_errors}`)
+          $("#art-success").html(response.art_success);
+          $("#initial-score").html(response.initial_score);
+          /*$("#art-score").html(response.art_score);*/
+          $("#art-attempts").html(response.art_attempts);
+          $("#art-errors").html(response.art_errors);
+          $("#art-score-display").html(response.art_score);
+          if (response.mensaje_nueva_puntuacion) {
+            alert(response.mensaje_nueva_puntuacion);
+          }
+        },
+        error:function(error){
+          console.log(error);
+        }
+      });
+    });
+  });
+
+  $(document).ready(function(){
+    $("#next-question").on("click",function(){
+      var formData=$("#question-form").serialize();
+      event.preventDefault(); 
+
+      $.ajax({
+        type:"POST",
+        url: "{% url 'end_art_test' %}",
+        data:formData,
+        success:function(response){
+          $("$results-container").html(reponse.initial_score,response);
+          $("#respuesta-container").html(response.response_message);
+          $("#data-container").html(`Puntos: ${response.art_score}, Aciertos: ${response.art_success}, Te quedan ${response.art_attempts} intentos, Fallos: ${response.art_errors}`)
+          $("#art-success").html(response.art_success);
+          $("#initial-score").html(response.initial_score);
+          /*$("#art-score").html(response.art_score);*/
+          $("#art-attempts").html(response.art_attempts);
+          $("#art-errors").html(response.art_errors);
+          $("#art-score-display").html(response.art_score);
+          if (response.mensaje_nueva_puntuacion) {
+            alert(response.mensaje_nueva_puntuacion);
+          }
+        },
+        error:function(error){
+          console.log(error);
+        }
+      });
+    });
+  });
+</script>
+
+{% endblock %}
+
+
+

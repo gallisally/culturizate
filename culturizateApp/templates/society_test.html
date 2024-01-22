@@ -1,0 +1,45 @@
+<!-- game.html -->
+{% extends 'base.html' %}
+{%load static %}
+<script src="{% static 'scripts/game_logic.js' %}"></script>
+{% block title %} Juego {% endblock %}
+
+{% block content %}
+  <div id="game-container">
+    {% if no_questions %}
+    <p>No hay preguntas disponibles</p>
+    {% else %}
+   
+    <h2>Pregunta de Nivel {{ nivel_dificultad }}:</h2>
+    <h3>{{question_text}}</h3>
+    <p>{{ question_option}}</p>
+
+    <form id="question-form" method="POST">
+
+      {% csrf_token %}
+      
+      {% for option in options %}
+        <input type="radio" name="user_answer" value="{{ option.0 }}" id="{{ option.0 }}">
+        <label for="{{ option.0 }}">{{ option.1 }}</label><br>
+      {% endfor %}
+    
+      <p>pregunta: {{ question_text }}</p>
+      <p>Categoría: {{ category }}</p>
+      <p>Puntos: {{ user.sociedad_points }}</p>
+      <p>Puntuacion general acumulada: {{ user.sociedad_test_score }}</p>
+
+      <button id="response-button" type="submit"class="btn btn-primary" >Responder</button>
+      <!--<button id="next-question-button" >Siguiente</button>-->
+      <a href="{% url 'next_question_view' %}" class="btn btn-primary">Siguiente Pregunta</a>
+      <a href="#" class="btn btn-primary"> Cambia seccion</a>
+
+    </form>
+    <div id ="respuesta-container"></div>
+    {% if response_message %}
+      <p>{{response_message}}</p>
+    {% endif %}
+    {% endif %}
+  </div>
+
+{% endblock %}
+

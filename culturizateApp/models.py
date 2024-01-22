@@ -13,6 +13,10 @@ class UserProfile(AbstractUser):
     #age=models.IntegerField(null=False, blank=False)
     email = models.EmailField()
     score = models.IntegerField(default=0)
+    art_score=models.IntegerField(default=0)
+    iq_score=models.IntegerField(default=0)
+    culture_score=models.IntegerField(default=0)
+
     attempts = models.IntegerField(default=0)
     informatica_score=models.IntegerField(default=0)
     ciencia_score=models.IntegerField(default=0)
@@ -21,7 +25,25 @@ class UserProfile(AbstractUser):
     curiosidades_score=models.IntegerField(default=0)
     espiritualidad_score=models.IntegerField(default=0)
     historia_score=models.IntegerField(default=0)
+
+    sociedad_points=models.IntegerField(default=0)
     sociedad_score=models.IntegerField(default=0)
+    sociedad_test_score=models.IntegerField(default=0)
+    
+    art_attempts=models.IntegerField(default=2)
+    iq_attempts=models.IntegerField(default=2)
+    culture_attempts=models.IntegerField(default=2)
+
+    art_success=models.IntegerField(default=0)
+    art_errors=models.IntegerField(default=0)
+    round=models.IntegerField(default=0)
+    art_test_score=models.IntegerField(default=0)
+    initial_score=models.IntegerField(default=0)
+    
+
+
+
+
 
 
 
@@ -49,11 +71,11 @@ class Puntuacion(models.Model):
 class Cuadro(models.Model):
     cuadro=models.CharField(max_length=500)
     autor=models.CharField(max_length=200)
-    year=models.IntegerField()
+    year=models.CharField(max_length=10)
     description=models.CharField(max_length=10000)
-    A=models.CharField(max_length=200)
-    B=models.CharField(max_length=200)
-    C=models.CharField(max_length=200)
+    a=models.CharField(max_length=200)
+    b=models.CharField(max_length=200)
+    c=models.CharField(max_length=200)
     image=models.CharField(max_length=400)
 
 

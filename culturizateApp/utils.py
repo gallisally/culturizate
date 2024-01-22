@@ -5,89 +5,186 @@ from random import choice
 from django.http import HttpResponse
 from django.shortcuts import render
 
-class User:
-    def __init__(self,username):
-        self.username=username
-        self.score=0
-        self.attempts=0
-
-    def increase_score(self,points):
-        self.score += points
+import random
+from django.db.models import Count
     
-    def incorrect_attempts(self,attempt):
-        self.attempts +=1
-class Question:
-    def __init__(self, question_text,correct_option,options,answer):
-        self.question_text=question_text
-        self.correct_option=correct_option
-        self.options=options
+from django.shortcuts import render, redirect
+from django.http import HttpResponse, JsonResponse
+from django.contrib.auth.decorators import login_required
+from .models import Cuadro
+import logging
+from random import choice
+import json
 
-    def is_correct(self,user_answer,correct_option):
-        return user_answer==correct_option
-class GameManager:
-    def __init__(self,questions):
-        self.questions=questions
-        self.current_question=None
-        self.users={}
+class CulturalTest:
+    def __init__(self, request):
+        self.request = request
+        self.user_profile = request.user
+        self.current_question = {}
 
-    def add_user(self,username):
-        if username not in self.users:
-            self.users[username]=User[username]
-
-    def random_question(self):
-        self.current_question=random.choice(self.questions)
-
-    def handle_answer(self,user_answer,username):
-        user=self.users.get(username)
-        if user and self.current_question:
-            if self.current_question.is_correct(user_answer):
-                user.increase_score(10)
-            else:
-                user.increase.attempts()
-
-    def get_user_score(self,username):
-        user=self.user.get(username)
-        return user.score if user else None
-    
-"""
-questions = [Question(**data) for data in questions_data]
-game_manager = GameManager(questions)
-
-# Agregar usuarios
-game_manager.add_user("Usuario1")
-game_manager.add_user("Usuario2")
-
-# Jugar una ronda
-game_manager.select_random_question()
-game_manager.handle_answer("Usuario1", "B")
-game_manager.handle_answer("Usuario2", "A")
-
-# Obtener puntuaciones
-score_user1 = game_manager.get_user_score("Usuario1")
-score_user2 = game_manager.get_user_score("Usuario2")
-
-print(f"Puntuación de Usuario1: {score_user1}")
-print(f"Puntuación de Usuario2: {score_user2}")
-
-"""
-
-def obtener_pregunta_n1(request=None):
-    question=BaseQuestion.objects.filter(nivel_dificultad=1).order_by('?').first()
-    if question is not None:
-        options=[
-            ('A',question.option_a),
-            ('B',question.option_b),
-            ('C',question.option_c),
-        ]
-        options=sorted(options,key=lambda x:choice([0,1,2]))
-        context = {
-            'question_text' : question.question_text,
-            'options':options,
-            'points':question.points,
-            'category':question.category,
-            'coorect_answer':question.correct_option
+    def get_random_question(self):
+        society_questions=BaseQuestion.objects.filter(category='sociedad')
+        questions_set=random.sample(list(society_questions),10)
+        questions_set_dicts = [
+            {
+                'question_text': question.question_text,
+                'option_a': question.option_a,
+                'option_b': question.option_b,
+                'option_c': question.option_c,
+                'correct_option': question.correct_option,
+                'nivel_dificultad': question.nivel_dificultad,
+                'category': question.category,
+                'points': question.points,
             }
+            for question in questions_set
+        ]
 
-        return render(request,'game.html',context)
-    else:
-       return HttpResponse('No ha preguntas que correspondan a ese nivel de dificultad')
+        return questions_set_dicts
+
+
+    def start_cultural_test(self,request):
+        user_profile=request.user
+        try:
+            if self.request.method == 'GET':  
+                question_set_dicts=self.get_random_question()
+                remaining_questions=question_set_dicts.copy()
+                question = question_set_dicts.pop(0)
+                
+                if question is not None:
+                    options = [
+                        ('A', question['option_a']),
+                        ('B', question['option_b']),
+                        ('C', question['option_c']),
+                    ]
+                    self.user_profile.round += 1
+                    self.user_profile.save()
+                    options = sorted(options, key=lambda x: choice([0, 1, 2]))
+                    self.current_question = {
+                        'question_text' : question['question_text'],
+                        'options':options,
+                        'points':question['points'],
+                        'nivel_dificultad':question['nivel_dificultad'],
+                        'category':question['category'],
+                        'correct_answer':question['correct_option'],
+                        'round':self.user_profile.round,
+                    }
+
+                    context = {
+                        'question_text':question['question_text'],
+                        'options': options,
+                        'points': question['points'],
+                        'nivel_dificultad': question['nivel_dificultad'],
+                        'category': question['category'],
+                        'correct_answer': question['correct_option'],
+                        'round':self.user_profile.round,
+                        'remaining_questions':remaining_questions,
+                        
+                    }
+                    self.request.session['remaining_questions'] = remaining_questions
+
+                    #print(f'contexto= {context}')
+                    #return render(self.request, 'society_test.html', context)
+                    return context
+                return HttpResponse('Esta vista solo admite solicitudes GET')
+        except Exception as e:
+            logging.exception(e)
+            print(f"Error: {type(e).__name__} - {str(e)}")
+            return HttpResponse('Error, vuelve a intentarlo más tarde')
+  
+    def next_cultural_question(self):
+        remaining_questions = self.request.session.get('remaining_questions')
+        print(f"remaining_questions antes de pop: {remaining_questions}")
+
+        if remaining_questions:
+            question = remaining_questions.pop(0)
+            if question is not None:
+                remaining_questions = remaining_questions.copy()
+
+                options = [
+                        ('A', question['option_a']),
+                        ('B', question['option_b']),
+                    ('C', question['option_c']),
+                ]
+                self.user_profile.round += 1
+                self.user_profile.save()
+                options = sorted(options, key=lambda x: choice([0, 1, 2]))
+                self.current_question = {
+                    'question_text' : question['question_text'],
+                    'options':options,
+                    'points':question['points'],
+                    'nivel_dificultad':question['nivel_dificultad'],
+                    'category':question['category'],
+                    'correct_answer':question['correct_option'],
+                    'round':self.user_profile.round,
+                }
+
+                context = {
+                    'question_text':question['question_text'],
+                    'options': options,
+                    'points': question['points'],
+                    'nivel_dificultad': question['nivel_dificultad'],
+                    'category': question['category'],
+                    'correct_answer': question['correct_option'],
+                    'round':self.user_profile.round,
+                    'remaining_questions': remaining_questions,
+                    
+                }
+                # Almacena las preguntas restantes en la sesión
+                self.request.session['remaining_questions'] = remaining_questions
+
+                
+                return context
+        else:
+            return {'message': 'No hay más preguntas.'}
+
+        
+    def end_art_test(self):
+        self.current_question = self.request.session.get('current_question', {})
+        self.user_profile.round = 0
+
+        if self.user_profile.initial_score > self.user_profile.art_test_score:
+            print(f'Tu resultado ha mejorado el de antes es de {self.user_profile.art_test_score}|n el de ahora es {self.user_profile.initial_score}')
+            new_art_score_message = 'Nuevo record registrado!'
+        elif self.user_profile.initial_score == self.user_profile.art_test_score:
+            print(f'Tu resultado es igual el de antes es de {self.user_profile.art_test_score}|n el de ahora es {self.user_profile.initial_score}')
+            new_art_score_message = 'Tu nota sigue igual'
+        else:
+            print(f'Tu resultado ha empeorado el de antes es de {self.user_profile.art_test_score}|n el de ahora es {self.user_profile.initial_score}')
+            new_art_score_message = 'Tu resultado del test ha empeorado, estudia más.'
+
+        self.user_profile.art_test_score = self.user_profile.initial_score
+        self.user_profile.initial_score = 0
+
+        print('El test ha acabado')
+        self.current_question['new_art_score_message'] = new_art_score_message
+        self.user_profile.save()
+
+    @staticmethod
+    def check_art_answer(request):
+        if request.method == 'POST':
+            user_answer = request.POST.get('user_answer')
+            current_question = request.session.get('current_question', {})
+            user_profile = request.user
+            response_message = ''
+
+            if user_answer == 'a':
+                response_message = 'Has acertado!'
+                user_profile.initial_score += 10
+                user_profile.art_success += 1
+                print(f'Respuesta correcta, tu puntuación es de {user_profile.art_score}')
+            else:
+                response_message = 'Has fallado!. Prueba una vez más'
+                user_profile.art_errors += 1
+
+            user_profile.save()
+            current_question['response_message'] = response_message
+            current_question['art_success'] = user_profile.art_success
+            current_question['initial_score'] = user_profile.initial_score
+            current_question['art_errors'] = user_profile.art_errors
+            request.session['current_question'] = current_question
+
+            return JsonResponse(current_question)
+
+        return HttpResponse('La función checkAnswer solo admite solicitudes POST')
+
+# Uso en tus vistas
