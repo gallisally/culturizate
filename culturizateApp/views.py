@@ -25,6 +25,7 @@ from .utils import CulturalTest
 
 
 
+
 #from utils import GameManager
 
 
@@ -350,3 +351,14 @@ def next_question_view(request):
     cultural_test_view=CulturalTest(request)
     context=cultural_test_view.next_cultural_question()
     return render(request,'society_test.html',context)
+@login_required
+def checkCulturalAnswer_view(request):
+    if request.method=='POST':
+        user_answer=request.POST.get('user_answer')
+        cultural_test_view=CulturalTest(request)
+        context=cultural_test_view.checkCulturalAnswer(user_answer)
+        print(f'printando el contexto : {context}')
+        print(f'user_answer {user_answer}')
+        return JsonResponse(context) 
+    
+  

@@ -24,7 +24,7 @@ class CulturalTest:
 
     def get_random_question(self):
         society_questions=BaseQuestion.objects.filter(category='sociedad')
-        questions_set=random.sample(list(society_questions),10)
+        questions_set=random.sample(list(society_questions),9)
         questions_set_dicts = [
             {
                 'question_text': question.question_text,
@@ -38,12 +38,12 @@ class CulturalTest:
             }
             for question in questions_set
         ]
-
         return questions_set_dicts
 
 
     def start_cultural_test(self,request):
-        user_profile=request.user
+        i=1
+        #user_profile=request.user
         try:
             if self.request.method == 'GET':  
                 question_set_dicts=self.get_random_question()
@@ -67,6 +67,7 @@ class CulturalTest:
                         'category':question['category'],
                         'correct_answer':question['correct_option'],
                         'round':self.user_profile.round,
+                        'i':i,
                     }
 
                     context = {
@@ -78,12 +79,15 @@ class CulturalTest:
                         'correct_answer': question['correct_option'],
                         'round':self.user_profile.round,
                         'remaining_questions':remaining_questions,
-                        
+                        'current_question': self.current_question,
+                        'i':i,   
                     }
-                    self.request.session['remaining_questions'] = remaining_questions
+                    self.request.session['i'] = i
 
-                    #print(f'contexto= {context}')
-                    #return render(self.request, 'society_test.html', context)
+                    self.request.session['current_question'] = self.current_question
+
+                    self.request.session['remaining_questions'] = remaining_questions
+                    #self.current.session['current_question']=context
                     return context
                 return HttpResponse('Esta vista solo admite solicitudes GET')
         except Exception as e:
@@ -93,17 +97,18 @@ class CulturalTest:
   
     def next_cultural_question(self):
         remaining_questions = self.request.session.get('remaining_questions')
-        print(f"remaining_questions antes de pop: {remaining_questions}")
-
+        i=self.request.session.get('i')
+        self.current_question=self.request.session.get('current_question')
+        #print(f"remaining_questions antes de pop: {remaining_questions}")
         if remaining_questions:
+            i+=1
             question = remaining_questions.pop(0)
             if question is not None:
                 remaining_questions = remaining_questions.copy()
-
                 options = [
                         ('A', question['option_a']),
                         ('B', question['option_b']),
-                    ('C', question['option_c']),
+                        ('C', question['option_c']),
                 ]
                 self.user_profile.round += 1
                 self.user_profile.save()
@@ -116,8 +121,9 @@ class CulturalTest:
                     'category':question['category'],
                     'correct_answer':question['correct_option'],
                     'round':self.user_profile.round,
+                    'i':i,
+                    
                 }
-
                 context = {
                     'question_text':question['question_text'],
                     'options': options,
@@ -127,16 +133,61 @@ class CulturalTest:
                     'correct_answer': question['correct_option'],
                     'round':self.user_profile.round,
                     'remaining_questions': remaining_questions,
+                    'i':i,
+                    'current_question':self.current_question,
+                    #'sociedad_actual_score':self.user_profile.sociedad_actual_score,
                     
                 }
+                #self.request.session['sociedad_actual_score']=self.user_profile.sociedad_actual_score
+                self.request.session['current_question'] = self.current_question
+
+                self.request.session['i']=i
                 # Almacena las preguntas restantes en la sesión
                 self.request.session['remaining_questions'] = remaining_questions
-
-                
+                #self.request.session['current_question']=context
                 return context
         else:
             return {'message': 'No hay más preguntas.'}
+    def checkCulturalAnswer(self,user_answer):
+        self.current_question=self.request.session.get('current_question')
+        #self.current_question=self.request.session.get('sociedad_actual_score')
 
+        if self.current_question:
+            
+            if user_answer==self.current_question['correct_answer']:
+                print('bien')
+                response_message='has acertado!'
+                #self.user_profile.sociedad_actual_score+=10
+                #self.user_profile.sociedad_actual_score+=10
+            else:
+                print('mal')
+                response_message=(f'Has fallado!, la respuesta correcta es: {self.current_question["correct_answer"]}')
+            context = {
+                'question_text': self.current_question['question_text'],
+                'options': self.current_question['options'],
+                'points': self.current_question['points'],
+                'nivel_dificultad': self.current_question['nivel_dificultad'],
+                'category': self.current_question['category'],
+                'correct_answer': self.current_question['correct_answer'],
+                'round': self.user_profile.round,
+                #'sociedad_actual_score':self.user_profile.sociedad_actual_score,
+
+                #'remaining_questions': self.remaining_questions,
+                #'i': self.i,
+                'response_message': response_message,
+            }
+            #self.current_question['sociedad_actual_score']=self.user_profile.sociedad_actual_score
+
+            # Guardar el mensaje de respuesta en el objeto current_question
+            self.current_question['response_message'] = response_message
+
+            # Guardar el mensaje de respuesta en la sesión
+            self.request.session['response_message'] = response_message
+
+            return context
+        else:
+            print('nada omnada')
+            return {'message': 'No se ha podido verificar la pregunta'}
         
     def end_art_test(self):
         self.current_question = self.request.session.get('current_question', {})

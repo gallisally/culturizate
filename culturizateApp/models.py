@@ -27,7 +27,7 @@ class UserProfile(AbstractUser):
     historia_score=models.IntegerField(default=0)
 
     sociedad_points=models.IntegerField(default=0)
-    sociedad_score=models.IntegerField(default=0)
+    sociedad_actual_score=models.IntegerField(default=0)
     sociedad_test_score=models.IntegerField(default=0)
     
     art_attempts=models.IntegerField(default=2)

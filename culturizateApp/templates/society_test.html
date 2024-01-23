@@ -10,11 +10,11 @@
     <p>No hay preguntas disponibles</p>
     {% else %}
    
-    <h2>Pregunta de Nivel {{ nivel_dificultad }}:</h2>
+    <h2>Pregunta de Nivel {{ nivel_dificultad }} {{ i }}:</h2>
     <h3>{{question_text}}</h3>
     <p>{{ question_option}}</p>
 
-    <form id="question-form" method="POST">
+    <form id="cultural-test-form" method="POST">
 
       {% csrf_token %}
       
@@ -23,10 +23,9 @@
         <label for="{{ option.0 }}">{{ option.1 }}</label><br>
       {% endfor %}
     
-      <p>pregunta: {{ question_text }}</p>
       <p>Categoría: {{ category }}</p>
-      <p>Puntos: {{ user.sociedad_points }}</p>
-      <p>Puntuacion general acumulada: {{ user.sociedad_test_score }}</p>
+      <p>Puntos: {{ user.sociedad_test_score }}</p>
+      <p>Puntuacion general acumulada: {{ user.sociedad_actual_score }}</p>
 
       <button id="response-button" type="submit"class="btn btn-primary" >Responder</button>
       <!--<button id="next-question-button" >Siguiente</button>-->
@@ -41,5 +40,27 @@
     {% endif %}
   </div>
 
+  <script>
+    // actualizando la puntuacion
+    $(document).ready(function(){
+      $("#response-button").on("click",function(){
+        var formData=$("#cultural-test-form").serialize();
+        event.preventDefault(); 
+  
+        $.ajax({
+          type:"POST",
+          url: "{% url 'checkCulturalAnswer_view' %}",
+          data:formData,
+          success:function(response){
+            $("#respuesta-container").html(response.response_message);
+            
+          },
+          error:function(error){
+            console.log(error);
+          }
+        });
+      });
+    });
+</script>
 {% endblock %}
 

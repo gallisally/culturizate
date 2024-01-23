@@ -26,7 +26,8 @@ urlpatterns = [
     path('art_question/',views.art_question,name='art_question'),
     path('checkArtAnswer/',views.checkArtAnswer,name='checkArtAnswer'),
     path('society_question_test/',views.society_question_test,name='society_question_test'),
-    path('next_question_view/',views.next_question_view,name='next_question_view')
+    path('next_question_view/',views.next_question_view,name='next_question_view'),
+    path('checkCulturalAnswer_view/',views.checkCulturalAnswer_view,name='checkCulturalAnswer_view'),
 ]
 
 
