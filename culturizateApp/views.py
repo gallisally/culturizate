@@ -350,6 +350,7 @@ def society_question_test(request):
 def next_question_view(request):
     cultural_test_view=CulturalTest(request)
     context=cultural_test_view.next_cultural_question()
+    
     return render(request,'society_test.html',context)
 @login_required
 def checkCulturalAnswer_view(request):
@@ -360,5 +361,7 @@ def checkCulturalAnswer_view(request):
         print(f'printando el contexto : {context}')
         print(f'user_answer {user_answer}')
         return JsonResponse(context) 
+    else:
+        return render(request, 'society_test.html')
     
   

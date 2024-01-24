@@ -5,40 +5,45 @@
 {% block title %} Juego {% endblock %}
 
 {% block content %}
+<div class="card" class="card mx-auto" style="width:35rem;">
   <div id="game-container">
-    {% if no_questions %}
-    <p>No hay preguntas disponibles</p>
-    {% else %}
-   
-    <h2>Pregunta de Nivel {{ nivel_dificultad }} {{ i }}:</h2>
-    <h3>{{question_text}}</h3>
+   {% if remaining_questions %}
+   <div class="card-header text-center">
+    <h3>{{i}}. {{question_text}}</h3>
+   </div> 
+   <div class="card-body">
     <p>{{ question_option}}</p>
-
     <form id="cultural-test-form" method="POST">
-
       {% csrf_token %}
-      
       {% for option in options %}
         <input type="radio" name="user_answer" value="{{ option.0 }}" id="{{ option.0 }}">
         <label for="{{ option.0 }}">{{ option.1 }}</label><br>
       {% endfor %}
-    
-      <p>Categoría: {{ category }}</p>
-      <p>Puntos: {{ user.sociedad_test_score }}</p>
-      <p>Puntuacion general acumulada: {{ user.sociedad_actual_score }}</p>
-
+      <p>Puntos: <span id="sociedad_actual_score">{{ sociedad_actual_score }} </span></p>
       <button id="response-button" type="submit"class="btn btn-primary" >Responder</button>
       <!--<button id="next-question-button" >Siguiente</button>-->
       <a href="{% url 'next_question_view' %}" class="btn btn-primary">Siguiente Pregunta</a>
-      <a href="#" class="btn btn-primary"> Cambia seccion</a>
-
+      <a href="{% url 'get_tested' %}" class="btn btn-primary"> Más tests</a>
     </form>
-    <div id ="respuesta-container"></div>
-    {% if response_message %}
-      <p>{{response_message}}</p>
-    {% endif %}
+</div>
+    <div id ="respuesta-container"> <p>{{response_message}}</p></div>
+    {% else %}
+        <div id="response-result-container" class="card">
+            <div class="card-body">
+                <h5 class="card-title">{{ user }},tus resultados: </h5>
+                <h3>{{ user.sociedad_test_message }}</h3>
+                <p class="card-text"> Puntos obtenidos: {{ user.sociedad_actual_score}}</p>
+                <p>Puntuacion anterior: {{ user.sociedad_test_score}}</p>
+                <a href="{% url 'get_tested' %}" class="btn btn-primary"> Más tests</a>
+                <a href="{% url 'profile' %}" class="btn btn-primary"> Menu</a>
+            </div>
+        </div>
     {% endif %}
   </div>
+</div>
+
+
+
 
   <script>
     // actualizando la puntuacion
@@ -53,14 +58,37 @@
           data:formData,
           success:function(response){
             $("#respuesta-container").html(response.response_message);
-            
+            $("#sociedad_actual_score").html(response.sociedad_actual_score);
+            $("#response-result-container").html(response.response_result_message);
+
+           
           },
           error:function(error){
             console.log(error);
           }
         });
+
+        
       });
     });
+
+    $.ajax({
+        type: "POST",
+        url: "{% url 'next_question_view' %}",
+        data: formData,
+        success: function(response) {
+            $("#sociedad_actual_score").html(response.sociedad_actual_score);
+            $("#response-result-container").html(response.response_result_message);
+
+            // Obtiene y actualiza el valor response_result_message
+            var responseResultMessage = $("#response-result-message-container").text();
+            $("#response-result-container").html(response.response.response_result_message);
+        },
+        error: function(error) {
+            console.log(error);
+        }
+        });
 </script>
+
 {% endblock %}
 

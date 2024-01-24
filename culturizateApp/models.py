@@ -28,7 +28,10 @@ class UserProfile(AbstractUser):
 
     sociedad_points=models.IntegerField(default=0)
     sociedad_actual_score=models.IntegerField(default=0)
+    #SIN USAR
+    sociedad_last_score=models.IntegerField(default=0)
     sociedad_test_score=models.IntegerField(default=0)
+    sociedad_test_message=models.CharField(max_length=100)
     
     art_attempts=models.IntegerField(default=2)
     iq_attempts=models.IntegerField(default=2)
