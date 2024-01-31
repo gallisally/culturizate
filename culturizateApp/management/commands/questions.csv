@@ -1140,19 +1140,15 @@ question_text,correct_option,nivel_dificultad,category,points,option_a,option_b,
 ¿Quién fue el líder de la Alemania nazi durante la segunda guerra mundial?,A,2,segunda guerra mundial,15,Adolf Hitler,Benito Mussolini,Hermann Göring
 ¿Cuál fue el papel de las fuerzas aéreas durante la segunda guerra mundial?,A,2,segunda guerra mundial,15,Bombardeo estratégico,Caza de submarinos,Batallas aéreas
 ¿En qué año ocurrió la Conferencia de Teherán?,A,2,segunda guerra mundial,15,1943,1944,1945
-¿Quién fue el líder del partido comunista chino durante la segunda guerra mundial?,A,2,segunda guerra mundial,15,Mao Zedong,Chiang Kai-shek,Sun Yat-sen
 ¿Cuál fue la respuesta de Estados Unidos al ataque japonés a Pearl Harbor?,A,2,segunda guerra mundial,15,Declaración de guerra,Ingreso a la Liga de Naciones,Aislamiento
 ¿Cuál fue el papel de las fuerzas aéreas durante la segunda guerra mundial?,A,2,segunda guerra mundial,15,Bombardeo estratégico,Caza de submarinos,Batallas aéreas
 ¿En qué año ocurrió la Conferencia de Teherán?,A,2,segunda guerra mundial,15,1943,1944,1945
-¿Quién fue el líder del partido comunista chino durante la segunda guerra mundial?,A,2,segunda guerra mundial,15,Mao Zedong,Chiang Kai-shek,Sun Yat-sen
 ¿Cuál fue la respuesta de Estados Unidos al ataque japonés a Pearl Harbor?,A,2,segunda guerra mundial,15,Declaración de guerra,Ingreso a la Liga de Naciones,Aislamiento
 ¿Cuál fue el papel de las fuerzas aéreas durante la segunda guerra mundial?,A,2,segunda guerra mundial,15,Bombardeo estratégico,Caza de submarinos,Batallas aéreas
 ¿En qué año ocurrió la Conferencia de Teherán?,A,2,segunda guerra mundial,15,1943,1944,1945
-¿Quién fue el líder del partido comunista chino durante la segunda guerra mundial?,A,2,segunda guerra mundial,15,Mao Zedong,Chiang Kai-shek,Sun Yat-sen
 ¿Cuál fue la respuesta de Estados Unidos al ataque japonés a Pearl Harbor?,A,2,segunda guerra mundial,15,Declaración de guerra,Ingreso a la Liga de Naciones,Aislamiento
 ¿Cuál fue el papel de las fuerzas aéreas durante la segunda guerra mundial?,A,2,segunda guerra mundial,15,Bombardeo estratégico,Caza de submarinos,Batallas aéreas
 ¿En qué año ocurrió la Conferencia de Teherán?,A,2,segunda guerra mundial,15,1943,1944,1945
-¿Quién fue el líder del partido comunista chino durante la segunda guerra mundial?,A,2,segunda guerra mundial,15,Mao Zedong,Chiang Kai-shek,Sun Yat-sen
 ¿Cuál fue la respuesta de Estados Unidos al ataque japonés a Pearl Harbor?,A,2,segunda guerra mundial,15,Declaración de guerra,Ingreso a la Liga de Naciones,Aislamiento
 ¿Cuál fue el papel de las fuerzas aéreas durante la segunda guerra mundial?,A,2,segunda guerra mundial,15,Bombardeo estratégico,Caza de submarinos,Batallas aéreas
 ¿En qué año ocurrió la Conferencia de Teherán?,A,2,segunda guerra mundial,15,1943,1944,1945
@@ -1174,7 +1170,6 @@ question_text,correct_option,nivel_dificultad,category,points,option_a,option_b,
 ¿Qué operación aérea aliada precedió a la invasión del Día D?,A,3,segunda guerra mundial,20,Operación Market Garden,Operación Overlord,Operación Husky
 ¿Cuál fue la importancia estratégica de la batalla de Kursk en el frente oriental?,A,3,segunda guerra mundial,20,Mayor batalla de tanques en la historia,Victoria alemana decisiva,Inicio de la retirada soviética
 ¿Cuál fue el código utilizado por los japoneses para planificar sus operaciones durante la segunda guerra mundial?,A,3,segunda guerra mundial,20,Código JN-25,Código Yamamoto,Código Sakura
-¿Qué fue la "Marcha de la Muerte" durante la segunda guerra mundial?,A,3,segunda guerra mundial,20,Forzamiento de prisioneros a marchas largas y mortales,Ataque aéreo enemigo sobre una ciudad,Desfile militar alemán en Berlín
 ¿Cuál fue la estrategia militar japonesa conocida como "Kamikaze"?,A,3,segunda guerra mundial,20,Ataques suicidas de aviones,Guerra de guerrillas en el Pacífico,Asedio aéreo continuo
 ¿Cuál fue el código utilizado por los Aliados para comunicaciones secretas durante la segunda guerra mundial?,A,3,segunda guerra mundial,20,Código Enigma,Código Navajo,Código Morse
 ¿Qué país fue el primero en utilizar tácticas de guerra de guerrillas contra las fuerzas alemanas?,A,3,segunda guerra mundial,20,Unión Soviética,Francia,China
@@ -1191,7 +1186,6 @@ question_text,correct_option,nivel_dificultad,category,points,option_a,option_b,
 ¿Qué operación aérea aliada precedió a la invasión del Día D?,A,3,segunda guerra mundial,20,Operación Market Garden,Operación Overlord,Operación Husky
 ¿Cuál fue la importancia estratégica de la batalla de Kursk en el frente oriental?,A,3,segunda guerra mundial,20,Mayor batalla de tanques en la historia,Victoria alemana decisiva,Inicio de la retirada soviética
 ¿Cuál fue el código utilizado por los japoneses para planificar sus operaciones durante la segunda guerra mundial?,A,3,segunda guerra mundial,20,Código JN-25,Código Yamamoto,Código Sakura
-¿Qué fue la "Marcha de la Muerte" durante la segunda guerra mundial?,A,3,segunda guerra mundial,20,Forzamiento de prisioneros a marchas largas y mortales,Ataque aéreo enemigo sobre una ciudad,Desfile militar alemán en Berlín
 ¿Cuál fue la estrategia militar japonesa conocida como "Kamikaze"?,A,3,segunda guerra mundial,20,Ataques suicidas de aviones,Guerra de guerrillas en el Pacífico,Asedio aéreo continuo
 ¿Cuál fue el código utilizado por los Estados Unidos para comunicaciones seguras durante la segunda guerra mundial?,A,3,segunda guerra mundial,20,Código Purple,Código Red,Código Blue
 ¿Quién fue el líder de la Resistencia en Polonia durante la segunda guerra mundial?,A,3,segunda guerra mundial,20,Jan Karski,Lech Wałęsa,Tadeusz Bór-Komorowski
@@ -2560,7 +2554,6 @@ En el contexto de microservicios ¿qué es el "principio de autenticidad del ser
 ¿Qué es la paradoja de Schrödinger en la mecánica cuántica?,A,3,ciencia,20,Propone que un gato puede estar simultáneamente vivo y muerto,Principio que establece que las partículas cuánticas tienen un estado cuántico fijo,Teoría que contradice la relatividad especial de Einstein
 ¿Cuál es la diferencia entre la antimateria y la materia ordinaria?,A,3,ciencia,20,La antimateria tiene cargas opuestas a la materia ordinaria,La antimateria tiene menos masa que la materia ordinaria,La antimateria no interactúa con la gravedad
 ¿Qué es la condensación de Bose-Einstein?,A,3,ciencia,20,Estado de la materia en el que las partículas se enfrían hasta casi el cero absoluto y se comportan como una sola partícula cuántica,Reacción química en la que se produce una sustancia a partir de dos o más sustancias,Proceso de conversión de un sólido directamente a gas sin pasar por el estado líquido
-¿Cuál es la función del acelerador de partículas conocido como LHC (Gran Colisionador de Hadrones)?,A,3,ciencia,20,Colisionar partículas a altas energías para estudiar las interacciones subatómicas,Generar energía a partir de la colisión de partículas,Estudiar la radiación cósmica proveniente del espacio
 ¿Qué es la energía oscura?,A,3,ciencia,20,Forma hipotética de energía que estaría causando la aceleración de la expansión del universo,Forma de energía liberada durante la fisión nuclear,Teoría que explica la expansión del universo a través de la luz
 ¿Cuál es el nombre del telescopio espacial lanzado por la NASA en 1990?,A,3,ciencia,20,Telescopio Espacial Hubble,Telescopio Espacial Kepler,Telescopio Espacial James Webb
 ¿Qué es la paradoja del agujero de gusano?,A,3,ciencia,20,Teoría que sugiere la existencia de atajos a través del espacio-tiempo,Imposibilidad de observar agujeros de gusano,Teoría que contradice la teoría de la relatividad

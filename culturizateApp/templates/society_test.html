@@ -13,14 +13,16 @@
    </div> 
    <div class="card-body">
     <p>{{ question_option}}</p>
+    
     <form id="cultural-test-form" method="POST">
       {% csrf_token %}
       {% for option in options %}
-        <input type="radio" name="user_answer" value="{{ option.0 }}" id="{{ option.0 }}">
+        <input type="radio" name="user_answer" value="{{ option.0 }}" id="{{ option.0 }}" class="answer-option">
         <label for="{{ option.0 }}">{{ option.1 }}</label><br>
       {% endfor %}
       <p>Puntos: <span id="sociedad_actual_score">{{ sociedad_actual_score }} </span></p>
-      <button id="response-button" type="submit"class="btn btn-primary" >Responder</button>
+
+        <button id="response-button" type="submit"class="btn btn-primary" data-toggle="modal" data-target="#liveAlert" >Responder</button>
       <!--<button id="next-question-button" >Siguiente</button>-->
       <a href="{% url 'next_question_view' %}" class="btn btn-primary">Siguiente Pregunta</a>
       <a href="{% url 'get_tested' %}" class="btn btn-primary"> Más tests</a>
@@ -46,6 +48,7 @@
 
 
   <script>
+
     // actualizando la puntuacion
     $(document).ready(function(){
       $("#response-button").on("click",function(){
@@ -57,6 +60,7 @@
           url: "{% url 'checkCulturalAnswer_view' %}",
           data:formData,
           success:function(response){
+            $(".answer-option").prop("disabled", true);
             $("#respuesta-container").html(response.response_message);
             $("#sociedad_actual_score").html(response.sociedad_actual_score);
             $("#response-result-container").html(response.response_result_message);
@@ -72,22 +76,7 @@
       });
     });
 
-    $.ajax({
-        type: "POST",
-        url: "{% url 'next_question_view' %}",
-        data: formData,
-        success: function(response) {
-            $("#sociedad_actual_score").html(response.sociedad_actual_score);
-            $("#response-result-container").html(response.response_result_message);
-
-            // Obtiene y actualiza el valor response_result_message
-            var responseResultMessage = $("#response-result-message-container").text();
-            $("#response-result-container").html(response.response.response_result_message);
-        },
-        error: function(error) {
-            console.log(error);
-        }
-        });
+    
 </script>
 
 {% endblock %}

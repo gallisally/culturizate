@@ -16,9 +16,9 @@ from .models import BaseQuestion,UserProfile,Cuadro
 from random import choice
 import logging
 from django.views.generic import View
-from .forms import MyForm
+from .forms import MyForm,SignIn
 from django.http import JsonResponse
-from .utils import CulturalTest
+from .utils import CulturalTest,ArtTest,UserResults
 
 
 
@@ -39,8 +39,26 @@ def index(request):
 
 def login_view(request):
     return render(request, 'login.html')
+def signin(request):
+    # if this is a POST request we need to process the form data
+    if request.method == "POST":
+        # create a form instance and populate it with data from the request:
+        form = SignIn(request.POST)
+        # check whether it's valid:
+        if form.is_valid():
+            form.save()
+            # process the data in form.cleaned_data as required
+            # ...
+            # redirect to a new URL:
+            return redirect('login')
 
-def signin_view(request):
+    # if a GET (or any other method) we'll create a blank form
+    else:
+        form = SignIn()
+
+    return render(request, "signin.html", {"form": form})
+
+"""def signin_view(request):
     form = UserProfileCreationForm()
 
     if request.method == 'POST':
@@ -51,7 +69,7 @@ def signin_view(request):
             return redirect('login')
 
     context = {'form': form}
-    return render(request, 'signin.html', context)
+    return render(request, 'signin.html', context)"""
 """
 @login_required
 def user_profile(request):
@@ -192,7 +210,8 @@ def checkAnswer(request):
         current_level=current_question.get('nivel_dificultad',None)
         #user_profile=UserProfile.get.object(user=request.user)
         print(f'user_answer: {user_answer}, correct_answer: {current_question["correct_answer"]}')
-
+        user_profile.done+=1
+        user_profile.save()
         user_profile=request.user
         if user_answer ==  current_question['correct_answer']:
             response_message='Has acertado!'
@@ -206,6 +225,8 @@ def checkAnswer(request):
                 setattr(user_profile,f'{current_category}_score',user_category_score)
                 user_profile.save()
         else:
+            user_profile.fails+=1
+            user_profile.save
             response_message='Has fallado!'
         current_question['response_message']=response_message   
         current_question['score']=user_profile.score
@@ -305,9 +326,9 @@ def art_question(request):
         print('el test ha acabado')
         current_question['new_art_score_message']=new_art_score_message
         user_profile.save()
-        return redirect('play.html')
+        return current_question
             
-
+#sim usar
 @login_required
 def checkArtAnswer(request):
     if request.method=='POST':
@@ -332,26 +353,22 @@ def checkArtAnswer(request):
         return JsonResponse(current_question)   
     return HttpResponse('La función checkAnswer solo admite solicitudes POST')
 
-def end_art_test(request):
-    if request.method=='POST':
-        current_question=request.session.get('current_question',{})
-        user_profile=request.user
-        request.session['current_question']=current_question
 
 
 
 @login_required
 def society_question_test(request):
-    art_test_view = CulturalTest(request)
-    context=art_test_view.start_cultural_test(request)
+    cultural_test_view=CulturalTest(request)
+    #art_test_view = CulturalTest(request)
+    context=cultural_test_view.start_cultural_test(request)
     return render(request,'society_test.html',context)
 
 @login_required
 def next_question_view(request):
-    cultural_test_view=CulturalTest(request)
+    cultural_test_view=CulturalTest(request) #sociedad
     context=cultural_test_view.next_cultural_question()
-    
     return render(request,'society_test.html',context)
+
 @login_required
 def checkCulturalAnswer_view(request):
     if request.method=='POST':
@@ -364,4 +381,50 @@ def checkCulturalAnswer_view(request):
     else:
         return render(request, 'society_test.html')
     
+@login_required
+def art_question_test(request):
+    art_test_view = ArtTest(request)
+    context=art_test_view.start_art_test(request)
+    return render(request,'art_test.html',context)
+
+@login_required
+def next_art_question_view(request):
+    art_test_view=ArtTest(request)
+    context=art_test_view.next_art_question()
+    return render(request,'art_test.html',context)
+
+@login_required
+def checkArtAnswer_view(request):
+    if request.method=='POST':
+        user_answer=request.POST.get('user_answer')
+        art_test_view=ArtTest(request)
+        context=art_test_view.checkArtAnswer(user_answer)
+        print(f'printando el contexto : {context}')
+        print(f'user_answer {user_answer}')
+        return JsonResponse(context) 
+    else:
+        return render(request, 'art_test.html')
+    
+@login_required   
+def user_results(request):
+    user_results=UserResults(request)
+    fails_avg_dict=user_results.fails_avg()
+    print(f'diccionario resultados: {fails_avg_dict}')
+    return render(request,'fails.html',{'fails_avg_dict': fails_avg_dict})
+
+@login_required
+def avance(request):
+    return render(request, 'avance.html')
+
+def art_test_results(request):
+    user_results=UserResults(request)
+    art_test_dict=user_results.art_results()
+    print(f' diccionario: {art_test_dict}')
+    return render(request, 'art_results.html',{'art_test_dict':art_test_dict})
+  
+def cultural_test_results(request):
+    user_results=UserResults(request)
+    cultural_test_dict=user_results.cultural_results()
+    print(f' diccionario: {cultural_test_dict}')
+    return render(request, 'cultural_results.html',{'cultural_test_dict':cultural_test_dict})
   

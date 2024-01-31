@@ -14,7 +14,7 @@ class Command(BaseCommand):
             csv_reader = csv.DictReader(file)
             for row_number,row in enumerate(csv_reader,start=1):
                 try:
-                    BaseQuestion.objects.update_or_create(
+                    BaseQuestion.objects.get_or_create(
                         question_text=row['question_text'],
                         correct_option=row['correct_option'],
                         nivel_dificultad=row['nivel_dificultad'],

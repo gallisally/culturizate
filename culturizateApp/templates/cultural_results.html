@@ -1,0 +1,17 @@
+{% extends 'base.html'%}
+
+{% block content %}
+
+<div class="card-header" style="width: 80%; margin: auto;">
+    <h3> Resultados de los test del test cultural </h3></div>
+    {% for result in cultural_test_dict %}
+        <div>
+            <div>
+                <p>{{ result.username }}: {{result.cultural_last_score}}</p>
+            </div>
+            <div class="progress"> 
+                <div class="progress-bar" style="width: {{ result.cultural_last_score }}%;"role="progressbar" aria-valuenow="{{ result.cultural_last_score }}" aria-valuemin="0" aria-valuemax="100">{{ result.cultural_last_score }}%</div>
+            </div>
+        </div>   
+    {% endfor %}
+{% endblock %}

@@ -14,7 +14,7 @@ class Command(BaseCommand):
             file.write("") """
         with open(csv_file, 'r') as file:
             csv_reader = csv.DictReader(file)
-            csv_reader = csv.DictReader(file, fieldnames=['cuadro', 'autor', 'year', 'description', 'a', 'b', 'c', 'image'])
+            csv_reader = csv.DictReader(file, fieldnames=['cuadro', 'autor', 'year', 'description', 'option_a', 'option_b', 'option_c', 'image'])
              # Abre el archivo CSV en modo de escritura para truncarlo
        
 
@@ -25,9 +25,9 @@ class Command(BaseCommand):
                         autor=row['autor'],
                         year=row['year'],
                         description=row['description'],
-                        a=row['a'],
-                        b=row['b'],
-                        c=row['c'],
+                        option_a=row['option_a'],
+                        option_b=row['option_b'],
+                        option_c=row['option_c'],
                         image=row['image'],
                     )
                 except ValueError as e:

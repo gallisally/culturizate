@@ -1,0 +1,17 @@
+{% extends 'base.html'%}
+
+{% block content %}
+
+<div class="card-header" style="width: 80%; margin: auto;">
+    <h3> Resultados de los test de arte </h3></div>
+    {% for result in art_test_dict %}
+        <div>
+            <div>
+                <p>{{ result.username }}: {{result.art_last_score}}</p>
+            </div>
+            <div class="progress"> 
+                <div class="progress-bar" style="width: {{ result.art_last_score }}%;"role="progressbar" aria-valuenow="{{ result.art_last_score }}" aria-valuemin="0" aria-valuemax="100">{{ result.art_last_score }}%</div>
+            </div>
+        </div>   
+    {% endfor %}
+{% endblock %}

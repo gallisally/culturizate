@@ -12,6 +12,12 @@ class UserProfile(AbstractUser):
     surname=models.CharField(max_length=200)
     #age=models.IntegerField(null=False, blank=False)
     email = models.EmailField()
+
+    done=models.IntegerField(default=0)
+    correct_answers=models.IntegerField(default=0)
+    fails=models.IntegerField(default=0)
+    fails_avg=models.IntegerField(default=0)
+
     score = models.IntegerField(default=0)
     art_score=models.IntegerField(default=0)
     iq_score=models.IntegerField(default=0)
@@ -27,11 +33,16 @@ class UserProfile(AbstractUser):
     historia_score=models.IntegerField(default=0)
 
     sociedad_points=models.IntegerField(default=0)
+
     sociedad_actual_score=models.IntegerField(default=0)
-    #SIN USAR
     sociedad_last_score=models.IntegerField(default=0)
     sociedad_test_score=models.IntegerField(default=0)
     sociedad_test_message=models.CharField(max_length=100)
+
+    art_actual_score=models.IntegerField(default=0)
+    art_last_score=models.IntegerField(default=0)
+    art_test_score=models.IntegerField(default=0)
+    art_test_message=models.CharField(max_length=100)
     
     art_attempts=models.IntegerField(default=2)
     iq_attempts=models.IntegerField(default=2)
@@ -76,9 +87,9 @@ class Cuadro(models.Model):
     autor=models.CharField(max_length=200)
     year=models.CharField(max_length=10)
     description=models.CharField(max_length=10000)
-    a=models.CharField(max_length=200)
-    b=models.CharField(max_length=200)
-    c=models.CharField(max_length=200)
+    option_a=models.CharField(max_length=200)
+    option_b=models.CharField(max_length=200)
+    option_c=models.CharField(max_length=200)
     image=models.CharField(max_length=400)
 
 
